@@ -34,7 +34,7 @@
     <section id="matches" class="matches">
         <h2>Fixtures & Results</h2>
         <div class="matches-grid">
-            <div class="match-card">
+            <div class="match-card" data-match-id="palace-h">
                 <div class="match-league">Premier League</div>
                 <div class="match-teams">
                     <div class="team home">
@@ -48,7 +48,7 @@
                 </div>
                 <div class="match-status">FT - May 13</div>
             </div>
-            <div class="match-card" data-live-match="fa-cup-final" data-match-date="2026-05-16">
+            <div class="match-card" data-match-id="fa-cup-final" data-live-match="fa-cup-final" data-match-date="2026-05-16">
                 <div class="match-league">FA Cup Final</div>
                 <div class="match-teams">
                     <div class="team home">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="match-status upcoming">Sat 16 May</div>
             </div>
-            <div class="match-card">
+            <div class="match-card" data-match-id="bournemouth-a">
                 <div class="match-league">Premier League</div>
                 <div class="match-teams">
                     <div class="team">
@@ -76,7 +76,7 @@
                 </div>
                 <div class="match-status upcoming">Tue 19 May</div>
             </div>
-            <div class="match-card">
+            <div class="match-card" data-match-id="villa-h">
                 <div class="match-league">Premier League</div>
                 <div class="match-teams">
                     <div class="team home">
@@ -477,6 +477,22 @@
             <p>&copy; 2026 MCFC Fan Hub. This is a fan site.</p>
         </div>
     </footer>
+
+    <div id="match-modal" class="player-modal hidden" aria-hidden="true">
+        <div class="player-modal-overlay"></div>
+        <div class="player-modal-content" role="dialog" aria-labelledby="match-modal-title">
+            <button class="player-modal-close" aria-label="Close">&times;</button>
+            <div class="match-modal-header">
+                <span class="match-modal-comp" id="match-modal-comp"></span>
+                <h2 id="match-modal-title"></h2>
+                <p id="match-modal-meta"></p>
+            </div>
+            <div id="match-modal-body"></div>
+            <h3 class="player-modal-stats-title">Predicted Lineup</h3>
+            <ol class="match-modal-lineup" id="match-modal-lineup"></ol>
+            <p class="match-modal-notes" id="match-modal-notes"></p>
+        </div>
+    </div>
 
     <div id="player-modal" class="player-modal hidden" aria-hidden="true">
         <div class="player-modal-overlay"></div>

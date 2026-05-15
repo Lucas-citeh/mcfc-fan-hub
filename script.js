@@ -252,6 +252,164 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
+// Match profiles — predictions, lineups, and results
+const matchProfiles = {
+    'palace-h': {
+        competition: 'Premier League',
+        title: 'Manchester City 3-0 Crystal Palace',
+        meta: 'Etihad Stadium · Tue 13 May 2026 · FT',
+        result: {
+            home: 3, away: 0,
+            scorers: 'Semenyo 32\', Marmoush 40\', Savinho 84\''
+        },
+        lineup: [
+            { pos: 'GK', name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Ait-Nouri' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'MID', name: 'Matheus Nunes' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Savinho' },
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Marmoush' }
+        ],
+        notes: 'Haaland rested ahead of the FA Cup Final.'
+    },
+    'fa-cup-final': {
+        competition: 'FA Cup Final',
+        title: 'Manchester City vs Chelsea',
+        meta: 'Wembley Stadium · Sat 16 May 2026 · 15:00 UK',
+        prediction: { city: 58, draw: 22, opp: 20 },
+        lineup: [
+            { pos: 'GK', name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Ait-Nouri' },
+            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'MID', name: 'Nico Gonzalez' },
+            { pos: 'MID', name: 'Reijnders' },
+            { pos: 'FWD', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' },
+            { pos: 'FWD', name: 'Semenyo' }
+        ],
+        notes: 'Predicted XI based on the squad available. Actual lineup will be confirmed by Pep on matchday.'
+    },
+    'bournemouth-a': {
+        competition: 'Premier League',
+        title: 'Bournemouth vs Manchester City',
+        meta: 'Vitality Stadium · Tue 19 May 2026 · 20:00 UK',
+        prediction: { city: 65, draw: 18, opp: 17 },
+        lineup: [
+            { pos: 'GK', name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'DEF', name: 'Ait-Nouri' },
+            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'MID', name: 'Reijnders' },
+            { pos: 'MID', name: 'Foden' },
+            { pos: 'FWD', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' },
+            { pos: 'FWD', name: 'Semenyo' }
+        ],
+        notes: 'A must-win for City\'s title hopes — Arsenal lead by two points with two to play.'
+    },
+    'villa-h': {
+        competition: 'Premier League',
+        title: 'Manchester City vs Aston Villa',
+        meta: 'Etihad Stadium · Sun 24 May 2026 · 16:00 UK',
+        prediction: { city: 70, draw: 17, opp: 13 },
+        lineup: [
+            { pos: 'GK', name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Ait-Nouri' },
+            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'MID', name: 'Reijnders' },
+            { pos: 'MID', name: 'Foden' },
+            { pos: 'FWD', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' },
+            { pos: 'FWD', name: 'Semenyo' }
+        ],
+        notes: 'Final day of the season — City need to win and hope Arsenal slip up at Palace.'
+    }
+};
+
+const matchModal = document.getElementById('match-modal');
+const matchModalComp = document.getElementById('match-modal-comp');
+const matchModalTitle = document.getElementById('match-modal-title');
+const matchModalMeta = document.getElementById('match-modal-meta');
+const matchModalBody = document.getElementById('match-modal-body');
+const matchModalLineup = document.getElementById('match-modal-lineup');
+const matchModalNotes = document.getElementById('match-modal-notes');
+const matchModalOverlay = matchModal.querySelector('.player-modal-overlay');
+const matchModalClose = matchModal.querySelector('.player-modal-close');
+
+function openMatchModal(matchId) {
+    const data = matchProfiles[matchId];
+    if (!data) return;
+
+    matchModalComp.textContent = data.competition;
+    matchModalTitle.textContent = data.title;
+    matchModalMeta.textContent = data.meta;
+
+    if (data.result) {
+        matchModalBody.innerHTML = `
+            <div class="match-result">
+                <div class="match-result-score">${data.result.home} - ${data.result.away}</div>
+                <div class="match-result-scorers">${data.result.scorers}</div>
+            </div>`;
+    } else if (data.prediction) {
+        const p = data.prediction;
+        matchModalBody.innerHTML = `
+            <div class="match-prediction">
+                <div class="match-prediction-title">Win Probability</div>
+                <div class="match-prediction-bar">
+                    <div class="match-prediction-segment city" style="width:${p.city}%">${p.city}%</div>
+                    <div class="match-prediction-segment draw" style="width:${p.draw}%">${p.draw}%</div>
+                    <div class="match-prediction-segment opp" style="width:${p.opp}%">${p.opp}%</div>
+                </div>
+                <div class="match-prediction-legend">
+                    <span>City</span><span>Draw</span><span>Opponent</span>
+                </div>
+            </div>`;
+    } else {
+        matchModalBody.innerHTML = '';
+    }
+
+    matchModalLineup.innerHTML = data.lineup.map(p =>
+        `<li data-pos="${p.pos}">${p.name}</li>`
+    ).join('');
+
+    matchModalNotes.textContent = data.notes || '';
+
+    matchModal.classList.remove('hidden');
+    matchModal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+}
+
+function closeMatchModal() {
+    matchModal.classList.add('hidden');
+    matchModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+}
+
+document.querySelectorAll('.match-card[data-match-id]').forEach(card => {
+    card.addEventListener('click', () => openMatchModal(card.dataset.matchId));
+});
+
+matchModalOverlay.addEventListener('click', closeMatchModal);
+matchModalClose.addEventListener('click', closeMatchModal);
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !matchModal.classList.contains('hidden')) {
+        closeMatchModal();
+    }
+});
+
 // Live score poller — runs on the match day, hits TheSportsDB every 60s
 async function fetchLiveMatch(card) {
     const matchDate = card.dataset.matchDate;
