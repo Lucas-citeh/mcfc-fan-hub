@@ -287,7 +287,7 @@ const matchProfiles = {
         competition: 'FA Cup Final',
         title: 'Manchester City vs Chelsea',
         meta: 'Wembley Stadium · Sat 16 May 2026 · 15:00 UK',
-        prediction: { city: 58, draw: 22, opp: 20 },
+        prediction: { city: 57.6, draw: 21.8, opp: 20.6, source: 'Opta supercomputer' },
         lineup: [
             { pos: 'GK', name: 'Donnarumma' },
             { pos: 'DEF', name: 'Khusanov' },
@@ -307,7 +307,7 @@ const matchProfiles = {
         competition: 'Premier League',
         title: 'Bournemouth vs Manchester City',
         meta: 'Vitality Stadium · Tue 19 May 2026 · 20:00 UK',
-        prediction: { city: 65, draw: 18, opp: 17 },
+        prediction: { city: 45.3, draw: 24.8, opp: 29.9, source: 'Opta supercomputer' },
         lineup: [
             { pos: 'GK', name: 'Donnarumma' },
             { pos: 'DEF', name: 'Khusanov' },
@@ -327,7 +327,7 @@ const matchProfiles = {
         competition: 'Premier League',
         title: 'Manchester City vs Aston Villa',
         meta: 'Etihad Stadium · Sun 24 May 2026 · 16:00 UK',
-        prediction: { city: 70, draw: 17, opp: 13 },
+        prediction: { city: 70, draw: 17, opp: 13, source: 'Estimate — Opta MD38 prediction not yet released' },
         lineup: [
             { pos: 'GK', name: 'Donnarumma' },
             { pos: 'DEF', name: 'Khusanov' },
@@ -376,7 +376,7 @@ function openMatchModal(matchId) {
         const p = data.prediction;
         matchModalBody.innerHTML = `
             <div class="match-prediction">
-                <div class="match-prediction-title">Win Probability</div>
+                <div class="match-prediction-title">Win Probability${p.source ? ` <span class="match-prediction-source">— ${p.source}</span>` : ''}</div>
                 <div class="match-prediction-bar">
                     <div class="match-prediction-segment city" style="width:${p.city}%">${p.city}%</div>
                     <div class="match-prediction-segment draw" style="width:${p.draw}%">${p.draw}%</div>

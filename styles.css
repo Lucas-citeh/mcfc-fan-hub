@@ -782,6 +782,13 @@ body.modal-open {
     margin-bottom: 0.5rem;
 }
 
+.match-prediction-source {
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: var(--gray);
+}
+
 .match-prediction-bar {
     display: flex;
     height: 32px;
