@@ -344,6 +344,7 @@ const matchModalComp = document.getElementById('match-modal-comp');
 const matchModalTitle = document.getElementById('match-modal-title');
 const matchModalMeta = document.getElementById('match-modal-meta');
 const matchModalBody = document.getElementById('match-modal-body');
+const matchModalLineupTitle = document.getElementById('match-modal-lineup-title');
 const matchModalLineup = document.getElementById('match-modal-lineup');
 const matchModalNotes = document.getElementById('match-modal-notes');
 const matchModalOverlay = matchModal.querySelector('.player-modal-overlay');
@@ -381,6 +382,9 @@ function openMatchModal(matchId) {
         matchModalBody.innerHTML = '';
     }
 
+    const lineupLabel = data.lineupConfirmed ? 'Starting Lineup'
+        : (data.result ? 'Starting Lineup' : 'Predicted Lineup');
+    matchModalLineupTitle.textContent = lineupLabel;
     matchModalLineup.innerHTML = data.lineup.map(p =>
         `<li data-pos="${p.pos}">${p.name}</li>`
     ).join('');
