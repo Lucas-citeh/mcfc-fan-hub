@@ -139,7 +139,7 @@ const playerProfiles = {
         stats: { 'Appearances': 20, 'Goals': 2, 'Assists': 3, 'Pass Accuracy': '91%' }
     },
     'Matheus Nunes': {
-        description: "Powerful Portuguese midfielder who can also operate as a wing-back. Started in the dominant Palace win.",
+        description: "Versatile Portuguese defender who can operate at right-back or as a wing-back. Athletic, press-resistant, and increasingly trusted in the back four. Started in the dominant Palace win.",
         stats: { 'Appearances': 23, 'Goals': 1, 'Assists': 2, 'Pass Accuracy': '88%' }
     },
     'Rayan Cherki': {
@@ -269,7 +269,7 @@ const matchProfiles = {
             { pos: 'DEF', name: 'Gvardiol' },
             { pos: 'DEF', name: 'Guehi' },
             { pos: 'MID', name: 'Bernardo Silva (C)' },
-            { pos: 'MID', name: 'Matheus Nunes' },
+            { pos: 'DEF', name: 'Matheus Nunes' },
             { pos: 'FWD', name: 'Semenyo' },
             { pos: 'FWD', name: 'Savinho' },
             { pos: 'FWD', name: 'Foden' },
