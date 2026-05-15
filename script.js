@@ -275,7 +275,13 @@ const matchProfiles = {
             { pos: 'FWD', name: 'Foden' },
             { pos: 'FWD', name: 'Marmoush' }
         ],
-        notes: 'Haaland rested ahead of the FA Cup Final.'
+        subs: [
+            { minute: 58, name: 'Doku' },
+            { minute: 80, name: 'Cherki' },
+            { minute: 80, name: 'Kovacic' },
+            { minute: 85, name: 'Stones' }
+        ],
+        notes: 'Haaland rested as an unused substitute ahead of the FA Cup Final.'
     },
     'fa-cup-final': {
         competition: 'FA Cup Final',
@@ -346,6 +352,8 @@ const matchModalMeta = document.getElementById('match-modal-meta');
 const matchModalBody = document.getElementById('match-modal-body');
 const matchModalLineupTitle = document.getElementById('match-modal-lineup-title');
 const matchModalLineup = document.getElementById('match-modal-lineup');
+const matchModalSubsTitle = document.getElementById('match-modal-subs-title');
+const matchModalSubs = document.getElementById('match-modal-subs');
 const matchModalNotes = document.getElementById('match-modal-notes');
 const matchModalOverlay = matchModal.querySelector('.player-modal-overlay');
 const matchModalClose = matchModal.querySelector('.player-modal-close');
@@ -388,6 +396,16 @@ function openMatchModal(matchId) {
     matchModalLineup.innerHTML = data.lineup.map(p =>
         `<li data-pos="${p.pos}">${p.name}</li>`
     ).join('');
+
+    if (data.subs && data.subs.length) {
+        matchModalSubsTitle.hidden = false;
+        matchModalSubs.innerHTML = data.subs.map(s =>
+            `<li data-min="${s.minute}">${s.name}${s.on ? ` <span style="color:var(--gray);font-size:0.75rem">↔ ${s.on}</span>` : ''}</li>`
+        ).join('');
+    } else {
+        matchModalSubsTitle.hidden = true;
+        matchModalSubs.innerHTML = '';
+    }
 
     matchModalNotes.textContent = data.notes || '';
 

@@ -875,6 +875,41 @@ body.modal-open {
     flex-shrink: 0;
 }
 
+.match-modal-subs-title {
+    margin-top: 1.25rem;
+}
+
+.match-modal-subs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 1rem;
+}
+
+.match-modal-subs li {
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    background: var(--light-gray);
+    font-size: 0.85rem;
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.match-modal-subs li::before {
+    content: attr(data-min) "'";
+    font-size: 0.7rem;
+    background: var(--city-blue);
+    color: var(--city-navy);
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
 .match-modal-notes {
     margin-top: 1rem;
     color: var(--gray);
