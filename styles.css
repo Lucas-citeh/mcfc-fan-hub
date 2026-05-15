@@ -925,6 +925,116 @@ body.modal-open {
     font-style: italic;
 }
 
+/* Transfer Hub */
+.transfers {
+    background: var(--light-gray);
+    max-width: 100%;
+    padding: 5rem calc((100% - 1200px) / 2 + 2rem);
+}
+
+.transfers-subtitle {
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transfers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.transfer-panel {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid var(--city-blue);
+}
+
+.transfer-panel.rumours-panel {
+    border-top-color: var(--gold);
+    background: linear-gradient(180deg, #fffbf0 0%, var(--white) 60%);
+}
+
+.transfer-panel-title {
+    font-size: 1.1rem;
+    color: var(--city-navy);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.transfer-window-tag {
+    font-size: 0.7rem;
+    background: var(--light-gray);
+    color: var(--gray);
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.rumours-panel .transfer-window-tag {
+    background: var(--gold);
+    color: var(--city-navy);
+}
+
+.transfer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.transfer-row {
+    background: var(--light-gray);
+    border-radius: 8px;
+    padding: 0.6rem 0.8rem;
+    line-height: 1.3;
+}
+
+.rumours-panel .transfer-row {
+    background: rgba(244, 199, 82, 0.12);
+}
+
+.transfer-name {
+    font-weight: 600;
+    color: var(--city-navy);
+    font-size: 0.95rem;
+}
+
+.transfer-meta {
+    font-size: 0.78rem;
+    color: var(--gray);
+    margin-top: 0.15rem;
+}
+
+.transfer-source {
+    font-size: 0.7rem;
+    color: var(--city-blue);
+    margin-top: 0.25rem;
+    font-style: italic;
+}
+
+.transfer-empty {
+    color: var(--gray);
+    font-size: 0.85rem;
+    font-style: italic;
+    padding: 0.4rem 0.2rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {
