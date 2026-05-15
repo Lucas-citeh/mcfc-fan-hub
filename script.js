@@ -251,3 +251,68 @@ document.addEventListener('keydown', (e) => {
         closePlayerModal();
     }
 });
+
+// Live score poller — runs on the match day, hits TheSportsDB every 60s
+async function fetchLiveMatch(card) {
+    const matchDate = card.dataset.matchDate;
+    try {
+        const resp = await fetch(`https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=${matchDate}&s=Soccer`);
+        const data = await resp.json();
+        if (!data || !data.events) return;
+
+        const homeName = card.querySelector('.team.home .team-name').textContent.trim();
+        const awayName = card.querySelector('.team:not(.home) .team-name').textContent.trim();
+
+        const match = data.events.find(e => {
+            const h = (e.strHomeTeam || '').toLowerCase();
+            const a = (e.strAwayTeam || '').toLowerCase();
+            const wantHome = homeName.toLowerCase();
+            const wantAway = awayName.toLowerCase();
+            const matches = (s, target) =>
+                s.includes(target) || target.includes(s) || s.includes(target.split(' ')[0]);
+            return (matches(h, wantHome) || matches(h, wantAway)) &&
+                   (matches(a, wantHome) || matches(a, wantAway));
+        });
+        if (!match) return;
+
+        const home = match.intHomeScore;
+        const away = match.intAwayScore;
+        if (home === null && away === null) return;
+
+        const scores = card.querySelectorAll('.score');
+        const apiHomeIsCardHome =
+            (match.strHomeTeam || '').toLowerCase().includes(homeName.toLowerCase().split(' ')[0]);
+        scores[0].textContent = apiHomeIsCardHome ? home : away;
+        scores[1].textContent = apiHomeIsCardHome ? away : home;
+
+        const statusEl = card.querySelector('.match-status');
+        const progress = match.strProgress || '';
+        const status = (match.strStatus || '').toLowerCase();
+        if (status.includes('finished') || status === 'ft' || status === 'match finished') {
+            statusEl.textContent = `FT ${home}-${away}`;
+            statusEl.classList.remove('upcoming', 'live');
+        } else if (status === 'not started' || status === 'ns' || status === '') {
+            // Kept the pre-match label
+        } else {
+            statusEl.textContent = progress ? `LIVE ${progress}` : 'LIVE';
+            statusEl.classList.remove('upcoming');
+            statusEl.classList.add('live');
+        }
+    } catch (err) {
+        console.warn('Live score fetch failed:', err);
+    }
+}
+
+document.querySelectorAll('[data-live-match]').forEach(card => {
+    const matchDate = card.dataset.matchDate;
+    if (!matchDate) return;
+    const today = new Date().toISOString().slice(0, 10);
+    // Poll on match day and the day after (to catch late-finishing finals)
+    const next = new Date(matchDate);
+    next.setUTCDate(next.getUTCDate() + 1);
+    const cutoff = next.toISOString().slice(0, 10);
+    if (today >= matchDate && today <= cutoff) {
+        fetchLiveMatch(card);
+        setInterval(() => fetchLiveMatch(card), 60000);
+    }
+});
