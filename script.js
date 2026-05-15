@@ -150,6 +150,10 @@ const playerProfiles = {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back.",
         stats: { 'PL Goals': 5, 'All Comps Goals': 6, 'Appearances': 33, 'Assists': 3 }
     },
+    'Nico Gonzalez': {
+        description: "Spanish midfielder signed from Porto in January 2025. A composed deep-lying playmaker who has stepped up during Rodri's absences and scored the decisive goal in the FA Cup semi-final win over Southampton.",
+        stats: { 'Appearances': 24, 'Goals': 3, 'Assists': 4, 'Pass Accuracy': '91%' }
+    },
     'Erling Haaland': {
         description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches) and leading the 2025/26 Golden Boot race.",
         stats: { 'PL Goals': 26, 'All Comps Goals': 37, 'Appearances': 34, 'Assists': 8 }
