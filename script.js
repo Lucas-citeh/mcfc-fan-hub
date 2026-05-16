@@ -279,21 +279,22 @@ const matchProfiles = {
         competition: 'FA Cup Final',
         title: 'Manchester City vs Chelsea',
         meta: 'Wembley Stadium · Sat 16 May 2026 · 15:00 UK',
+        lineupConfirmed: true,
         prediction: { city: 57.6, draw: 21.8, opp: 20.6, source: 'Opta supercomputer' },
         lineup: [
-            { pos: 'GK', name: 'Donnarumma' },
+            { pos: 'GK', name: 'Trafford' },
+            { pos: 'DEF', name: 'Matheus Nunes' },
             { pos: 'DEF', name: 'Khusanov' },
-            { pos: 'DEF', name: 'Dias' },
             { pos: 'DEF', name: 'Guehi' },
-            { pos: 'DEF', name: 'Ait-Nouri' },
-            { pos: 'MID', name: 'Bernardo Silva' },
-            { pos: 'MID', name: 'Nico Gonzalez' },
-            { pos: 'MID', name: 'Reijnders' },
+            { pos: 'DEF', name: "Nico O'Reilly" },
+            { pos: 'MID', name: 'Rodri' },
+            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Marmoush' },
             { pos: 'FWD', name: 'Doku' },
-            { pos: 'FWD', name: 'Haaland' },
-            { pos: 'FWD', name: 'Semenyo' }
+            { pos: 'FWD', name: 'Haaland' }
         ],
-        notes: 'Predicted XI based on the squad available. Actual lineup will be confirmed by Pep on matchday.'
+        notes: 'Confirmed starting XI as announced by Pep Guardiola. Trafford starts in goal with Donnarumma on the bench.'
     },
     'bournemouth-a': {
         competition: 'Premier League',
