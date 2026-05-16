@@ -163,8 +163,8 @@ const playerProfiles = {
         stats: { 'PL Goals': 3, 'All Comps Goals': 5, 'Appearances': 27, 'Assists': 6 }
     },
     'Antoine Semenyo': {
-        description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Shortlisted for PL Player of the Season after a stunning split campaign across both clubs.",
-        stats: { 'PL Goals': 16, 'All Comps Goals': 19, 'Appearances': 32, 'Assists': 6 }
+        description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final and shortlisted for PL Player of the Season after a stunning split campaign across both clubs.",
+        stats: { 'PL Goals': 16, 'All Comps Goals': 20, 'Appearances': 33, 'Assists': 6 }
     },
     'Pep Guardiola': {
         description: "Manager of Manchester City since 2016. Tactical innovator, six-time Premier League winner with City, and one of the most decorated managers in football history.",
