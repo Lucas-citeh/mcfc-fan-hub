@@ -94,10 +94,6 @@ const playerProfiles = {
         description: "Rock at the heart of City's defence. Captain material whose leadership and reading of the game underpin the back line.",
         stats: { 'Appearances': 33, 'Goals': 1, 'Assists': 2, 'Clean Sheets': 13 }
     },
-    'John Stones': {
-        description: "Ball-playing centre-back whose composure and passing range help City build from the back. Fitness has been managed carefully this season.",
-        stats: { 'Appearances': 22, 'Goals': 1, 'Assists': 1, 'Clean Sheets': 9 }
-    },
     'Marc Guehi': {
         description: "January 2026 signing from Crystal Palace. Has slotted seamlessly into the back four and formed a strong partnership with Dias.",
         stats: { 'Appearances': 14, 'Goals': 0, 'Assists': 1, 'Clean Sheets': 6 }
@@ -121,10 +117,6 @@ const playerProfiles = {
     'Rodri': {
         description: "Ballon d'Or winner and City's tactical heartbeat. His return to fitness has been pivotal to the club's title push.",
         stats: { 'Appearances': 24, 'Goals': 3, 'Assists': 4, 'Pass Accuracy': '93%' }
-    },
-    'Bernardo Silva': {
-        description: "Captain of Manchester City. Tireless, technical, and tactically intelligent — the glue that holds Guardiola's system together.",
-        stats: { 'Appearances': 34, 'Goals': 4, 'Assists': 7, 'Key Passes': 52 }
     },
     'Phil Foden': {
         description: "Stockport's finest. A creative spark capable of changing games — his backheel assist for Semenyo vs Palace was vintage Foden.",
@@ -268,7 +260,7 @@ const matchProfiles = {
             { pos: 'DEF', name: 'Ait-Nouri' },
             { pos: 'DEF', name: 'Gvardiol' },
             { pos: 'DEF', name: 'Guehi' },
-            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'MID', name: 'Bernardo Silva' },
             { pos: 'DEF', name: 'Matheus Nunes' },
             { pos: 'FWD', name: 'Semenyo' },
             { pos: 'FWD', name: 'Savinho' },
@@ -294,7 +286,7 @@ const matchProfiles = {
             { pos: 'DEF', name: 'Dias' },
             { pos: 'DEF', name: 'Guehi' },
             { pos: 'DEF', name: 'Ait-Nouri' },
-            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'MID', name: 'Bernardo Silva' },
             { pos: 'MID', name: 'Nico Gonzalez' },
             { pos: 'MID', name: 'Reijnders' },
             { pos: 'FWD', name: 'Doku' },
@@ -314,7 +306,7 @@ const matchProfiles = {
             { pos: 'DEF', name: 'Dias' },
             { pos: 'DEF', name: 'Gvardiol' },
             { pos: 'DEF', name: 'Ait-Nouri' },
-            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'MID', name: 'Bernardo Silva' },
             { pos: 'MID', name: 'Reijnders' },
             { pos: 'MID', name: 'Foden' },
             { pos: 'FWD', name: 'Doku' },
@@ -334,7 +326,7 @@ const matchProfiles = {
             { pos: 'DEF', name: 'Dias' },
             { pos: 'DEF', name: 'Guehi' },
             { pos: 'DEF', name: 'Ait-Nouri' },
-            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'MID', name: 'Bernardo Silva' },
             { pos: 'MID', name: 'Reijnders' },
             { pos: 'MID', name: 'Foden' },
             { pos: 'FWD', name: 'Doku' },
