@@ -183,7 +183,7 @@ const playerProfiles = {
     'Antoine Semenyo': {
         description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final and shortlisted for PL Player of the Season after a stunning split campaign across both clubs.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Antoine_Semenyo_2026.png/330px-Antoine_Semenyo_2026.png',
-        stats: { 'PL Goals': 16, 'All Comps Goals': 20, 'Appearances': 33, 'Assists': 6 }
+        stats: { 'PL Goals': 16, 'All Comps Goals': 21, 'Appearances': 34, 'Assists': 6 }
     },
     'Pep Guardiola': {
         description: "Manager of Manchester City since 2016. Tactical innovator, six-time Premier League winner with City, and one of the most decorated managers in football history.",
@@ -339,7 +339,7 @@ const matchProfiles = {
         ],
         subs: [
             { minute: 45, name: 'Cherki', on: 'Marmoush' },
-            { minute: 62, name: 'Kovacic', on: 'Rodri' }
+            { minute: 64, name: 'Kovacic', on: 'Rodri' }
         ],
         notes: "Semenyo's stunning back-heel from a Haaland cutback won City the FA Cup and sealed the domestic double."
     },
