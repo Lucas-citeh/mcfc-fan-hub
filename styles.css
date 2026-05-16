@@ -306,10 +306,21 @@ section h2 {
 .news-image {
     height: 200px;
     background: linear-gradient(135deg, var(--city-navy), var(--city-dark));
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .news-image.city-bg {
     background: linear-gradient(135deg, var(--city-navy) 0%, var(--city-blue) 100%);
+}
+
+.news-image[data-bg]::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(13, 31, 60, 0) 40%, rgba(13, 31, 60, 0.55) 100%);
+    pointer-events: none;
 }
 
 .news-content {
