@@ -277,10 +277,13 @@ const matchProfiles = {
     },
     'fa-cup-final': {
         competition: 'FA Cup Final',
-        title: 'Manchester City vs Chelsea',
-        meta: 'Wembley Stadium · Sat 16 May 2026 · 15:00 UK',
+        title: 'Manchester City 1-0 Chelsea',
+        meta: 'Wembley Stadium · Sat 16 May 2026 · FT',
         lineupConfirmed: true,
-        prediction: { city: 57.6, draw: 21.8, opp: 20.6, source: 'Opta supercomputer' },
+        result: {
+            home: 1, away: 0,
+            scorers: "Semenyo 72'"
+        },
         lineup: [
             { pos: 'GK', name: 'Trafford' },
             { pos: 'DEF', name: 'Matheus Nunes' },
@@ -294,7 +297,11 @@ const matchProfiles = {
             { pos: 'FWD', name: 'Doku' },
             { pos: 'FWD', name: 'Haaland' }
         ],
-        notes: 'Confirmed starting XI as announced by Pep Guardiola. Trafford starts in goal with Donnarumma on the bench.'
+        subs: [
+            { minute: 45, name: 'Cherki', on: 'Marmoush' },
+            { minute: 62, name: 'Kovacic', on: 'Rodri' }
+        ],
+        notes: "Semenyo's stunning back-heel from a Haaland cutback won City the FA Cup and sealed the domestic double."
     },
     'bournemouth-a': {
         competition: 'Premier League',
