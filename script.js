@@ -594,18 +594,26 @@ document.querySelectorAll('.match-card').forEach(card => {
     function renderRoundsBar() {
         roundsEl.innerHTML = '';
         const total = Math.max(TOTAL_ROUNDS, state.rounds.length);
-        for (let i = 0; i < total; i++) {
-            const r = state.rounds[i] || {};
-            const wrap = document.createElement('div');
-            wrap.className = 'game-round' + (i >= TOTAL_ROUNDS ? ' sudden-death' : '');
-            const city = document.createElement('div');
-            city.className = 'game-round-marker' + (r.city ? ' ' + r.city : '');
-            const opp = document.createElement('div');
-            opp.className = 'game-round-marker' + (r.opp ? ' ' + r.opp : '');
-            wrap.appendChild(city);
-            wrap.appendChild(opp);
-            roundsEl.appendChild(wrap);
+
+        function row(label, key) {
+            const tr = document.createElement('div');
+            tr.className = 'game-rounds-row';
+            const lbl = document.createElement('span');
+            lbl.className = 'game-rounds-label';
+            lbl.textContent = label;
+            tr.appendChild(lbl);
+            for (let i = 0; i < total; i++) {
+                const r = state.rounds[i] || {};
+                const m = document.createElement('div');
+                m.className = 'game-round-marker' + (r[key] ? ' ' + r[key] : '');
+                if (i >= TOTAL_ROUNDS) m.classList.add('sudden-death');
+                tr.appendChild(m);
+            }
+            return tr;
         }
+
+        roundsEl.appendChild(row('City', 'city'));
+        roundsEl.appendChild(row(state.opponent, 'opp'));
     }
 
     function handleZoneClick(choice) {

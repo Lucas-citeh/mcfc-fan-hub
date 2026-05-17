@@ -1299,18 +1299,31 @@ body.modal-open {
 
 .game-rounds {
     display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
-    min-height: 1.5rem;
-}
-
-.game-round {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2px;
-    font-size: 0.7rem;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    min-height: 3rem;
+}
+
+.game-rounds-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.game-rounds-label {
+    width: 80px;
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--city-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.game-rounds-row:nth-child(2) .game-rounds-label {
+    color: var(--white);
 }
 
 .game-round-marker {
@@ -1330,7 +1343,7 @@ body.modal-open {
     border-color: #ef4444;
 }
 
-.game-round.sudden-death .game-round-marker {
+.game-round-marker.sudden-death {
     border-color: var(--gold);
     border-width: 3px;
 }
