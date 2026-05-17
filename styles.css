@@ -1117,6 +1117,231 @@ body.modal-open {
     padding: 0.4rem 0.2rem;
 }
 
+/* Penalty Shootout Game */
+.game-section {
+    padding: 5rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.game-subtitle {
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+}
+
+.game-card {
+    background: linear-gradient(180deg, var(--city-navy) 0%, var(--city-dark) 100%);
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 10px 30px rgba(13, 31, 60, 0.25);
+    color: var(--white);
+}
+
+.game-scoreboard {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.game-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.game-team.city {
+    color: var(--city-blue);
+}
+
+.game-team.opp {
+    color: var(--white);
+}
+
+.game-team-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.game-team-score {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.game-vs {
+    color: var(--gray);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.game-status {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    min-height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-opponent-picker {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.game-opp-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.game-opp-btn:hover {
+    background: var(--city-blue);
+    color: var(--city-navy);
+    transform: translateY(-2px);
+}
+
+.game-goal {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    background: linear-gradient(180deg, #2d3a52 0%, #1c2c5b 100%);
+    border: 6px solid var(--white);
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    padding: 6px;
+    height: 220px;
+    margin: 0 auto 1.5rem;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.game-zone {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px dashed rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.game-zone:hover {
+    background: rgba(108, 171, 221, 0.2);
+    color: var(--city-blue);
+}
+
+.game-zone.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.game-ball {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: var(--white);
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    background-image: radial-gradient(circle at 30% 30%, var(--white) 30%, #ccc 70%);
+}
+
+.game-ball.left { left: 16%; bottom: 60%; transform: none; }
+.game-ball.center { left: 50%; transform: translateX(-50%); bottom: 60%; }
+.game-ball.right { left: 84%; bottom: 60%; transform: translateX(-100%); }
+
+.game-keeper {
+    position: absolute;
+    font-size: 2.5rem;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.game-keeper.left { left: 16%; }
+.game-keeper.center { left: 50%; transform: translateX(-50%); }
+.game-keeper.right { left: 84%; transform: translateX(-100%); }
+
+.game-rounds {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    min-height: 1.5rem;
+}
+
+.game-round {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    font-size: 0.7rem;
+}
+
+.game-round-marker {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.game-round-marker.goal {
+    background: #22c55e;
+    border-color: #22c55e;
+}
+
+.game-round-marker.miss {
+    background: #ef4444;
+    border-color: #ef4444;
+}
+
+.game-reset {
+    display: block;
+    margin: 0 auto;
+    background: var(--city-blue);
+    color: var(--city-navy);
+    border: none;
+    padding: 0.85rem 2rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.game-reset:hover {
+    background: var(--city-light);
+    transform: translateY(-2px);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {

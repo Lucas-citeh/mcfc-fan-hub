@@ -53,6 +53,7 @@
                 <li><a href="#squad">Squad</a></li>
                 <li><a href="#stats">Stats</a></li>
                 <li><a href="#transfers">Transfers</a></li>
+                <li><a href="#game">Play</a></li>
             </ul>
         </nav>
     </header>
@@ -527,6 +528,46 @@
                     <li class="transfer-empty">No credible links yet — summer window opens after the season.</li>
                 </ul>
             </div>
+        </div>
+    </section>
+
+    <section id="game" class="game-section">
+        <h2>Penalty Shootout</h2>
+        <p class="game-subtitle">Best of 5. You take City's penalties, then dive to stop the opponent's.</p>
+
+        <div class="game-card">
+            <div class="game-scoreboard">
+                <div class="game-team city">
+                    <span class="game-team-name">Manchester City</span>
+                    <span class="game-team-score" id="game-city-score">0</span>
+                </div>
+                <div class="game-vs">VS</div>
+                <div class="game-team opp">
+                    <span class="game-team-name" id="game-opp-name">Chelsea</span>
+                    <span class="game-team-score" id="game-opp-score">0</span>
+                </div>
+            </div>
+
+            <div class="game-status" id="game-status">Pick your opponent to start</div>
+
+            <div class="game-opponent-picker" id="game-opponent-picker">
+                <button class="game-opp-btn" data-opp="Chelsea">Chelsea</button>
+                <button class="game-opp-btn" data-opp="Arsenal">Arsenal</button>
+                <button class="game-opp-btn" data-opp="Liverpool">Liverpool</button>
+                <button class="game-opp-btn" data-opp="Manchester United">Man Utd</button>
+            </div>
+
+            <div class="game-goal" id="game-goal" hidden>
+                <div class="game-zone" data-zone="left" aria-label="Left">↖</div>
+                <div class="game-zone" data-zone="center" aria-label="Center">↑</div>
+                <div class="game-zone" data-zone="right" aria-label="Right">↗</div>
+                <div class="game-ball" id="game-ball" hidden></div>
+                <div class="game-keeper" id="game-keeper" hidden>🧤</div>
+            </div>
+
+            <div class="game-rounds" id="game-rounds"></div>
+
+            <button class="game-reset" id="game-reset" hidden>Play Again</button>
         </div>
     </section>
 

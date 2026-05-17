@@ -494,3 +494,164 @@ document.querySelectorAll('.match-card').forEach(card => {
         card.appendChild(link);
     }
 });
+
+// Penalty Shootout Game
+(function setupPenaltyGame() {
+    const statusEl = document.getElementById('game-status');
+    const cityScoreEl = document.getElementById('game-city-score');
+    const oppScoreEl = document.getElementById('game-opp-score');
+    const oppNameEl = document.getElementById('game-opp-name');
+    const pickerEl = document.getElementById('game-opponent-picker');
+    const goalEl = document.getElementById('game-goal');
+    const ballEl = document.getElementById('game-ball');
+    const keeperEl = document.getElementById('game-keeper');
+    const roundsEl = document.getElementById('game-rounds');
+    const resetEl = document.getElementById('game-reset');
+    const zones = goalEl.querySelectorAll('.game-zone');
+
+    const ZONES = ['left', 'center', 'right'];
+    const TOTAL_ROUNDS = 5;
+    let state = null;
+
+    function reset(opponent) {
+        state = {
+            opponent,
+            cityScore: 0,
+            oppScore: 0,
+            round: 0,        // 0..TOTAL_ROUNDS-1
+            phase: 'city',   // 'city' = user shoots; 'opp' = user keeps
+            rounds: []       // array of {city: 'goal'|'miss', opp: 'goal'|'miss'}
+        };
+        oppNameEl.textContent = opponent;
+        cityScoreEl.textContent = '0';
+        oppScoreEl.textContent = '0';
+        roundsEl.innerHTML = '';
+        resetEl.hidden = true;
+        pickerEl.hidden = true;
+        goalEl.hidden = false;
+        nextTurn();
+    }
+
+    function nextTurn() {
+        if (state.round >= TOTAL_ROUNDS) {
+            return endGame();
+        }
+        ballEl.hidden = true;
+        keeperEl.hidden = true;
+        ballEl.className = 'game-ball';
+        keeperEl.className = 'game-keeper';
+        enableZones();
+        if (state.phase === 'city') {
+            statusEl.textContent = `Round ${state.round + 1}: City shoots — pick a corner!`;
+        } else {
+            statusEl.textContent = `Round ${state.round + 1}: ${state.opponent} shoots — dive!`;
+        }
+    }
+
+    function enableZones() { zones.forEach(z => z.classList.remove('disabled')); }
+    function disableZones() { zones.forEach(z => z.classList.add('disabled')); }
+
+    function randomZone() {
+        return ZONES[Math.floor(Math.random() * ZONES.length)];
+    }
+
+    function renderRoundsBar() {
+        roundsEl.innerHTML = '';
+        for (let i = 0; i < TOTAL_ROUNDS; i++) {
+            const r = state.rounds[i] || {};
+            const wrap = document.createElement('div');
+            wrap.className = 'game-round';
+            const city = document.createElement('div');
+            city.className = 'game-round-marker' + (r.city ? ' ' + r.city : '');
+            const opp = document.createElement('div');
+            opp.className = 'game-round-marker' + (r.opp ? ' ' + r.opp : '');
+            wrap.appendChild(city);
+            wrap.appendChild(opp);
+            roundsEl.appendChild(wrap);
+        }
+    }
+
+    function handleZoneClick(choice) {
+        if (!state) return;
+        disableZones();
+        if (state.phase === 'city') {
+            // User is striker. Random keeper dive.
+            const keeperDive = randomZone();
+            const scored = keeperDive !== choice;
+            ballEl.className = 'game-ball ' + choice;
+            ballEl.hidden = false;
+            keeperEl.className = 'game-keeper ' + keeperDive;
+            keeperEl.hidden = false;
+            setTimeout(() => {
+                if (scored) {
+                    state.cityScore++;
+                    cityScoreEl.textContent = state.cityScore;
+                    statusEl.textContent = '⚽ GOAL!';
+                } else {
+                    statusEl.textContent = '🧤 SAVED!';
+                }
+                state.rounds[state.round] = state.rounds[state.round] || {};
+                state.rounds[state.round].city = scored ? 'goal' : 'miss';
+                renderRoundsBar();
+                state.phase = 'opp';
+                setTimeout(nextTurn, 1400);
+            }, 500);
+        } else {
+            // User is keeper. Random striker shot.
+            const shot = randomZone();
+            const saved = shot === choice;
+            ballEl.className = 'game-ball ' + shot;
+            ballEl.hidden = false;
+            keeperEl.className = 'game-keeper ' + choice;
+            keeperEl.hidden = false;
+            setTimeout(() => {
+                if (!saved) {
+                    state.oppScore++;
+                    oppScoreEl.textContent = state.oppScore;
+                    statusEl.textContent = `⚽ ${state.opponent} scores!`;
+                } else {
+                    statusEl.textContent = '🧤 BIG SAVE!';
+                }
+                state.rounds[state.round] = state.rounds[state.round] || {};
+                state.rounds[state.round].opp = saved ? 'miss' : 'goal';
+                renderRoundsBar();
+                state.round++;
+                state.phase = 'city';
+                setTimeout(nextTurn, 1400);
+            }, 500);
+        }
+    }
+
+    function endGame() {
+        ballEl.hidden = true;
+        keeperEl.hidden = true;
+        disableZones();
+        if (state.cityScore > state.oppScore) {
+            statusEl.textContent = `🏆 City win ${state.cityScore}-${state.oppScore}!`;
+        } else if (state.cityScore < state.oppScore) {
+            statusEl.textContent = `😢 ${state.opponent} win ${state.oppScore}-${state.cityScore}`;
+        } else {
+            statusEl.textContent = `It's a draw ${state.cityScore}-${state.oppScore}!`;
+        }
+        resetEl.hidden = false;
+    }
+
+    pickerEl.addEventListener('click', e => {
+        const btn = e.target.closest('.game-opp-btn');
+        if (!btn) return;
+        reset(btn.dataset.opp);
+    });
+
+    zones.forEach(z => z.addEventListener('click', () => handleZoneClick(z.dataset.zone)));
+
+    resetEl.addEventListener('click', () => {
+        goalEl.hidden = true;
+        pickerEl.hidden = false;
+        resetEl.hidden = true;
+        roundsEl.innerHTML = '';
+        cityScoreEl.textContent = '0';
+        oppScoreEl.textContent = '0';
+        statusEl.textContent = 'Pick your opponent to start';
+        state = null;
+    });
+})();
