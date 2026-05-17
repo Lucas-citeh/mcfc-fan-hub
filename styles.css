@@ -1381,11 +1381,61 @@ body.modal-open {
     font-weight: 700;
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
 }
 
-.predictor-summary span {
+.predictor-summary > span#predictor-points {
     color: var(--city-blue);
     font-size: 1.5rem;
+}
+
+.predictor-tier {
+    background: var(--gold);
+    color: var(--city-navy);
+    padding: 0.3rem 0.9rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(244, 199, 82, 0.4);
+}
+
+.predictor-celebration {
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    background: linear-gradient(135deg, var(--city-blue), var(--city-light));
+    color: var(--city-navy);
+    padding: 1rem 1.25rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 6px 20px rgba(108, 171, 221, 0.45);
+    animation: celebPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.predictor-celebration-icon {
+    font-size: 1.8rem;
+    animation: celebSpin 1.2s ease-in-out;
+}
+
+@keyframes celebPop {
+    from { opacity: 0; transform: translateY(-10px) scale(0.95); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes celebSpin {
+    0%   { transform: rotate(0deg) scale(1); }
+    30%  { transform: rotate(-15deg) scale(1.3); }
+    60%  { transform: rotate(15deg) scale(1.3); }
+    100% { transform: rotate(0deg) scale(1); }
 }
 
 .predictor-list {

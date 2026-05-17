@@ -703,7 +703,23 @@ document.querySelectorAll('.match-card').forEach(card => {
 (function setupScorePredictor() {
     const listEl = document.getElementById('predictor-list');
     const pointsEl = document.getElementById('predictor-points');
+    const tierEl = document.getElementById('predictor-tier');
+    const celebEl = document.getElementById('predictor-celebration');
+    const celebTextEl = document.getElementById('predictor-celebration-text');
     const STORAGE_KEY = 'mcfc-predictions';
+    const TIER_KEY = 'mcfc-tier-reached';
+
+    const TIERS = [
+        { min: 100, label: 'Pep Disciple', msg: 'Pep would be proud!' },
+        { min: 50,  label: 'Sky Blue Oracle', msg: 'You\'re reading the game like Bernardo!' },
+        { min: 20,  label: 'Etihad Expert', msg: 'Etihad Expert unlocked — top of the leaderboard!' },
+        { min: 10,  label: 'Predicting Pro', msg: 'Predicting Pro! You\'re on a roll.' },
+        { min: 5,   label: 'Rising Talent', msg: 'Nice start — Rising Talent earned!' }
+    ];
+
+    function currentTier(points) {
+        return TIERS.find(t => points >= t.min) || null;
+    }
 
     function loadPredictions() {
         try {
@@ -812,6 +828,28 @@ document.querySelectorAll('.match-card').forEach(card => {
         });
 
         pointsEl.textContent = totalPoints;
+
+        // Tier badge + celebration on level-up
+        const tier = currentTier(totalPoints);
+        if (tier) {
+            tierEl.hidden = false;
+            tierEl.textContent = tier.label;
+        } else {
+            tierEl.hidden = true;
+        }
+
+        const previouslyReached = parseInt(localStorage.getItem(TIER_KEY) || '0', 10);
+        const reachedNow = tier ? tier.min : 0;
+        if (reachedNow > previouslyReached) {
+            celebEl.hidden = false;
+            celebTextEl.textContent = tier.msg;
+            localStorage.setItem(TIER_KEY, String(reachedNow));
+        } else if (tier) {
+            // Keep banner visible only briefly when freshly achieved; otherwise hide
+            celebEl.hidden = true;
+        } else {
+            celebEl.hidden = true;
+        }
     }
 
     render();

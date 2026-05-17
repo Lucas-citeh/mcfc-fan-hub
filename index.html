@@ -598,7 +598,15 @@
         <h2 class="predictor-title">Score Predictor</h2>
         <p class="game-subtitle">Predict the scoreline for upcoming City matches. 5 points for exact, 2 for correct outcome + a score, 1 for outcome only.</p>
 
-        <div class="predictor-summary" id="predictor-summary">Total points: <span id="predictor-points">0</span></div>
+        <div class="predictor-summary" id="predictor-summary">
+            Total points: <span id="predictor-points">0</span>
+            <span class="predictor-tier" id="predictor-tier" hidden></span>
+        </div>
+
+        <div class="predictor-celebration" id="predictor-celebration" hidden>
+            <span class="predictor-celebration-icon">🎉</span>
+            <span class="predictor-celebration-text" id="predictor-celebration-text"></span>
+        </div>
 
         <div class="predictor-list" id="predictor-list"></div>
     </section>
