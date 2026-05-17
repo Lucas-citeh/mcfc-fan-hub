@@ -1330,6 +1330,11 @@ body.modal-open {
     border-color: #ef4444;
 }
 
+.game-round.sudden-death .game-round-marker {
+    border-color: var(--gold);
+    border-width: 3px;
+}
+
 .game-reset {
     display: block;
     margin: 0 auto;

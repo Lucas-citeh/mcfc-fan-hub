@@ -550,18 +550,21 @@ document.querySelectorAll('.match-card').forEach(card => {
     }
 
     function nextTurn() {
-        if (state.round >= TOTAL_ROUNDS) {
+        // End of regulation: if scores differ, game over. Otherwise go to sudden death.
+        // In sudden death, end as soon as scores differ at the end of a round.
+        if (state.round >= TOTAL_ROUNDS && state.phase === 'city' && state.cityScore !== state.oppScore) {
             return endGame();
         }
         ballEl.hidden = true;
         ballEl.className = 'game-ball';
-        // Keeper resets to center but stays visible
         keeperEl.className = 'game-keeper center';
         enableZones();
+        const isSD = state.round >= TOTAL_ROUNDS;
+        const label = isSD ? `Sudden Death (round ${state.round - TOTAL_ROUNDS + 1})` : `Round ${state.round + 1}`;
         if (state.phase === 'city') {
-            statusEl.textContent = `Round ${state.round + 1}: City shoots — pick a corner!`;
+            statusEl.textContent = `${label}: City shoots — pick a corner!`;
         } else {
-            statusEl.textContent = `Round ${state.round + 1}: ${state.opponent} shoots — dive!`;
+            statusEl.textContent = `${label}: ${state.opponent} shoots — dive!`;
         }
     }
 
@@ -574,10 +577,11 @@ document.querySelectorAll('.match-card').forEach(card => {
 
     function renderRoundsBar() {
         roundsEl.innerHTML = '';
-        for (let i = 0; i < TOTAL_ROUNDS; i++) {
+        const total = Math.max(TOTAL_ROUNDS, state.rounds.length);
+        for (let i = 0; i < total; i++) {
             const r = state.rounds[i] || {};
             const wrap = document.createElement('div');
-            wrap.className = 'game-round';
+            wrap.className = 'game-round' + (i >= TOTAL_ROUNDS ? ' sudden-death' : '');
             const city = document.createElement('div');
             city.className = 'game-round-marker' + (r.city ? ' ' + r.city : '');
             const opp = document.createElement('div');
@@ -639,15 +643,12 @@ document.querySelectorAll('.match-card').forEach(card => {
 
     function endGame() {
         ballEl.hidden = true;
-        // Keeper stays visible in center for end screen
         keeperEl.className = 'game-keeper center';
         disableZones();
         if (state.cityScore > state.oppScore) {
             statusEl.textContent = `🏆 City win ${state.cityScore}-${state.oppScore}!`;
-        } else if (state.cityScore < state.oppScore) {
-            statusEl.textContent = `😢 ${state.opponent} win ${state.oppScore}-${state.cityScore}`;
         } else {
-            statusEl.textContent = `It's a draw ${state.cityScore}-${state.oppScore}!`;
+            statusEl.textContent = `😢 ${state.opponent} win ${state.oppScore}-${state.cityScore}`;
         }
         resetEl.hidden = false;
     }
