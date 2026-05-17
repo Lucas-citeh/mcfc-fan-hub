@@ -563,20 +563,20 @@
                 <div class="game-zone" data-zone="right" aria-label="Right">↗</div>
                 <div class="game-ball" id="game-ball" hidden></div>
                 <div class="game-keeper" id="game-keeper" hidden>
-                    <svg viewBox="0 0 60 130" xmlns="http://www.w3.org/2000/svg" aria-label="Goalkeeper">
-                        <!-- Legs -->
-                        <rect x="20" y="92" width="7" height="28" fill="#1c2c5b"/>
-                        <rect x="33" y="92" width="7" height="28" fill="#1c2c5b"/>
+                    <svg viewBox="0 0 60 170" xmlns="http://www.w3.org/2000/svg" aria-label="Goalkeeper">
+                        <!-- Legs (extra long) -->
+                        <rect x="20" y="100" width="7" height="55" fill="#1c2c5b"/>
+                        <rect x="33" y="100" width="7" height="55" fill="#1c2c5b"/>
                         <!-- Boots -->
-                        <ellipse cx="23.5" cy="122" rx="6" ry="3" fill="#000"/>
-                        <ellipse cx="36.5" cy="122" rx="6" ry="3" fill="#000"/>
+                        <ellipse cx="23.5" cy="158" rx="6" ry="3" fill="#000"/>
+                        <ellipse cx="36.5" cy="158" rx="6" ry="3" fill="#000"/>
                         <!-- Shirt -->
-                        <path d="M14 38 L14 92 Q14 95 17 95 L43 95 Q46 95 46 92 L46 38 Z" fill="#ffd83d" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <path id="game-keeper-shirt" d="M14 38 L14 100 Q14 103 17 103 L43 103 Q46 103 46 100 L46 38 Z" fill="#ffd83d" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <!-- Sleeves (filled to match shirt via JS) -->
+                        <path id="game-keeper-sleeve-l" d="M14 40 L3 30 Q0 28 2 25 Q4 23 7 25 L18 36 Z" fill="#ffd83d" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <path id="game-keeper-sleeve-r" d="M46 40 L57 30 Q60 28 58 25 Q56 23 53 25 L42 36 Z" fill="#ffd83d" stroke="#1c2c5b" stroke-width="1.5"/>
                         <!-- Club badge (filled by JS) -->
-                        <image id="game-keeper-badge" x="22" y="50" width="16" height="20" preserveAspectRatio="xMidYMid meet"/>
-                        <!-- Arms outstretched -->
-                        <path d="M14 40 L3 30 Q0 28 2 25 Q4 23 7 25 L18 36 Z" fill="#ffd83d" stroke="#1c2c5b" stroke-width="1.5"/>
-                        <path d="M46 40 L57 30 Q60 28 58 25 Q56 23 53 25 L42 36 Z" fill="#ffd83d" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <image id="game-keeper-badge" x="22" y="55" width="16" height="20" preserveAspectRatio="xMidYMid meet"/>
                         <!-- Gloves -->
                         <circle cx="4" cy="25" r="4.5" fill="#ffffff" stroke="#1c2c5b" stroke-width="1.5"/>
                         <circle cx="56" cy="25" r="4.5" fill="#ffffff" stroke="#1c2c5b" stroke-width="1.5"/>

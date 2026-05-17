@@ -506,6 +506,9 @@ document.querySelectorAll('.match-card').forEach(card => {
     const ballEl = document.getElementById('game-ball');
     const keeperEl = document.getElementById('game-keeper');
     const keeperBadgeEl = document.getElementById('game-keeper-badge');
+    const keeperShirtEl = document.getElementById('game-keeper-shirt');
+    const keeperSleeveLEl = document.getElementById('game-keeper-sleeve-l');
+    const keeperSleeveREl = document.getElementById('game-keeper-sleeve-r');
     const roundsEl = document.getElementById('game-rounds');
     const resetEl = document.getElementById('game-reset');
     const zones = goalEl.querySelectorAll('.game-zone');
@@ -513,12 +516,26 @@ document.querySelectorAll('.match-card').forEach(card => {
     const ZONES = ['left', 'center', 'right'];
     const TOTAL_ROUNDS = 5;
 
-    const OPP_BADGES = {
-        'Chelsea': 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/330px-Chelsea_FC.svg.png',
-        'Arsenal': 'https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/330px-Arsenal_FC.svg.png',
-        'Liverpool': 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/330px-Liverpool_FC.svg.png',
-        'Manchester United': 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/330px-Manchester_United_FC_crest.svg.png'
+    const CITY_BADGE = 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg';
+    const CITY_KIT = '#6cabdd'; // sky blue keeper kit
+
+    const TEAM_KITS = {
+        'Chelsea':           { badge: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/330px-Chelsea_FC.svg.png',                kit: '#ffd83d' },
+        'Arsenal':           { badge: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/330px-Arsenal_FC.svg.png',                kit: '#1f7a3d' },
+        'Liverpool':         { badge: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/330px-Liverpool_FC.svg.png',            kit: '#ffd83d' },
+        'Manchester United': { badge: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/330px-Manchester_United_FC_crest.svg.png', kit: '#1f7a3d' }
     };
+
+    function setKeeperKit(team) {
+        const kit = team === 'Manchester City'
+            ? { badge: CITY_BADGE, kit: CITY_KIT }
+            : (TEAM_KITS[team] || { badge: '', kit: '#ffd83d' });
+        keeperBadgeEl.setAttributeNS('http://www.w3.org/1999/xlink', 'href', kit.badge);
+        keeperBadgeEl.setAttribute('href', kit.badge);
+        keeperShirtEl.setAttribute('fill', kit.kit);
+        keeperSleeveLEl.setAttribute('fill', kit.kit);
+        keeperSleeveREl.setAttribute('fill', kit.kit);
+    }
 
     let state = null;
 
@@ -538,11 +555,6 @@ document.querySelectorAll('.match-card').forEach(card => {
         resetEl.hidden = true;
         pickerEl.hidden = true;
         goalEl.hidden = false;
-        // Set the badge on the keeper's shirt based on opponent (since keeper is
-        // always on the opposing team — user is the City striker)
-        const badgeUrl = OPP_BADGES[opponent] || '';
-        keeperBadgeEl.setAttributeNS('http://www.w3.org/1999/xlink', 'href', badgeUrl);
-        keeperBadgeEl.setAttribute('href', badgeUrl);
         // Keeper always visible from game start, defaults to center
         keeperEl.hidden = false;
         keeperEl.className = 'game-keeper center';
@@ -562,8 +574,12 @@ document.querySelectorAll('.match-card').forEach(card => {
         const isSD = state.round >= TOTAL_ROUNDS;
         const label = isSD ? `Sudden Death (round ${state.round - TOTAL_ROUNDS + 1})` : `Round ${state.round + 1}`;
         if (state.phase === 'city') {
+            // City shoots — opponent's keeper in goal
+            setKeeperKit(state.opponent);
             statusEl.textContent = `${label}: City shoots — pick a corner!`;
         } else {
+            // Opponent shoots — City's keeper in goal (you)
+            setKeeperKit('Manchester City');
             statusEl.textContent = `${label}: ${state.opponent} shoots — dive!`;
         }
     }
