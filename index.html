@@ -562,7 +562,28 @@
                 <div class="game-zone" data-zone="center" aria-label="Center">↑</div>
                 <div class="game-zone" data-zone="right" aria-label="Right">↗</div>
                 <div class="game-ball" id="game-ball" hidden></div>
-                <div class="game-keeper" id="game-keeper" hidden>🧤</div>
+                <div class="game-keeper" id="game-keeper" hidden>
+                    <svg viewBox="0 0 60 80" xmlns="http://www.w3.org/2000/svg" aria-label="Goalkeeper">
+                        <!-- Shirt -->
+                        <path d="M15 30 L15 60 Q15 64 19 64 L41 64 Q45 64 45 60 L45 30 Z" fill="#ffd83d" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <!-- Arms outstretched -->
+                        <path d="M15 32 L4 22 Q2 20 4 18 Q6 16 8 18 L19 28 Z" fill="#ffd83d" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <path d="M45 32 L56 22 Q58 20 56 18 Q54 16 52 18 L41 28 Z" fill="#ffd83d" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <!-- Gloves -->
+                        <circle cx="5" cy="18" r="4" fill="#ffffff" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <circle cx="55" cy="18" r="4" fill="#ffffff" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <!-- Head -->
+                        <circle cx="30" cy="20" r="8" fill="#f5cba3" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <!-- Hair -->
+                        <path d="M22 18 Q22 12 30 12 Q38 12 38 18 Q35 16 30 16 Q25 16 22 18 Z" fill="#2a1a0e"/>
+                        <!-- Legs -->
+                        <rect x="20" y="64" width="7" height="14" fill="#1c2c5b" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <rect x="33" y="64" width="7" height="14" fill="#1c2c5b" stroke="#1c2c5b" stroke-width="1.5"/>
+                        <!-- Boots -->
+                        <ellipse cx="23.5" cy="78" rx="5" ry="2" fill="#000"/>
+                        <ellipse cx="36.5" cy="78" rx="5" ry="2" fill="#000"/>
+                    </svg>
+                </div>
             </div>
 
             <div class="game-rounds" id="game-rounds"></div>
