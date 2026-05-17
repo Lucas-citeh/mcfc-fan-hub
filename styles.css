@@ -1228,7 +1228,7 @@ body.modal-open {
     border-bottom: none;
     border-radius: 8px 8px 0 0;
     padding: 6px;
-    height: 220px;
+    height: 280px;
     margin: 0 auto 1.5rem;
     max-width: 500px;
     overflow: hidden;
@@ -1277,8 +1277,8 @@ body.modal-open {
 
 .game-keeper {
     position: absolute;
-    width: 64px;
-    height: 84px;
+    width: 70px;
+    height: 150px;
     bottom: 8px;
     left: 50%;
     transform: translateX(-50%);

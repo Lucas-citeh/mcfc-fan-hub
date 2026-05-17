@@ -505,12 +505,21 @@ document.querySelectorAll('.match-card').forEach(card => {
     const goalEl = document.getElementById('game-goal');
     const ballEl = document.getElementById('game-ball');
     const keeperEl = document.getElementById('game-keeper');
+    const keeperBadgeEl = document.getElementById('game-keeper-badge');
     const roundsEl = document.getElementById('game-rounds');
     const resetEl = document.getElementById('game-reset');
     const zones = goalEl.querySelectorAll('.game-zone');
 
     const ZONES = ['left', 'center', 'right'];
     const TOTAL_ROUNDS = 5;
+
+    const OPP_BADGES = {
+        'Chelsea': 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/330px-Chelsea_FC.svg.png',
+        'Arsenal': 'https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/330px-Arsenal_FC.svg.png',
+        'Liverpool': 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/330px-Liverpool_FC.svg.png',
+        'Manchester United': 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/330px-Manchester_United_FC_crest.svg.png'
+    };
+
     let state = null;
 
     function reset(opponent) {
@@ -518,9 +527,9 @@ document.querySelectorAll('.match-card').forEach(card => {
             opponent,
             cityScore: 0,
             oppScore: 0,
-            round: 0,        // 0..TOTAL_ROUNDS-1
-            phase: 'city',   // 'city' = user shoots; 'opp' = user keeps
-            rounds: []       // array of {city: 'goal'|'miss', opp: 'goal'|'miss'}
+            round: 0,
+            phase: 'city',
+            rounds: []
         };
         oppNameEl.textContent = opponent;
         cityScoreEl.textContent = '0';
@@ -529,6 +538,14 @@ document.querySelectorAll('.match-card').forEach(card => {
         resetEl.hidden = true;
         pickerEl.hidden = true;
         goalEl.hidden = false;
+        // Set the badge on the keeper's shirt based on opponent (since keeper is
+        // always on the opposing team — user is the City striker)
+        const badgeUrl = OPP_BADGES[opponent] || '';
+        keeperBadgeEl.setAttributeNS('http://www.w3.org/1999/xlink', 'href', badgeUrl);
+        keeperBadgeEl.setAttribute('href', badgeUrl);
+        // Keeper always visible from game start, defaults to center
+        keeperEl.hidden = false;
+        keeperEl.className = 'game-keeper center';
         nextTurn();
     }
 
@@ -537,9 +554,9 @@ document.querySelectorAll('.match-card').forEach(card => {
             return endGame();
         }
         ballEl.hidden = true;
-        keeperEl.hidden = true;
         ballEl.className = 'game-ball';
-        keeperEl.className = 'game-keeper';
+        // Keeper resets to center but stays visible
+        keeperEl.className = 'game-keeper center';
         enableZones();
         if (state.phase === 'city') {
             statusEl.textContent = `Round ${state.round + 1}: City shoots — pick a corner!`;
@@ -581,7 +598,6 @@ document.querySelectorAll('.match-card').forEach(card => {
             ballEl.className = 'game-ball ' + choice;
             ballEl.hidden = false;
             keeperEl.className = 'game-keeper ' + keeperDive;
-            keeperEl.hidden = false;
             setTimeout(() => {
                 if (scored) {
                     state.cityScore++;
@@ -603,7 +619,6 @@ document.querySelectorAll('.match-card').forEach(card => {
             ballEl.className = 'game-ball ' + shot;
             ballEl.hidden = false;
             keeperEl.className = 'game-keeper ' + choice;
-            keeperEl.hidden = false;
             setTimeout(() => {
                 if (!saved) {
                     state.oppScore++;
@@ -624,7 +639,8 @@ document.querySelectorAll('.match-card').forEach(card => {
 
     function endGame() {
         ballEl.hidden = true;
-        keeperEl.hidden = true;
+        // Keeper stays visible in center for end screen
+        keeperEl.className = 'game-keeper center';
         disableZones();
         if (state.cityScore > state.oppScore) {
             statusEl.textContent = `🏆 City win ${state.cityScore}-${state.oppScore}!`;
@@ -652,6 +668,8 @@ document.querySelectorAll('.match-card').forEach(card => {
         cityScoreEl.textContent = '0';
         oppScoreEl.textContent = '0';
         statusEl.textContent = 'Pick your opponent to start';
+        keeperEl.hidden = true;
+        ballEl.hidden = true;
         state = null;
     });
 })();
