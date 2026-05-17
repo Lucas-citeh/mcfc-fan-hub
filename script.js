@@ -698,3 +698,121 @@ document.querySelectorAll('.match-card').forEach(card => {
         state = null;
     });
 })();
+
+// Score Predictor
+(function setupScorePredictor() {
+    const listEl = document.getElementById('predictor-list');
+    const pointsEl = document.getElementById('predictor-points');
+    const STORAGE_KEY = 'mcfc-predictions';
+
+    function loadPredictions() {
+        try {
+            return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+        } catch { return {}; }
+    }
+
+    function savePredictions(p) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
+    }
+
+    // 5 = exact, 2 = correct outcome + at least one score right, 1 = outcome only, 0 = miss
+    function scorePrediction(pred, result) {
+        if (!pred || !result) return 0;
+        if (pred.home === result.home && pred.away === result.away) return 5;
+        const predOutcome = Math.sign(pred.home - pred.away);
+        const realOutcome = Math.sign(result.home - result.away);
+        if (predOutcome !== realOutcome) return 0;
+        if (pred.home === result.home || pred.away === result.away) return 2;
+        return 1;
+    }
+
+    function render() {
+        listEl.innerHTML = '';
+        const predictions = loadPredictions();
+        let totalPoints = 0;
+
+        Object.entries(matchProfiles).forEach(([id, match]) => {
+            // Parse the home/away teams from the title (format: "Home vs Away" or "Home X-Y Away")
+            // Fall back to scraping from #matches if title is ambiguous.
+            const card = document.querySelector(`.match-card[data-match-id="${id}"]`);
+            if (!card) return;
+            const homeName = card.querySelector('.team.home .team-name')?.textContent.trim();
+            const awayName = card.querySelector('.team:not(.home) .team-name')?.textContent.trim();
+            if (!homeName || !awayName) return;
+
+            const pred = predictions[id];
+            const wrap = document.createElement('div');
+            wrap.className = 'predictor-card';
+
+            const title = document.createElement('div');
+            title.className = 'predictor-match-name';
+            title.textContent = `${homeName} vs ${awayName}`;
+            const meta = document.createElement('div');
+            meta.className = 'predictor-match-meta';
+            meta.textContent = match.meta || match.competition || '';
+            wrap.appendChild(title);
+            wrap.appendChild(meta);
+
+            const inputs = document.createElement('div');
+            inputs.className = 'predictor-inputs';
+            inputs.innerHTML = `
+                <div class="predictor-team">
+                    <span class="predictor-team-name">${homeName}</span>
+                    <input class="predictor-input" type="number" min="0" max="20" data-side="home" value="${pred?.home ?? ''}">
+                </div>
+                <span class="predictor-dash">–</span>
+                <div class="predictor-team">
+                    <input class="predictor-input" type="number" min="0" max="20" data-side="away" value="${pred?.away ?? ''}">
+                    <span class="predictor-team-name">${awayName}</span>
+                </div>
+                <button class="predictor-save${pred ? ' saved' : ''}">${pred ? 'Saved' : 'Save'}</button>
+            `;
+            wrap.appendChild(inputs);
+
+            const homeIn = inputs.querySelector('[data-side="home"]');
+            const awayIn = inputs.querySelector('[data-side="away"]');
+            const saveBtn = inputs.querySelector('.predictor-save');
+
+            // Lock inputs once the match has a result
+            if (match.result) {
+                homeIn.disabled = true;
+                awayIn.disabled = true;
+                saveBtn.disabled = true;
+                saveBtn.style.display = 'none';
+            }
+
+            saveBtn.addEventListener('click', () => {
+                const h = parseInt(homeIn.value, 10);
+                const a = parseInt(awayIn.value, 10);
+                if (Number.isNaN(h) || Number.isNaN(a)) return;
+                const all = loadPredictions();
+                all[id] = { home: h, away: a };
+                savePredictions(all);
+                saveBtn.textContent = 'Saved';
+                saveBtn.classList.add('saved');
+            });
+
+            [homeIn, awayIn].forEach(inp => inp.addEventListener('input', () => {
+                saveBtn.textContent = 'Save';
+                saveBtn.classList.remove('saved');
+            }));
+
+            if (match.result) {
+                const pts = scorePrediction(pred, match.result);
+                totalPoints += pts;
+                const res = document.createElement('div');
+                res.className = 'predictor-result ' + (pts === 5 ? 'exact' : pts > 0 ? 'partial' : 'miss');
+                const actualText = `Result: ${match.result.home}–${match.result.away}` +
+                    (pred ? ` · Your guess: ${pred.home}–${pred.away}` : ' · No prediction');
+                res.innerHTML = `<span>${actualText}</span><span class="predictor-result-points">+${pts} pts</span>`;
+                wrap.appendChild(res);
+            }
+
+            listEl.appendChild(wrap);
+        });
+
+        pointsEl.textContent = totalPoints;
+    }
+
+    render();
+})();
