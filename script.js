@@ -367,7 +367,7 @@ const matchProfiles = {
         competition: 'Premier League',
         title: 'Manchester City vs Aston Villa',
         meta: 'Etihad Stadium · Sun 24 May 2026 · 16:00 UK',
-        prediction: { city: 70, draw: 17, opp: 13, source: 'Estimate — Opta MD38 prediction not yet released' },
+        prediction: { city: 50.1, draw: 23.1, opp: 26.8, source: 'Opta supercomputer' },
         lineup: [
             { pos: 'GK', name: 'Donnarumma' },
             { pos: 'DEF', name: 'Khusanov' },
