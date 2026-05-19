@@ -345,23 +345,35 @@ const matchProfiles = {
     },
     'bournemouth-a': {
         competition: 'Premier League',
-        title: 'Bournemouth vs Manchester City',
-        meta: 'Vitality Stadium · Tue 19 May 2026 · 20:00 UK',
+        title: 'Bournemouth 1 - 1 Manchester City',
+        meta: 'Vitality Stadium · Tue 19 May 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 1,
+            away: 1,
+            scorers: "Kroupi 39' (BOU), Haaland 90+5' (MCI)"
+        },
         prediction: { city: 45.3, draw: 24.8, opp: 29.9, source: 'Opta supercomputer' },
         lineup: [
             { pos: 'GK', name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Matheus Nunes' },
             { pos: 'DEF', name: 'Khusanov' },
-            { pos: 'DEF', name: 'Dias' },
-            { pos: 'DEF', name: 'Gvardiol' },
-            { pos: 'DEF', name: 'Ait-Nouri' },
-            { pos: 'MID', name: 'Bernardo Silva' },
-            { pos: 'MID', name: 'Reijnders' },
-            { pos: 'MID', name: 'Foden' },
-            { pos: 'FWD', name: 'Doku' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: "O'Reilly" },
+            { pos: 'MID', name: 'Rodri' },
+            { pos: 'MID', name: 'Kovacic' },
+            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'FWD', name: 'Semenyo' },
             { pos: 'FWD', name: 'Haaland' },
-            { pos: 'FWD', name: 'Semenyo' }
+            { pos: 'FWD', name: 'Doku' }
         ],
-        notes: 'A must-win for City\'s title hopes — Arsenal lead by two points with two to play.'
+        subs: [
+            { minute: 56, name: 'Foden', on: 'Kovacic' },
+            { minute: 56, name: 'Savinho', on: 'Semenyo' },
+            { minute: 56, name: 'Cherki', on: 'Bernardo Silva' },
+            { minute: 76, name: 'Marmoush', on: 'Doku' }
+        ],
+        notes: "Haaland's 90+5 equaliser couldn't save City's title — Arsenal confirmed as Premier League champions after City were held to a 1-1 draw at the Vitality."
     },
     'villa-h': {
         competition: 'Premier League',
