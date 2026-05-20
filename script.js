@@ -129,7 +129,7 @@ const playerProfiles = {
         stats: { 'Appearances': 24, 'Goals': 3, 'Assists': 4, 'Pass Accuracy': '93%' }
     },
     'Phil Foden': {
-        description: "Stockport's finest. A creative spark capable of changing games — his backheel assist for Semenyo vs Palace was vintage Foden.",
+        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026, cementing his future at the Etihad through the Maresca era. A creative spark capable of changing games — his backheel assist for Semenyo vs Palace was vintage Foden.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg',
         stats: { 'PL Goals': 7, 'All Comps Goals': 10, 'Appearances': 31, 'Assists': 9 }
     },
@@ -164,7 +164,7 @@ const playerProfiles = {
     'Erling Haaland': {
         description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches) and leading the 2025/26 Golden Boot race.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
-        stats: { 'PL Goals': 26, 'All Comps Goals': 37, 'Appearances': 34, 'Assists': 8 }
+        stats: { 'PL Goals': 27, 'All Comps Goals': 38, 'Appearances': 35, 'Assists': 8 }
     },
     'Omar Marmoush': {
         description: "January 2025 signing from Eintracht Frankfurt. Egyptian forward whose movement and finishing have made him a key second striker behind Haaland.",
@@ -188,7 +188,7 @@ const playerProfiles = {
     'Pep Guardiola': {
         description: "Manager of Manchester City since 2016. Tactical innovator, six-time Premier League winner with City, and one of the most decorated managers in football history.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg',
-        stats: { 'Games': 36, 'Wins': 23, 'Draws': 8, 'Losses': 5 }
+        stats: { 'Games': 37, 'Wins': 23, 'Draws': 9, 'Losses': 5 }
     },
     'Jack Grealish': {
         description: "On loan at Everton for the 2025/26 season. Looking to rediscover his form before returning to the Etihad.",
