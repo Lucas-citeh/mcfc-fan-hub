@@ -377,23 +377,36 @@ const matchProfiles = {
     },
     'villa-h': {
         competition: 'Premier League',
-        title: 'Manchester City vs Aston Villa',
-        meta: 'Etihad Stadium · Sun 24 May 2026 · 16:00 UK',
+        title: 'Manchester City 1 - 2 Aston Villa',
+        meta: 'Etihad Stadium · Sun 24 May 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 1,
+            away: 2,
+            scorers: "Semenyo 23' (MCI), Watkins 47' (AVL), Watkins 61' (AVL)"
+        },
         prediction: { city: 50.1, draw: 23.1, opp: 26.8, source: 'Opta supercomputer' },
         lineup: [
-            { pos: 'GK', name: 'Donnarumma' },
-            { pos: 'DEF', name: 'Matheus Nunes' },
+            { pos: 'GK', name: 'Trafford' },
+            { pos: 'DEF', name: 'Lewis' },
             { pos: 'DEF', name: 'Stones' },
-            { pos: 'DEF', name: 'Guehi' },
-            { pos: 'DEF', name: "O'Reilly" },
+            { pos: 'DEF', name: 'Dias' },
+            { pos: 'DEF', name: 'Ake' },
+            { pos: 'MID', name: 'Nico Gonzalez' },
+            { pos: 'MID', name: 'Reijnders' },
+            { pos: 'FWD', name: 'Savinho' },
             { pos: 'MID', name: 'Bernardo Silva (C)' },
-            { pos: 'MID', name: 'Semenyo' },
-            { pos: 'MID', name: 'Cherki' },
-            { pos: 'MID', name: 'Foden' },
-            { pos: 'MID', name: 'Doku' },
-            { pos: 'FWD', name: 'Haaland' }
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Semenyo' }
         ],
-        notes: "Guardiola's 428th and final match in charge. The newly-expanded North Stand — renamed 'The Pep Guardiola Stand' — opens today, bringing Etihad capacity to 61,000+. Visitors Aston Villa arrive as 2025/26 Europa League champions (3-0 v Freiburg in Istanbul, 20 May). Bernardo Silva and John Stones expected to make farewell starts. Arsenal are confirmed champions; City are assured of second place."
+        subs: [
+            { minute: 58, name: 'Cherki', on: 'Semenyo' },
+            { minute: 59, name: 'Kovacic', on: 'Bernardo Silva' },
+            { minute: 77, name: 'Gvardiol', on: 'Stones' },
+            { minute: 77, name: 'Ait-Nouri', on: 'Ake' },
+            { minute: 77, name: 'Doku', on: 'Reijnders' }
+        ],
+        notes: "Guardiola's 429th and final match in charge. City finish 2nd (78 pts) as Arsenal are crowned champions. Bernardo Silva and John Stones both started their farewells and were subbed off to guard-of-honour ovations. A Watkins brace turned the game on its head in the second half. City end the season as FA Cup and EFL Cup winners."
     }
 };
 
