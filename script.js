@@ -382,18 +382,18 @@ const matchProfiles = {
         prediction: { city: 50.1, draw: 23.1, opp: 26.8, source: 'Opta supercomputer' },
         lineup: [
             { pos: 'GK', name: 'Donnarumma' },
-            { pos: 'DEF', name: 'Khusanov' },
-            { pos: 'DEF', name: 'Dias' },
+            { pos: 'DEF', name: 'Matheus Nunes' },
+            { pos: 'DEF', name: 'Stones' },
             { pos: 'DEF', name: 'Guehi' },
-            { pos: 'DEF', name: 'Ait-Nouri' },
-            { pos: 'MID', name: 'Bernardo Silva' },
-            { pos: 'MID', name: 'Reijnders' },
+            { pos: 'DEF', name: "O'Reilly" },
+            { pos: 'MID', name: 'Bernardo Silva (C)' },
+            { pos: 'MID', name: 'Semenyo' },
+            { pos: 'MID', name: 'Cherki' },
             { pos: 'MID', name: 'Foden' },
-            { pos: 'FWD', name: 'Doku' },
-            { pos: 'FWD', name: 'Haaland' },
-            { pos: 'FWD', name: 'Semenyo' }
+            { pos: 'MID', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' }
         ],
-        notes: 'Final day of the season — City need to win and hope Arsenal slip up at Palace.'
+        notes: "Guardiola's 428th and final match in charge. The newly-expanded North Stand — renamed 'The Pep Guardiola Stand' — opens today, bringing Etihad capacity to 61,000+. Visitors Aston Villa arrive as 2025/26 Europa League champions (3-0 v Freiburg in Istanbul, 20 May). Bernardo Silva and John Stones expected to make farewell starts. Arsenal are confirmed champions; City are assured of second place."
     }
 };
 
