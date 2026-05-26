@@ -185,10 +185,9 @@ const playerProfiles = {
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Antoine_Semenyo_2026.png/330px-Antoine_Semenyo_2026.png',
         stats: { 'PL Goals': 17, 'All Comps Goals': 22, 'Appearances': 34, 'Assists': 6 }
     },
-    'Pep Guardiola': {
-        description: "Manager of Manchester City since 2016. Tactical innovator, six-time Premier League winner with City, and one of the most decorated managers in football history.",
-        photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg',
-        stats: { 'Games': 37, 'Wins': 23, 'Draws': 9, 'Losses': 5 }
+    'Enzo Maresca': {
+        description: "Incoming Manchester City head coach on an initial three-year deal, confirmed by Fabrizio Romano. The Italian previously served as one of Guardiola's assistants during the 2022–23 treble season, then guided Leicester City to the Championship title, and managed Chelsea. He returns to the Etihad to lead City into a new era.",
+        stats: { 'Role': 'Incoming Manager', 'Previous Club': 'Chelsea', 'Contract': '3 years' }
     },
     'Jack Grealish': {
         description: "On loan at Everton for the 2025/26 season. Looking to rediscover his form before returning to the Etihad.",
