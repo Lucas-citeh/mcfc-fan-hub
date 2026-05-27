@@ -183,11 +183,16 @@ const playerProfiles = {
     'Antoine Semenyo': {
         description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final and shortlisted for PL Player of the Season after a stunning split campaign across both clubs.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Antoine_Semenyo_2026.png/330px-Antoine_Semenyo_2026.png',
-        stats: { 'PL Goals': 17, 'All Comps Goals': 22, 'Appearances': 34, 'Assists': 6 }
+        stats: { 'PL Goals': 17, 'All Comps Goals': 22, 'Appearances': 35, 'Assists': 6 }
+    },
+    'Pep Guardiola': {
+        description: "Manager of Manchester City 2016–2026. Tactical innovator, six-time Premier League winner, Champions League winner (2023), and one of the most decorated managers in football history. Departed after 593 games following the 2025/26 season.",
+        photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg',
+        stats: { 'Games': 593, 'Wins': 305, 'PL Titles': 6, 'Major Trophies': 20 }
     },
     'Enzo Maresca': {
-        description: "Incoming Manchester City head coach on an initial three-year deal, confirmed by Fabrizio Romano. The Italian previously served as one of Guardiola's assistants during the 2022–23 treble season, then guided Leicester City to the Championship title, and managed Chelsea. He returns to the Etihad to lead City into a new era.",
-        stats: { 'Role': 'Incoming Manager', 'Previous Club': 'Chelsea', 'Contract': '3 years' }
+        description: "Appointed Manchester City head coach on 26 May 2026 on a three-year deal. Served as Guardiola's assistant during the 2022/23 treble-winning season before managing Leicester City (Championship title) and Chelsea. Returns to the Etihad to lead a new era.",
+        stats: { 'Role': 'Head Coach', 'Contract': 'Until 2029', 'Nationality': 'Italian', 'Previous Club': 'Chelsea' }
     },
     'Jack Grealish': {
         description: "On loan at Everton for the 2025/26 season. Looking to rediscover his form before returning to the Etihad.",
@@ -376,36 +381,34 @@ const matchProfiles = {
     },
     'villa-h': {
         competition: 'Premier League',
-        title: 'Manchester City 1 - 2 Aston Villa',
+        title: 'Manchester City 1-2 Aston Villa',
         meta: 'Etihad Stadium · Sun 24 May 2026 · FT',
         lineupConfirmed: true,
         result: {
-            home: 1,
-            away: 2,
-            scorers: "Semenyo 23' (MCI), Watkins 47' (AVL), Watkins 61' (AVL)"
+            home: 1, away: 2,
+            scorers: "Semenyo 23' (MCI); Watkins 47', 61' (AVL)"
         },
-        prediction: { city: 50.1, draw: 23.1, opp: 26.8, source: 'Opta supercomputer' },
         lineup: [
             { pos: 'GK', name: 'Trafford' },
             { pos: 'DEF', name: 'Lewis' },
             { pos: 'DEF', name: 'Stones' },
             { pos: 'DEF', name: 'Dias' },
-            { pos: 'DEF', name: 'Ake' },
-            { pos: 'MID', name: 'Nico Gonzalez' },
-            { pos: 'MID', name: 'Reijnders' },
-            { pos: 'FWD', name: 'Savinho' },
+            { pos: 'DEF', name: 'Aké' },
             { pos: 'MID', name: 'Bernardo Silva (C)' },
-            { pos: 'FWD', name: 'Foden' },
-            { pos: 'FWD', name: 'Semenyo' }
+            { pos: 'MID', name: 'Nico Gonzalez' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Reijnders' },
+            { pos: 'FWD', name: 'Savinho' },
+            { pos: 'FWD', name: 'Foden' }
         ],
         subs: [
             { minute: 58, name: 'Cherki', on: 'Semenyo' },
             { minute: 59, name: 'Kovacic', on: 'Bernardo Silva' },
             { minute: 77, name: 'Gvardiol', on: 'Stones' },
-            { minute: 77, name: 'Ait-Nouri', on: 'Ake' },
+            { minute: 77, name: 'Ait-Nouri', on: 'Aké' },
             { minute: 77, name: 'Doku', on: 'Reijnders' }
         ],
-        notes: "Guardiola's 429th and final match in charge. City finish 2nd (78 pts) as Arsenal are crowned champions. Bernardo Silva and John Stones both started their farewells and were subbed off to guard-of-honour ovations. A Watkins brace turned the game on its head in the second half. City end the season as FA Cup and EFL Cup winners."
+        notes: "Guardiola's 593rd and final match in charge. Semenyo's 23rd-minute volley gave City the lead but Watkins struck twice (47', 61') to seal a Villa win. Bernardo Silva was subbed off at 59' to a guard of honour; Stones followed at 77' alongside a triple substitution. Haaland did not feature. City finish 2nd (78 pts) as FA Cup and EFL Cup winners."
     }
 };
 
