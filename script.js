@@ -409,6 +409,13 @@ const matchProfiles = {
             { minute: 77, name: 'Doku', on: 'Reijnders' }
         ],
         notes: "Guardiola's 593rd and final match in charge. Semenyo's 23rd-minute volley gave City the lead but Watkins struck twice (47', 61') to seal a Villa win. Bernardo Silva was subbed off at 59' to a guard of honour; Stones followed at 77' alongside a triple substitution. Haaland did not feature. City finish 2nd (78 pts) as FA Cup and EFL Cup winners."
+    },
+    'community-shield-2026': {
+        competition: 'FA Community Shield',
+        title: 'Manchester City vs Arsenal',
+        meta: 'Principality Stadium, Cardiff · Sun 16 Aug 2026',
+        lineup: [],
+        notes: 'Lineup and predictions will be added closer to the match. Fixture confirmed by the FA in March 2026; Wembley unavailable due to concerts on 15–16 Aug.'
     }
 };
 
