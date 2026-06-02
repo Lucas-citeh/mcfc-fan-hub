@@ -200,9 +200,9 @@ const playerProfiles = {
         stats: { 'Club': 'Everton (loan)', 'Goals': 3, 'Assists': 6, 'Appearances': 28 }
     },
     'Manuel Akanji': {
-        description: "On loan at Inter Milan for the season. Continuing to play at the highest level in Serie A and the Champions League.",
+        description: "Left Manchester City on a permanent basis in summer 2026 when Inter Milan triggered their mandatory €15m purchase option after winning Serie A — a contractual clause activated by Inter's league title. The Swiss international excelled at the San Siro across 2025/26, cementing himself as a key figure in Cristian Chivu's defence.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2792_%28Manuel_Akanji%29.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2792_%28Manuel_Akanji%29.jpg',
-        stats: { 'Club': 'Inter Milan (loan)', 'Goals': 1, 'Assists': 1, 'Appearances': 30 }
+        stats: { 'Club': 'Inter Milan (permanent)', 'Goals': 1, 'Assists': 1, 'Appearances': 30 }
     },
     'Vitor Reis': {
         description: "On loan at Girona to gain regular first-team minutes. The young Brazilian defender is one for the future.",
