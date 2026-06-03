@@ -123,6 +123,11 @@ const playerProfiles = {
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/ManCity20240722-027.jpg/330px-ManCity20240722-027.jpg',
         stats: { 'Appearances': 18, 'Goals': 1, 'Assists': 3, 'Clean Sheets': 7 }
     },
+    'Nathan Aké': {
+        description: "Composed Dutch international who can operate at centre-back or left-back. A versatile presence in City's back four whose experience and reliability made him a useful rotation option throughout 2025/26. Heading to the 2026 World Cup with the Netherlands and entering the final year of his City contract.",
+        photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Nathan_Ak%C3%A9_2023.jpg/330px-Nathan_Ak%C3%A9_2023.jpg',
+        stats: { 'Appearances': 17, 'Goals': 1, 'Assists': 1, 'Clean Sheets': 6 }
+    },
     'Rodri': {
         description: "Ballon d'Or winner and City's tactical heartbeat. His return to fitness has been pivotal to the club's title push.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
