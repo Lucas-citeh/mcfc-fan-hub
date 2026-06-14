@@ -182,7 +182,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 5, 'All Comps Goals': 8, 'Appearances': 28, 'Assists': 7 }
     },
     'Savinho': {
-        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Scored in the recent Palace rout.",
+        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Committed his long-term future to the Etihad in June 2026, signing a new deal until 2031 after Manchester City blocked two bids from Tottenham Hotspur.",
         stats: { 'PL Goals': 3, 'All Comps Goals': 5, 'Appearances': 27, 'Assists': 6 }
     },
     'Antoine Semenyo': {
