@@ -109,7 +109,7 @@ const playerProfiles = {
         stats: { 'Appearances': 30, 'Goals': 2, 'Assists': 5, 'Clean Sheets': 11 }
     },
     'Josko Gvardiol': {
-        description: "Versatile Croatian defender comfortable at centre-back or left-back. Strong in duels and increasingly involved in build-up play.",
+        description: "Versatile Croatian defender comfortable at centre-back or left-back. Strong in duels and increasingly involved in build-up play. Signed a new contract until June 2031 on 15 June 2026 — ending Real Madrid speculation after Fabrizio Romano confirmed the deal as done and Jack Gaughan (Mail Sport) confirmed the renewal.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2611_%28Jo%C5%A1ko_Gvardiol%29.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2611_%28Jo%C5%A1ko_Gvardiol%29.jpg',
         stats: { 'Appearances': 31, 'Goals': 3, 'Assists': 2, 'Clean Sheets': 12 }
     },
