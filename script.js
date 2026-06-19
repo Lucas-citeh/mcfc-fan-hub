@@ -76,119 +76,119 @@ document.querySelectorAll('.player-card').forEach(card => {
     });
 });
 
-// Player profiles — 2025/26 season
+// Player profiles — 2026/27 season
 const playerProfiles = {
     'Gianluigi Donnarumma': {
         description: "Italy's no.1 between the sticks. Joined from PSG in summer 2025 and quickly cemented himself as City's first-choice keeper with commanding shot-stopping and presence in the box.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Norway_Italy_-_June_2025_A_17_%28Gianluigi_Donnarumma%29.jpg/330px-Norway_Italy_-_June_2025_A_17_%28Gianluigi_Donnarumma%29.jpg',
-        stats: { 'Appearances': 32, 'Clean Sheets': 13, 'Saves': 78, 'Goals Conceded': 32 }
+        stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
     'James Trafford': {
         description: "Homegrown shot-stopper back at the club after his time at Burnley. Provides reliable backup and continues to push for more minutes.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg/330px-Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg',
-        stats: { 'Appearances': 6, 'Clean Sheets': 2, 'Saves': 14, 'Goals Conceded': 7 }
+        stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
     'Marcus Bettinelli': {
         description: "Experienced third-choice keeper and dressing-room presence. Rarely featured but a steady veteran option.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Marcus_Bettinelli_12-04-2014_1.jpg/330px-Marcus_Bettinelli_12-04-2014_1.jpg',
-        stats: { 'Appearances': 1, 'Clean Sheets': 0, 'Saves': 2, 'Goals Conceded': 1 }
+        stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
     'Ruben Dias': {
         description: "Rock at the heart of City's defence. Captain material whose leadership and reading of the game underpin the back line.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Portugal_national_football_team_0866_%28R%C3%BAben_Dias%29.jpg',
-        stats: { 'Appearances': 33, 'Goals': 1, 'Assists': 2, 'Clean Sheets': 13 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Marc Guehi': {
         description: "January 2026 signing from Crystal Palace. Has slotted seamlessly into the back four and formed a strong partnership with Dias.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Marc_Guehi_December_2018.jpg/330px-Marc_Guehi_December_2018.jpg',
-        stats: { 'Appearances': 14, 'Goals': 0, 'Assists': 1, 'Clean Sheets': 6 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Rayan Ait-Nouri': {
         description: "Algerian left-back signed from Wolves last summer. Quick, attacking, and a constant threat down the flank.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rayan_A%C3%AFt-Nouri_playing_for_Algeria_in_2024.jpg/330px-Rayan_A%C3%AFt-Nouri_playing_for_Algeria_in_2024.jpg',
-        stats: { 'Appearances': 30, 'Goals': 2, 'Assists': 5, 'Clean Sheets': 11 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Josko Gvardiol': {
         description: "Versatile Croatian defender comfortable at centre-back or left-back. Strong in duels and increasingly involved in build-up play. Signed a new contract until June 2031 on 15 June 2026 — ending Real Madrid speculation after Fabrizio Romano confirmed the deal as done and Jack Gaughan (Mail Sport) confirmed the renewal.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2611_%28Jo%C5%A1ko_Gvardiol%29.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2611_%28Jo%C5%A1ko_Gvardiol%29.jpg',
-        stats: { 'Appearances': 31, 'Goals': 3, 'Assists': 2, 'Clean Sheets': 12 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Abdukodir Khusanov': {
         description: "January 2025 signing from Lens. Aggressive, athletic, and rapidly maturing into a regular starter in his first full season.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Abdukodir_Khusanov_%28cropped%29.jpg',
-        stats: { 'Appearances': 26, 'Goals': 0, 'Assists': 1, 'Clean Sheets': 10 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Rico Lewis': {
         description: "Academy graduate who can play full-back or in midfield. Press-resistant and tactically smart beyond his years.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/ManCity20240722-027.jpg/330px-ManCity20240722-027.jpg',
-        stats: { 'Appearances': 18, 'Goals': 1, 'Assists': 3, 'Clean Sheets': 7 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Nathan Aké': {
-        description: "Composed Dutch international who can operate at centre-back or left-back. A versatile presence in City's back four whose experience and reliability made him a useful rotation option throughout 2025/26. Heading to the 2026 World Cup with the Netherlands and entering the final year of his City contract.",
+        description: "Composed Dutch international who can operate at centre-back or left-back. A versatile presence in City's back four entering the final year of his contract.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Nathan_Ak%C3%A9_2023.jpg/330px-Nathan_Ak%C3%A9_2023.jpg',
-        stats: { 'Appearances': 17, 'Goals': 1, 'Assists': 1, 'Clean Sheets': 6 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner and City's tactical heartbeat. His return to fitness has been pivotal to the club's title push.",
+        description: "Ballon d'Or winner and City's tactical heartbeat. Contract situation (expires 2027) being monitored closely — Rodri has said the renewal will wait until after the World Cup.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
-        stats: { 'Appearances': 24, 'Goals': 3, 'Assists': 4, 'Pass Accuracy': '93%' }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Phil Foden': {
-        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026, cementing his future at the Etihad through the Maresca era. A creative spark capable of changing games — his backheel assist for Semenyo vs Palace was vintage Foden.",
+        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026, cementing his future at the Etihad through the Maresca era. A creative spark capable of changing games.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg',
-        stats: { 'PL Goals': 7, 'All Comps Goals': 10, 'Appearances': 31, 'Assists': 9 }
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Tijjani Reijnders': {
-        description: "Summer 2025 signing from AC Milan. A box-to-box presence who has brought energy and goals from midfield in his debut campaign.",
+        description: "Summer 2025 signing from AC Milan. A box-to-box presence who hit the ground running in his debut campaign. Future under Maresca subject to ongoing speculation.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Reijnders_arriva_in_albergo_%28cropped%29.jpg/330px-Reijnders_arriva_in_albergo_%28cropped%29.jpg',
-        stats: { 'Appearances': 27, 'Goals': 5, 'Assists': 4, 'Pass Accuracy': '89%' }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Mateo Kovacic': {
         description: "Experienced Croatian midfielder. Reliable in possession and a calming influence in tight games.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chelsea_vs._Arsenal%2C_29_May_2019_18_Kovacic.jpg/330px-Chelsea_vs._Arsenal%2C_29_May_2019_18_Kovacic.jpg',
-        stats: { 'Appearances': 20, 'Goals': 2, 'Assists': 3, 'Pass Accuracy': '91%' }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Matheus Nunes': {
-        description: "Versatile Portuguese defender who can operate at right-back or as a wing-back. Athletic, press-resistant, and increasingly trusted in the back four. Started in the dominant Palace win.",
+        description: "Versatile Portuguese defender who can operate at right-back or as a wing-back. Athletic, press-resistant, and increasingly trusted in the back four.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Matheus_Nunes_USMNT_v_Portugal_Mar_31_2026-21_%28cropped%29.jpg/330px-Matheus_Nunes_USMNT_v_Portugal_Mar_31_2026-21_%28cropped%29.jpg',
-        stats: { 'Appearances': 23, 'Goals': 1, 'Assists': 2, 'Pass Accuracy': '88%' }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Rayan Cherki': {
         description: "Summer 2025 signing from Lyon. A magical playmaker still finding his feet in the Premier League but with moments of brilliance already.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cherki_asse_ol_2425.png/330px-Cherki_asse_ol_2425.png',
-        stats: { 'Appearances': 19, 'Goals': 4, 'Assists': 6, 'Key Passes': 38 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Key Passes': 0 }
     },
     "Nico O'Reilly": {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back.",
-        stats: { 'PL Goals': 5, 'All Comps Goals': 6, 'Appearances': 33, 'Assists': 3 }
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Nico Gonzalez': {
-        description: "Spanish midfielder signed from Porto in January 2025. A composed deep-lying playmaker who has stepped up during Rodri's absences and scored the decisive goal in the FA Cup semi-final win over Southampton.",
-        stats: { 'Appearances': 24, 'Goals': 3, 'Assists': 4, 'Pass Accuracy': '91%' }
+        description: "Spanish midfielder signed from Porto in January 2025. A composed deep-lying playmaker who stepped up during Rodri's absences.",
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Erling Haaland': {
-        description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches) and leading the 2025/26 Golden Boot race.",
+        description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
-        stats: { 'PL Goals': 27, 'All Comps Goals': 38, 'Appearances': 35, 'Assists': 8 }
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Omar Marmoush': {
         description: "January 2025 signing from Eintracht Frankfurt. Egyptian forward whose movement and finishing have made him a key second striker behind Haaland.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/OmarMarmoush.png/330px-OmarMarmoush.png',
-        stats: { 'PL Goals': 4, 'All Comps Goals': 7, 'Appearances': 26, 'Assists': 5 }
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Jeremy Doku': {
         description: "Direct, electric Belgian winger. One-on-one nightmare for defenders and a key creative outlet on the left flank.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg/330px-J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg',
-        stats: { 'PL Goals': 5, 'All Comps Goals': 8, 'Appearances': 28, 'Assists': 7 }
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Savinho': {
-        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Signed a new deal until 2031 in autumn 2025 after Manchester City blocked Tottenham's initial summer approach. Now deemed surplus to requirements under incoming head coach Enzo Maresca, with Fabrizio Romano confirming City and Tottenham re-opened formal talks in June 2026 and that negotiations are progressing well. His future at the Etihad is in serious doubt.",
-        stats: { 'PL Goals': 3, 'All Comps Goals': 5, 'Appearances': 27, 'Assists': 6 }
+        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Deemed surplus to requirements under incoming head coach Enzo Maresca, with a basic club-to-club agreement reportedly reached with Tottenham (CaughtOffside, 7 June 2026). No official confirmation as of 19 June.",
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Antoine Semenyo': {
-        description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final and shortlisted for PL Player of the Season after a stunning split campaign across both clubs.",
+        description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final and shortlisted for PL Player of the Season after a stunning split campaign.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Antoine_Semenyo_2026.png/330px-Antoine_Semenyo_2026.png',
-        stats: { 'PL Goals': 17, 'All Comps Goals': 22, 'Appearances': 35, 'Assists': 6 }
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Pep Guardiola': {
         description: "Manager of Manchester City 2016–2026. Tactical innovator, six-time Premier League winner, Champions League winner (2023), and one of the most decorated managers in football history. Departed after 593 games following the 2025/26 season.",
@@ -200,19 +200,19 @@ const playerProfiles = {
         stats: { 'Role': 'Head Coach', 'Contract': 'Until 2029', 'Nationality': 'Italian', 'Previous Club': 'Chelsea' }
     },
     'Jack Grealish': {
-        description: "On loan at Everton for the 2025/26 season. Looking to rediscover his form before returning to the Etihad.",
+        description: "Returned from his season-long loan at Everton. Looking to make an impression under new head coach Enzo Maresca in 2026/27.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/ManCity20240722-017_%28cropped%29.jpg/330px-ManCity20240722-017_%28cropped%29.jpg',
-        stats: { 'Club': 'Everton (loan)', 'Goals': 3, 'Assists': 6, 'Appearances': 28 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'Returned from loan' }
     },
     'Manuel Akanji': {
-        description: "Left Manchester City on a permanent basis in summer 2026 when Inter Milan triggered their mandatory €15m purchase option after winning Serie A — a contractual clause activated by Inter's league title. The Swiss international excelled at the San Siro across 2025/26, cementing himself as a key figure in Cristian Chivu's defence.",
+        description: "Left Manchester City on a permanent basis in summer 2026 when Inter Milan triggered their mandatory €15m purchase option after winning Serie A.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2792_%28Manuel_Akanji%29.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2792_%28Manuel_Akanji%29.jpg',
-        stats: { 'Club': 'Inter Milan (permanent)', 'Goals': 1, 'Assists': 1, 'Appearances': 30 }
+        stats: { 'Club': 'Inter Milan (permanent)', 'Departed': 'Summer 2026' }
     },
     'Vitor Reis': {
-        description: "On loan at Girona to gain regular first-team minutes. The young Brazilian defender is one for the future.",
+        description: "Returned from his season-long loan at Girona. The young Brazilian defender is one for the future and will look to earn a place in Maresca's plans.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vitor-Reis-Palmeiras-Sao-Paulo-ago24-2_%28cropped%29.jpg/330px-Vitor-Reis-Palmeiras-Sao-Paulo-ago24-2_%28cropped%29.jpg',
-        stats: { 'Club': 'Girona (loan)', 'Goals': 1, 'Assists': 0, 'Appearances': 22 }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'Returned from loan' }
     }
 };
 
@@ -421,6 +421,13 @@ const matchProfiles = {
         meta: 'Principality Stadium, Cardiff · Sun 16 Aug 2026',
         lineup: [],
         notes: 'Lineup and predictions will be added closer to the match. Fixture confirmed by the FA in March 2026; Wembley unavailable due to concerts on 15–16 Aug.'
+    },
+    'pl-opener-2627': {
+        competition: 'Premier League',
+        title: 'Manchester City vs TBC',
+        meta: 'Venue TBC · Sat 22 Aug 2026',
+        lineup: [],
+        notes: 'Fixture list released 19 June 2026. Opponent and venue to be updated once confirmed from premierleague.com.'
     }
 };
 
