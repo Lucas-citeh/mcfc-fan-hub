@@ -422,12 +422,33 @@ const matchProfiles = {
         lineup: [],
         notes: 'Lineup and predictions will be added closer to the match. Fixture confirmed by the FA in March 2026; Wembley unavailable due to concerts on 15–16 Aug.'
     },
-    'pl-opener-2627': {
+    'bournemouth-h-2627': {
         competition: 'Premier League',
-        title: 'Manchester City vs TBC',
-        meta: 'Venue TBC · Sat 22 Aug 2026',
+        title: 'Manchester City vs Bournemouth',
+        meta: 'Etihad Stadium · Sun 23 Aug 2026 · 14:00 BST',
         lineup: [],
-        notes: 'Fixture list released 19 June 2026. Opponent and venue to be updated once confirmed from premierleague.com.'
+        notes: '2026/27 Premier League opener. First competitive game of the Enzo Maresca era at the Etihad.'
+    },
+    'palace-a-2627': {
+        competition: 'Premier League',
+        title: 'Crystal Palace vs Manchester City',
+        meta: 'Selhurst Park · Sat 29 Aug 2026',
+        lineup: [],
+        notes: "Matchday 2 — City's first away trip of the 2026/27 season."
+    },
+    'coventry-h-2627': {
+        competition: 'Premier League',
+        title: 'Manchester City vs Coventry City',
+        meta: 'Etihad Stadium · Sat 5 Sep 2026',
+        lineup: [],
+        notes: "Matchday 3 — newly promoted Coventry visit the Etihad."
+    },
+    'united-a-2627': {
+        competition: 'Premier League',
+        title: 'Manchester United vs Manchester City',
+        meta: 'Old Trafford · Sat 12 Sep 2026',
+        lineup: [],
+        notes: 'Matchday 4 — first Manchester derby of the 2026/27 season.'
     }
 };
 
