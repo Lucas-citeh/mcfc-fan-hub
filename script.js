@@ -177,7 +177,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Jeremy Doku': {
-        description: "Direct, electric Belgian winger. One-on-one nightmare for defenders and a key creative outlet on the left flank.",
+        description: "Direct, electric Belgian winger. One-on-one nightmare for defenders and a key creative outlet on the left flank. Fabrizio Romano confirmed on 19 June 2026 that City and Doku reached a verbal agreement on a new deal until 2031 — the 24-year-old declined interest from numerous clubs to prioritise the Etihad. Official announcement pending finalisation of admin and legal details.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg/330px-J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg',
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
