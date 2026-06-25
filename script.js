@@ -129,7 +129,7 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner and City's tactical heartbeat. Contract situation (expires 2027) being monitored closely — Rodri has said the renewal will wait until after the World Cup.",
+        description: "Ballon d'Or winner and City's tactical heartbeat. Fabrizio Romano confirmed in June 2026 that Real Madrid will not pursue Rodri this summer, clearing the path for renewal. City's offer is on the table; talks are expected to resume after Spain's World Cup campaign.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
