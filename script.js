@@ -213,6 +213,10 @@ const playerProfiles = {
         description: "Returned from his season-long loan at Girona. The young Brazilian defender is one for the future and will look to earn a place in Maresca's plans.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vitor-Reis-Palmeiras-Sao-Paulo-ago24-2_%28cropped%29.jpg/330px-Vitor-Reis-Palmeiras-Sao-Paulo-ago24-2_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'Returned from loan' }
+    },
+    'Mathys Detourbet': {
+        description: "19-year-old French left winger signed from CFG sister club Troyes on 27 June 2026 for €25m. Scored three goals as Troyes won Ligue 2 and secured promotion. On loan at Monaco for 2026/27 to develop at the top level before joining City's first team.",
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'On loan — Monaco' }
     }
 };
 
