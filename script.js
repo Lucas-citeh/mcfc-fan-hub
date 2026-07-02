@@ -166,6 +166,11 @@ const playerProfiles = {
         description: "Spanish midfielder signed from Porto in January 2025. A composed deep-lying playmaker who stepped up during Rodri's absences.",
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
+    'Elliot Anderson': {
+        description: "Club-record £116m signing from Nottingham Forest, confirmed July 2026. A box-to-box central midfielder ranked among the Premier League's elite for progressive carries, pressing intensity and late runs into the box. Five-year contract. Currently on World Cup duty with England under Thomas Tuchel.",
+        photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Elliot_Anderson_%28cropped%29.jpg/330px-Elliot_Anderson_%28cropped%29.jpg',
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
+    },
     'Erling Haaland': {
         description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
