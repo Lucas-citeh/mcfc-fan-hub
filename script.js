@@ -424,6 +424,27 @@ const matchProfiles = {
         ],
         notes: "Guardiola's 593rd and final match in charge. Semenyo's 23rd-minute volley gave City the lead but Watkins struck twice (47', 61') to seal a Villa win. Bernardo Silva was subbed off at 59' to a guard of honour; Stones followed at 77' alongside a triple substitution. Haaland did not feature. City finish 2nd (78 pts) as FA Cup and EFL Cup winners."
     },
+    'inter-preseason-2627': {
+        competition: 'Pre-Season Friendly',
+        title: 'Inter Milan vs Manchester City',
+        meta: 'Kai Tak Stadium, Hong Kong · Sat 1 Aug 2026 · 12:30 BST',
+        lineup: [],
+        notes: "Part of the Hong Kong Football Festival at the newly opened Kai Tak Stadium. Confirmed by mancity.com as Enzo Maresca's first game in charge of the club. Sources: mancity.com; OneFootball; CityXtra."
+    },
+    'kleague-preseason-2627': {
+        competition: 'Pre-Season Friendly',
+        title: 'K League All-Stars vs Manchester City',
+        meta: 'Seoul World Cup Stadium, Seoul · Wed 5 Aug 2026 · 13:00 BST',
+        lineup: [],
+        notes: 'Part of the Coupang Play Series in Seoul. Sources: mancity.com; OneFootball.'
+    },
+    'atletico-preseason-2627': {
+        competition: 'Pre-Season Friendly',
+        title: 'Atlético Madrid vs Manchester City',
+        meta: 'Seoul World Cup Stadium, Seoul · Sun 9 Aug 2026 · 13:00 BST',
+        lineup: [],
+        notes: 'Final pre-season fixture before the Community Shield. Part of the Coupang Play Series in Seoul. Sources: mancity.com; OneFootball.'
+    },
     'community-shield-2026': {
         competition: 'FA Community Shield',
         title: 'Manchester City vs Arsenal',
