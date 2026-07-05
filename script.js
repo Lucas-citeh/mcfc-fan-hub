@@ -124,9 +124,9 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Nathan Aké': {
-        description: "Composed Dutch international who can operate at centre-back or left-back. A versatile presence in City's back four entering the final year of his contract.",
+        description: "Left Manchester City on a permanent basis in summer 2026 after six years at the Etihad, joining Fenerbahce for £7m (rising to £8.5m). Won 12 trophies including the Treble (2022/23), four Premier League titles and the Champions League across 177 appearances. Sporting director Hugo Viana described him as 'an outstanding, model professional.'",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Nathan_Ak%C3%A9_2023.jpg/330px-Nathan_Ak%C3%A9_2023.jpg',
-        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
+        stats: { 'Club': 'Fenerbahce (permanent)', 'Fee': '£7m', 'Departed': '4 July 2026', 'City Appearances': 177 }
     },
     'Rodri': {
         description: "Ballon d'Or winner and City's tactical heartbeat. Fabrizio Romano confirmed in June 2026 that Real Madrid will not pursue Rodri this summer, clearing the path for renewal. City's offer is on the table; talks are expected to resume after Spain's World Cup campaign.",
