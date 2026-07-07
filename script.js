@@ -177,7 +177,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Omar Marmoush': {
-        description: "January 2025 signing from Eintracht Frankfurt. Egyptian forward whose movement and finishing have made him a key second striker behind Haaland.",
+        description: "January 2025 signing from Eintracht Frankfurt. Egyptian forward whose movement and finishing made him a key second striker behind Haaland — 16 goals and 6 assists in 61 City appearances. Future under Maresca is uncertain: Fabrizio Romano reports Tottenham are preparing an official bid (£51m), with Barcelona, Juventus, Aston Villa and Galatasaray also interested (July 2026).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/OmarMarmoush.png/330px-OmarMarmoush.png',
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
@@ -187,7 +187,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Savinho': {
-        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Deemed surplus to requirements under incoming head coach Enzo Maresca, with a basic club-to-club agreement reportedly reached with Tottenham (CaughtOffside, 7 June 2026). No official confirmation as of 19 June.",
+        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Deemed surplus to requirements under Enzo Maresca. Fabrizio Romano confirmed the deal to Tottenham remains 'on', with Spurs believing Savinho wants the move and personal terms agreed until 2031. Fee reported in the £55–60m range. No official announcement from either club as of 7 July 2026.",
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Antoine Semenyo': {
