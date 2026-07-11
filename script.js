@@ -93,6 +93,10 @@ const playerProfiles = {
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Marcus_Bettinelli_12-04-2014_1.jpg/330px-Marcus_Bettinelli_12-04-2014_1.jpg',
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
+    'Pierce Charles': {
+        description: "Summer 2026 signing from Sheffield Wednesday for £10m on a five-year deal. The goalkeeper joins City's ranks as long-term depth and will spend the 2026/27 season on loan at QPR in the Championship to develop with regular first-team football. Confirmed via mancity.com.",
+        stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Status': 'On loan — QPR' }
+    },
     'Ruben Dias': {
         description: "Rock at the heart of City's defence. Captain material whose leadership and reading of the game underpin the back line.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Portugal_national_football_team_0866_%28R%C3%BAben_Dias%29.jpg',
