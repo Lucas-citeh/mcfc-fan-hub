@@ -84,7 +84,7 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
     'James Trafford': {
-        description: "Homegrown shot-stopper back at the club after his time at Burnley. Provides reliable backup and continues to push for more minutes.",
+        description: "Homegrown shot-stopper who deputised capably when called upon. With Donnarumma established as the undisputed no.1, Trafford is seeking regular first-team football elsewhere. Newcastle United are reported to be the frontrunner for his signature in summer 2026 — no official announcement yet.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg/330px-Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg',
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
@@ -94,7 +94,7 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
     'Pierce Charles': {
-        description: "Summer 2026 signing from Sheffield Wednesday for £10m on a five-year deal. The goalkeeper joins City's ranks as long-term depth and will spend the 2026/27 season on loan at QPR in the Championship to develop with regular first-team football. Confirmed via mancity.com.",
+        description: "Summer 2026 signing from Sheffield Wednesday for £10m on a five-year deal. The goalkeeper joins City's ranks as long-term depth and will spend the 2026/27 season on loan at QPR in the Championship to gain regular first-team experience. Confirmed via mancity.com.",
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Status': 'On loan — QPR' }
     },
     'Ruben Dias': {
@@ -226,6 +226,10 @@ const playerProfiles = {
     'Mathys Detourbet': {
         description: "19-year-old French left winger signed from CFG sister club Troyes on 27 June 2026 for €25m. Scored three goals as Troyes won Ligue 2 and secured promotion. On loan at Monaco for 2026/27 to develop at the top level before joining City's first team.",
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'On loan — Monaco' }
+    },
+    'Jeremy Monga': {
+        description: "17-year-old English winger signed from Leicester City on 11 July 2026 for £10m (rising to £12.5m with add-ons) on a five-year deal to 2031. City beat Arsenal to his signature. Broke into Leicester's Championship first team in 2025/26, making 27 appearances. Stays in the first-team environment at the Etihad rather than going out on loan.",
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
     }
 };
 
