@@ -191,7 +191,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Savinho': {
-        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Deemed surplus to requirements under Enzo Maresca. Fabrizio Romano confirmed the deal to Tottenham remains 'on', with Spurs believing Savinho wants the move and personal terms agreed until 2031. Fee reported in the £55–60m range. No official announcement from either club as of 13 July 2026.",
+        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Deemed surplus to requirements under Enzo Maresca. Fabrizio Romano on 13 July 2026 confirmed 'Tottenham have not stopped' — calling it a 'strong possibility'. Personal terms with Spurs agreed until 2031. Fee reported in the £55–60m range. No official announcement from either club as of 14 July 2026.",
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Antoine Semenyo': {
