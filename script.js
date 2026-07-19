@@ -133,7 +133,7 @@ const playerProfiles = {
         stats: { 'Club': 'Fenerbahce (permanent)', 'Fee': '£7m', 'Departed': '4 July 2026', 'City Appearances': 177 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner and City's tactical heartbeat. Led Spain to the 2026 World Cup final (vs Argentina, 19 July). Set to undergo minor back surgery after the tournament — described as a short procedure with fast recovery — and is expected to be fit for the start of City's 2026/27 season. Real Madrid will not pursue him this summer (Fabrizio Romano, June 2026). Contract renewal talks expected to resume once his international duty concludes.",
+        description: "Ballon d'Or winner and City's tactical heartbeat. Started in the 2026 World Cup Final for Spain vs Argentina at MetLife Stadium (19 July). Will undergo surgery on a back injury after the tournament — described as a short procedure, though the return timeline is uncertain. CityXtra report he may miss City's opening fixtures, with the Manchester derby (mid-September) cited as a potential target; other outlets are more optimistic about a faster recovery. Real Madrid will not pursue him this summer (Fabrizio Romano, June 2026). Contract renewal talks expected to resume once he returns to Carrington.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
@@ -171,7 +171,7 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Elliot Anderson': {
-        description: "Club-record £116m signing from Nottingham Forest, confirmed July 2026. A box-to-box central midfielder ranked among the Premier League's elite for progressive carries, pressing intensity and late runs into the box. Five-year contract. Currently on World Cup duty with England under Thomas Tuchel.",
+        description: "Club-record £116m signing from Nottingham Forest, confirmed July 2026. A box-to-box central midfielder ranked among the Premier League's elite for progressive carries, pressing intensity and late runs into the box. Five-year contract. Returned from England's World Cup semi-final campaign on 16 July — expected to begin integrating at Carrington ahead of the Community Shield on 16 August.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Elliot_Anderson_%28cropped%29.jpg/330px-Elliot_Anderson_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
@@ -181,7 +181,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Omar Marmoush': {
-        description: "January 2025 signing from Eintracht Frankfurt. Egyptian forward whose movement and finishing made him a key second striker behind Haaland — 16 goals and 6 assists in 61 City appearances. Future under Maresca is uncertain: Fabrizio Romano reports Tottenham are preparing an official bid (£51m), with Barcelona, Juventus, Aston Villa and Galatasaray also interested (July 2026).",
+        description: "January 2025 signing from Eintracht Frankfurt. Egyptian forward whose movement and finishing made him a key second striker behind Haaland — 16 goals and 6 assists in 61 City appearances. Future under Maresca is uncertain: Fabrizio Romano reports Tottenham are preparing an official bid (£51m), with Barcelona, Juventus, Aston Villa and Galatasaray also interested (July 2026). UPDATE 17 July: CityXtra report City are now 'planning to keep faith' with Marmoush for 2026/27 and have dropped plans to find a replacement — the situation has changed significantly.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/OmarMarmoush.png/330px-OmarMarmoush.png',
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
@@ -191,7 +191,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Savinho': {
-        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Deemed surplus to requirements under Enzo Maresca. Transfer to Tottenham Hotspur is on the verge of completion — fee now reported at approximately £65m by Read Tottenham and TeamTalk (17 July 2026). Personal terms agreed until 2031. Medical expected imminently. No official announcement from either club as of 18 July 2026.",
+        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Deemed surplus to requirements under Enzo Maresca. Transfer to Tottenham Hotspur is on the verge of completion — fee now reported at approximately £65m by Read Tottenham and TeamTalk (17 July 2026). Personal terms agreed until 2031. Medical expected imminently. No official announcement from either club as of 19 July 2026.",
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Antoine Semenyo': {
