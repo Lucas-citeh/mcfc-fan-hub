@@ -191,7 +191,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Savinho': {
-        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Deemed surplus to requirements under Enzo Maresca. Transfer to Tottenham Hotspur is on the verge of completion — fee now reported at approximately £65m by Read Tottenham and TeamTalk (17 July 2026). Personal terms agreed until 2031. Medical expected imminently. No official announcement from either club as of 19 July 2026.",
+        description: "Brazilian winger with the ability to beat his man and produce moments of magic. At the centre of the summer's biggest transfer saga — Tottenham and City agreed a deal in principle at ~£60m — but the move collapsed after City refused to sanction the sale without a replacement in place. Savinho has committed to the Etihad until 2031 and is part of Enzo Maresca's plans for 2026/27. Sources: Goal.com, mancity.com, SI.com (July 2026).",
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Antoine Semenyo': {
