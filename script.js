@@ -143,7 +143,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Tijjani Reijnders': {
-        description: "Summer 2025 signing from AC Milan. A box-to-box presence who hit the ground running in his debut campaign. Future under Maresca subject to ongoing speculation.",
+        description: "Summer 2025 signing from AC Milan. A box-to-box presence who hit the ground running in his debut campaign. The Hard Tackle (20 July 2026) reports City have rebuffed interest and Newcastle have been priced out — Reijnders is expected to remain at the Etihad as part of Maresca's 2026/27 squad.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Reijnders_arriva_in_albergo_%28cropped%29.jpg/330px-Reijnders_arriva_in_albergo_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
