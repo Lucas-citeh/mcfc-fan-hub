@@ -84,7 +84,7 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
     'James Trafford': {
-        description: "Homegrown shot-stopper who deputised capably when called upon. With Donnarumma established as the undisputed no.1, Trafford is seeking regular first-team football elsewhere. Newcastle United are reported to be the frontrunner for his signature in summer 2026 — no official announcement yet.",
+        description: "Homegrown shot-stopper who deputised capably when called upon. With Donnarumma established as the undisputed no.1, Trafford is seeking regular first-team football elsewhere. City entered formal sale talks with Leeds United (July 2026) after Newcastle United pulled out — Trafford gave the go-ahead for a move to Elland Road. No official announcement yet.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg/330px-Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg',
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
