@@ -98,7 +98,7 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Status': 'On loan — QPR' }
     },
     'Ruben Dias': {
-        description: "Rock at the heart of City's defence. Captain material whose leadership and reading of the game underpin the back line.",
+        description: "Signed a new four-year deal to June 2030 (confirmed July 2026, ESPN) — committed to the Enzo Maresca era and expected to captain the side. Rock at the heart of City's defence since joining from Benfica in 2020; Premier League Player of the Season in his debut campaign and a cornerstone of six title wins. His partnership with Marc Guehi gives City one of the Premier League's most formidable centre-back pairings.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Portugal_national_football_team_0866_%28R%C3%BAben_Dias%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
@@ -133,7 +133,7 @@ const playerProfiles = {
         stats: { 'Club': 'Fenerbahce (permanent)', 'Fee': '£7m', 'Departed': '4 July 2026', 'City Appearances': 177 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Back surgery confirmed by Enzo Maresca at his first press conference (24 July) — scheduled for Monday 28 July. Will miss the Asia Tour and likely the Community Shield; return timeline TBC. UPDATE 24–25 July: Maresca stated he is 'planning for next season' with Rodri and described transfer speculation as 'normal around big players' — City intend to keep him. Both Real Madrid and Manchester City issued denials of any formal transfer approach; Real Madrid called City directly to rebuff reports of a pre-transfer agreement. No official bid, no transfer request. Per beIN Sports & Read Man City (Maresca press conference — 24 July 2026); Goal.com US & Yahoo Sports (double denial — 24 July 2026).",
+        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Back surgery confirmed for Monday 28 July; will miss the Asia Tour, Community Shield, and likely the opening PL fixtures. Future uncertain: Maresca states he is 'planning for next season' with Rodri and both clubs denied formal contact on 24 July, but reports from Yahoo Sports and CaughtOffside (25 July) indicate Rodri has agreed personal terms with Real Madrid. A fee gap — City seeking ~€80m, Madrid offering ~€60m — remains the main blocker. No official bid received; no transfer request submitted as of 27 July 2026.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
