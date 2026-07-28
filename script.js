@@ -133,7 +133,7 @@ const playerProfiles = {
         stats: { 'Club': 'Fenerbahce (permanent)', 'Fee': '£7m', 'Departed': '4 July 2026', 'City Appearances': 177 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Back surgery confirmed for Monday 28 July; will miss the Asia Tour, Community Shield, and likely the opening PL fixtures. Future uncertain: Maresca states he is 'planning for next season' with Rodri and both clubs denied formal contact on 24 July, but reports from Yahoo Sports and CaughtOffside (25 July) indicate Rodri has agreed personal terms with Real Madrid. A fee gap — City seeking ~€80m, Madrid offering ~€60m — remains the main blocker. No official bid received; no transfer request submitted as of 27 July 2026.",
+        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Underwent back surgery in Madrid on Monday 28 July. Sky Sports (27 July) reported he is 'pushing for a Real Madrid move'; Sports Illustrated report Madrid have 'hatched a plan' to complete a transfer. Maresca continues to insist he is planning for next season with Rodri. No official bid or transfer request as of 28 July 2026. Recovery estimated at 4–6 weeks.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
@@ -191,7 +191,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Savinho': {
-        description: "Brazilian winger with the ability to beat his man and produce moments of magic. At the centre of the summer's biggest transfer saga — Tottenham and City agreed a deal in principle at ~£60m — but the move collapsed after City refused to sanction the sale without a replacement in place. Savinho has committed to the Etihad until 2031 and is part of Enzo Maresca's plans for 2026/27. Sources: Goal.com, mancity.com, SI.com (July 2026).",
+        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Transfer status: Fabrizio Romano reported on 27 July 2026 that a deal to Tottenham Hotspur is 'absolutely on' at approximately £60–65m — Savinho has agreed personal terms with Spurs and City have agreed a fee in principle. The only hold-up is City needing a winger replacement in place before sanctioning the sale. Contract to 2031.",
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Antoine Semenyo': {
