@@ -133,7 +133,7 @@ const playerProfiles = {
         stats: { 'Club': 'Fenerbahce (permanent)', 'Fee': '£7m', 'Departed': '4 July 2026', 'City Appearances': 177 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Underwent back surgery in Madrid on Monday 28 July. Sky Sports (27 July) reported he is 'pushing for a Real Madrid move'; Sports Illustrated report Madrid have 'hatched a plan' to complete a transfer. Maresca continues to insist he is planning for next season with Rodri. No official bid or transfer request as of 28 July 2026. Recovery estimated at 4–6 weeks.",
+        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Underwent back surgery in Madrid on Monday 28 July; recovery estimated at 4–6 weeks. UPDATE (29 July 2026): Rodri has given Real Madrid the green light for a transfer (Yahoo Sports; OneFootball). Manchester City have opened the door to the move (beIN Sports, 28 July). City are holding out for a fee of €80–100m; Real Madrid willing to pay €50–60m — a gap of approximately €20–30m remains. No formal bid received as of 29 July 2026. Contract enters its final year.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
@@ -163,7 +163,7 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Key Passes': 0 }
     },
     "Nico O'Reilly": {
-        description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back.",
+        description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com ('O'Reilly signs fresh City contract!'). The exact length and financial terms have not been disclosed.",
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Nico Gonzalez': {
@@ -191,7 +191,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Savinho': {
-        description: "Brazilian winger with the ability to beat his man and produce moments of magic. Transfer status: Fabrizio Romano reported on 27 July 2026 that a deal to Tottenham Hotspur is 'absolutely on' at approximately £60–65m — Savinho has agreed personal terms with Spurs and City have agreed a fee in principle. The only hold-up is City needing a winger replacement in place before sanctioning the sale. Contract to 2031.",
+        description: "Brazilian winger with the ability to beat his man and produce moments of magic. The summer-long Tottenham transfer saga ended on 29 July 2026 when Manchester City officially confirmed Savinho has signed a new six-year contract at the Etihad, keeping him until summer 2031 with an option to extend by a further year. He declared 'City is the best club in the world' in his first interview following the announcement. Sources: mancity.com (official announcement — 29 July 2026); ESPN; Goal.com (Spurs dealt massive blow as transfer collapses).",
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Antoine Semenyo': {
@@ -209,7 +209,7 @@ const playerProfiles = {
         stats: { 'Role': 'Head Coach', 'Contract': 'Until 2029', 'Nationality': 'Italian', 'Previous Club': 'Chelsea' }
     },
     'Jack Grealish': {
-        description: "Returned from his season-long loan at Everton. Looking to make an impression under new head coach Enzo Maresca in 2026/27.",
+        description: "Returned from his season-long loan at Everton after the 2025/26 season, during which he scored 2 goals and added 6 assists before suffering a stress fracture in January. Maresca has publicly stated he has a 'big heart' and plans to personally evaluate him during pre-season. City reportedly prefer a permanent exit over another loan; Everton retain interest in a second season loan but no arrangement has been confirmed for 2026/27 as of July 2026.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/ManCity20240722-017_%28cropped%29.jpg/330px-ManCity20240722-017_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'Returned from loan' }
     },
