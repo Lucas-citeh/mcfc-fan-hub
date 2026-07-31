@@ -219,9 +219,9 @@ const playerProfiles = {
         stats: { 'Club': 'Inter Milan (permanent)', 'Departed': 'Summer 2026' }
     },
     'Vitor Reis': {
-        description: "Returned from his season-long loan at Girona. The young Brazilian defender is one for the future and will look to earn a place in Maresca's plans.",
+        description: "Brazilian centre-back who returned from a successful 31-appearance La Liga season on loan at Girona and has been reintegrated into Enzo Maresca's first-team squad for 2026/27. Signed from Palmeiras in January 2025, the 20-year-old is regarded as one of the highest-ceiling young defenders in City's system and is targeting a regular role at the Etihad.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vitor-Reis-Palmeiras-Sao-Paulo-ago24-2_%28cropped%29.jpg/330px-Vitor-Reis-Palmeiras-Sao-Paulo-ago24-2_%28cropped%29.jpg',
-        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'Returned from loan' }
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Clean Sheets': 0 }
     },
     'Mathys Detourbet': {
         description: "19-year-old French left winger signed from CFG sister club Troyes on 27 June 2026 for €25m. Scored three goals as Troyes won Ligue 2 and secured promotion. On loan at Monaco for 2026/27 to develop at the top level before joining City's first team.",
