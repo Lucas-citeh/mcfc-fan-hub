@@ -434,10 +434,26 @@ const matchProfiles = {
     },
     'inter-preseason-2627': {
         competition: 'Pre-Season Friendly',
-        title: 'Inter Milan vs Manchester City',
-        meta: 'Kai Tak Stadium, Hong Kong · Sat 1 Aug 2026 · 12:30 BST',
-        lineup: [],
-        notes: "Part of the Hong Kong Football Festival at the newly opened Kai Tak Stadium. Confirmed by mancity.com as Enzo Maresca's first game in charge of the club. Sources: mancity.com; OneFootball; CityXtra."
+        title: 'Manchester City 1-1 Inter Milan (Inter win pens)',
+        meta: 'Kai Tak Sports Park, Hong Kong · Sat 1 Aug 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 1, away: 1,
+            scorers: "Mubama 14' (MCI); Pavard 20' (INT)"
+        },
+        lineup: [
+            { pos: 'GK', name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Lewis' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Kovacic' },
+            { pos: 'MID', name: 'Reijnders' },
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Savinho' },
+            { pos: 'FWD', name: 'Mubama' }
+        ],
+        notes: "Enzo Maresca's first game as Manchester City head coach. Divin Mubama fired City ahead in the 14th minute from Antoine Semenyo's precise square ball after a driving run down the left. Benjamin Pavard equalised for Inter in the 20th minute. Inter Milan won the penalty shootout to claim the Asahi Super Dry Trophy. Semenyo was City's standout performer with an 8/10 rating across multiple assessments. Attendance: 42,286 at Kai Tak Sports Park. Sources: mancity.com match report; Yahoo Sports; football-italia.net."
     },
     'kleague-preseason-2627': {
         competition: 'Pre-Season Friendly',
