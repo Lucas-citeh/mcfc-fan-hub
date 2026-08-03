@@ -133,7 +133,7 @@ const playerProfiles = {
         stats: { 'Club': 'Fenerbahce (permanent)', 'Fee': '£7m', 'Departed': '4 July 2026', 'City Appearances': 177 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Underwent back surgery in Madrid on Monday 28 July; recovery estimated at 4–6 weeks. UPDATE (30 July): Real Madrid made their first formal approach to Manchester City, per Managing Madrid. City holding out for €80m+; Real Madrid willing to pay ~€50–60m — gap remains. UPDATE (1 Aug): PSG contacted City to explore a deal (CityXtra / Yahoo Sports); Barcelona also monitoring (Frenkie de Jong out with knee injury). Multiple reports indicate Rodri has no interest in either club and is holding out for Real Madrid only. No deal agreed as of 1 August 2026. Contract enters its final year.",
+        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Underwent back surgery in Madrid on Monday 28 July; recovery estimated at 4–6 weeks. UPDATE (30 July): Real Madrid made their first formal approach to Manchester City, per Managing Madrid. City holding out for €80m+; Real Madrid willing to pay ~€50–60m — gap remains. UPDATE (1 Aug): PSG contacted City to explore a deal (CityXtra / Yahoo Sports); Barcelona also monitoring (Frenkie de Jong out with knee injury). Multiple reports indicate Rodri has no interest in either club and is holding out for Real Madrid only. UPDATE (2 Aug): Per Sky Sports / Forbes, City have communicated a revised asking price to Real Madrid. Goal.com reports City are lowering their demand to ease the move and 'avoid betrayal.' Yahoo Sports says the deal is 'on track and likely to close at around €65m.' No official announcement as of 2 August 2026. Contract enters its final year.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
@@ -472,7 +472,7 @@ const matchProfiles = {
     'community-shield-2026': {
         competition: 'FA Community Shield',
         title: 'Manchester City vs Arsenal',
-        meta: 'Principality Stadium, Cardiff · Sun 16 Aug 2026',
+        meta: 'Principality Stadium, Cardiff · Sun 16 Aug 2026 · 15:00 BST',
         lineup: [],
         notes: 'Lineup and predictions will be added closer to the match. Fixture confirmed by the FA in March 2026; Wembley unavailable due to concerts on 15–16 Aug.'
     },
