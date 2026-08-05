@@ -84,7 +84,7 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
     'James Trafford': {
-        description: "Homegrown shot-stopper who deputised capably when called upon. With Donnarumma established as the undisputed no.1, Trafford is seeking regular first-team football elsewhere. City entered formal sale talks with Leeds United (July 2026) after Newcastle United pulled out — Trafford gave the go-ahead for a move to Elland Road. No official announcement yet.",
+        description: "Homegrown shot-stopper who deputised capably when called upon. With Donnarumma established as the undisputed no.1, Trafford is seeking regular first-team football elsewhere. City entered formal sale talks with Leeds United (July 2026) after Newcastle United pulled out — Trafford gave his full approval for a move to Elland Road. Fabrizio Romano issued his 'here we go' confirmation for the £40m deal. As of 4 August 2026, Leeds are clearing the way (Lucas Perri reported to be undergoing medical at Torino) and the formal announcement is expected imminently. City are already working on bringing in Gerónimo Rulli (Marseille) as backup cover. No official mancity.com announcement as of 5 August 2026.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg/330px-Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg',
         stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
     },
@@ -457,10 +457,14 @@ const matchProfiles = {
     },
     'kleague-preseason-2627': {
         competition: 'Pre-Season Friendly',
-        title: 'K League All-Stars vs Manchester City',
-        meta: 'Seoul World Cup Stadium, Seoul · Wed 5 Aug 2026 · 12:00 BST',
+        title: 'K League All-Stars 1-4 Manchester City',
+        meta: 'Seoul World Cup Stadium, Seoul · Wed 5 Aug 2026 · FT',
+        result: {
+            home: 1, away: 4,
+            scorers: 'Scorers unconfirmed'
+        },
         lineup: [],
-        notes: 'Part of the Coupang Play Series in Seoul. Sources: mancity.com; OneFootball.'
+        notes: "City ran out comfortable 4-1 winners in Seoul in their second pre-season fixture of the Asia Tour. Individual scorers were not confirmed in verified post-match reports available at the time of this update. Source: YouTube highlights ('Manchester City vs K League All-Stars 4-1 – All Goals & Highlights – 2026')."
     },
     'atletico-preseason-2627': {
         competition: 'Pre-Season Friendly',
