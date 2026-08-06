@@ -133,7 +133,7 @@ const playerProfiles = {
         stats: { 'Club': 'Fenerbahce (permanent)', 'Fee': '£7m', 'Departed': '4 July 2026', 'City Appearances': 177 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Underwent back surgery in Madrid on Monday 28 July; recovery estimated at 4–6 weeks. UPDATE (30 July): Real Madrid made their first formal approach to Manchester City, per Managing Madrid. UPDATE (1 Aug): PSG contacted City (CityXtra / Yahoo Sports); Rodri rejected PSG and Barcelona — holding out for Real Madrid only. UPDATE (2 Aug): City communicated revised asking price (Sky Sports / Forbes); deal 'on track at ~€65m' (Yahoo Sports). UPDATE (3–4 Aug): Per Yahoo Sports, CityXtra and OneFootball, Rodri has formally agreed personal terms with Real Madrid. Club-to-club negotiations ongoing — City asking ~€80m, Real Madrid offering ~€60–65m. FootballTransfers / Fabrizio Romano: 'Deal is on.' No official announcement as of 4 August 2026. Contract enters its final year.",
+        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET (Ferran Torres 106') in the 2026 World Cup Final at MetLife Stadium on 19 July. Underwent back surgery in Madrid on Monday 28 July; recovery estimated at 4–6 weeks. UPDATE (30 July): Real Madrid made their first formal approach to Manchester City, per Managing Madrid. UPDATE (1 Aug): PSG contacted City (CityXtra / Yahoo Sports); Rodri rejected PSG and Barcelona — holding out for Real Madrid only. UPDATE (2 Aug): City communicated revised asking price (Sky Sports / Forbes); deal 'on track at ~€65m' (Yahoo Sports). UPDATE (3–4 Aug): Per Yahoo Sports, CityXtra and OneFootball, Rodri has formally agreed personal terms with Real Madrid. Club-to-club negotiations ongoing — City asking ~€80m, Real Madrid offering ~€60–65m. FootballTransfers / Fabrizio Romano: 'Deal is on.' UPDATE (6 Aug): Real Madrid have now submitted their first formal club-to-club offer to Manchester City, per Goal.com and Yahoo Sports — pushing negotiations toward an agreement in the €60–65m range. City's asking price remains ~€80m. No official announcement as of 6 August 2026. Contract enters its final year.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
@@ -457,14 +457,27 @@ const matchProfiles = {
     },
     'kleague-preseason-2627': {
         competition: 'Pre-Season Friendly',
-        title: 'K League All-Stars 1-4 Manchester City',
+        title: 'K League All-Stars 1-3 Manchester City',
         meta: 'Seoul World Cup Stadium, Seoul · Wed 5 Aug 2026 · FT',
+        lineupConfirmed: true,
         result: {
-            home: 1, away: 4,
-            scorers: 'Scorers unconfirmed'
+            home: 1, away: 3,
+            scorers: "Ait-Nouri (MCI); Reijnders (MCI); Mubama (MCI); Kim Dae Won (KLA) — all before 23'"
         },
-        lineup: [],
-        notes: "City ran out comfortable 4-1 winners in Seoul in their second pre-season fixture of the Asia Tour. Individual scorers were not confirmed in verified post-match reports available at the time of this update. Source: YouTube highlights ('Manchester City vs K League All-Stars 4-1 – All Goals & Highlights – 2026')."
+        lineup: [
+            { pos: 'GK', name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Lewis' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'DEF', name: 'Ait-Nouri' },
+            { pos: 'MID', name: 'Kovacic' },
+            { pos: 'MID', name: 'Reijnders' },
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Savinho' },
+            { pos: 'FWD', name: 'Mubama' }
+        ],
+        notes: "Maresca's City recorded their first win of pre-season with a dominant 3-1 victory in Seoul. Rayan Ait-Nouri opened the scoring after a cross from Reijnders eventually found him, before Semenyo delivered a trademark backheel assist for Reijnders to fire home City's second. Divin Mubama completed the scoring, following up a parried effort to chip over goalkeeper Song Bum Keun. All four goals came in a breathtaking opening 23-minute spell. Antoine Semenyo and Tijjani Reijnders were City's standout performers, per Sky Sports. Sources: mancity.com (brief highlights); Sky Sports match report (5 Aug 2026)."
     },
     'atletico-preseason-2627': {
         competition: 'Pre-Season Friendly',
