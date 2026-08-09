@@ -133,7 +133,7 @@ const playerProfiles = {
         stats: { 'Club': 'Fenerbahce (permanent)', 'Fee': '£7m', 'Departed': '4 July 2026', 'City Appearances': 177 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET in the 2026 World Cup Final; won the tournament Golden Ball. Underwent back surgery in Madrid on 28 July; recovery estimated at 4–6 weeks. UPDATE (3–4 Aug): Formally agreed personal terms with Real Madrid (Yahoo Sports / CityXtra / OneFootball); fee gap remained — City asking ~€80m, Real Madrid offering ~€60–65m. UPDATE (7 Aug): MAJOR DEVELOPMENT — Real Madrid talks have stalled and Rodri has given Barcelona the green light to negotiate with Manchester City, per ESPN, Sky Sports, Yahoo Sports and beIN Sports. Forbes, citing Jijantes, reports Rodri has agreed to join FC Barcelona. Economic terms between Rodri and Barcelona are reportedly agreed — a four-year contract. City are expected to receive a fee in the €60–70m range. No official announcement from City, FC Barcelona or Real Madrid as of 7 August 2026. Contract at City enters its final year.",
+        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET in the 2026 World Cup Final; won the tournament Golden Ball. UPDATE (9 Aug): TRANSFER AGREED — Barcelona and Manchester City have reached a club-to-club fee agreement of €50m for Rodri's transfer. Rodri is expected to arrive in Barcelona on 12 August 2026 to sign a four-year deal (reported at ~€30m/year gross). The deal ends months of speculation linking him to Real Madrid, whose talks stalled over a fee gap (City asking €80m, Madrid offering ~€60m). No official mancity.com announcement as of 9 August 2026. Sources: Yahoo Sports; Goal.com; Radio Catalunya 1.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
@@ -481,10 +481,14 @@ const matchProfiles = {
     },
     'atletico-preseason-2627': {
         competition: 'Pre-Season Friendly',
-        title: 'Atlético Madrid vs Manchester City',
-        meta: 'Seoul World Cup Stadium, Seoul · Sun 9 Aug 2026 · 13:00 BST',
+        title: 'Atlético Madrid 2-1 Manchester City',
+        meta: 'Seoul World Cup Stadium, Seoul · Sun 9 Aug 2026 · FT',
+        result: {
+            home: 2, away: 1,
+            scorers: "Depay 66', Carrasco 74' (ATL); Dias 85' (MCI)"
+        },
         lineup: [],
-        notes: 'Final pre-season fixture before the Community Shield. Part of the Coupang Play Series in Seoul. Sources: mancity.com; OneFootball.'
+        notes: "City's final pre-season fixture before the Community Shield ended in a 2-1 defeat at Seoul World Cup Stadium. Memphis Depay gave Atlético the lead in the 66th minute with a powerful strike from the edge of the box. Yannick Carrasco doubled Atlético's advantage with a low finish in the 74th minute before Ruben Dias pulled one back for City in the 85th minute. Sources: Soccerway; Flashscore ('Man City beaten by Atletico Madrid in intense Seoul friendly' — 9 Aug 2026)."
     },
     'community-shield-2026': {
         competition: 'FA Community Shield',
