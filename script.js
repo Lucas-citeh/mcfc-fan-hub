@@ -88,6 +88,10 @@ const playerProfiles = {
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg/330px-Queen_Park_Rangers_v_Burnley_26042025_%2825%29_%28James_Trafford%29.jpg',
         stats: { 'Club': 'Leeds United (permanent)', 'Fee': '£40m (rising to £45m)', 'Departed': '7 August 2026', 'City Appearances': 17 }
     },
+    'Gerónimo Rulli': {
+        description: "Officially joined Manchester City on 12 August 2026 from Olympique de Marseille on a two-year deal (to June 2028, with option for +1 year), wearing No. 28. The 34-year-old Argentine returns to the Etihad having first signed in July 2016, spending the 2016/17 season on loan at Real Sociedad without making a senior City appearance. Won the 2021 UEFA Europa League with Villarreal and the 2022 FIFA World Cup with Argentina. Joins as Gianluigi Donnarumma's deputy following James Trafford's departure to Leeds United. Sources: mancity.com ('City seal signing of Gerónimo Rulli' — 12 Aug 2026).",
+        stats: { 'Appearances': 0, 'Clean Sheets': 0, 'Saves': 0, 'Goals Conceded': 0 }
+    },
     'Marcus Bettinelli': {
         description: "Experienced third-choice keeper and dressing-room presence. Rarely featured but a steady veteran option.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Marcus_Bettinelli_12-04-2014_1.jpg/330px-Marcus_Bettinelli_12-04-2014_1.jpg',
@@ -495,7 +499,7 @@ const matchProfiles = {
         title: 'Manchester City vs Arsenal',
         meta: 'Principality Stadium, Cardiff · Sun 16 Aug 2026 · 15:00 BST',
         lineup: [],
-        notes: 'Lineup and predictions will be added closer to the match. Fixture confirmed by the FA in March 2026; Wembley unavailable due to concerts on 15–16 Aug.'
+        notes: 'Six World Cup returnees — Haaland, Doku, Guehi, Anderson, O\'Reilly and Cherki — rejoined the squad on 12 August (mancity.com gallery). Rodri absent and expected to join Barcelona; Grealish also unavailable. Arsenal missing Saliba and Timber. Confirmed lineup to be added 16 August.'
     },
     'bournemouth-h-2627': {
         competition: 'Premier League',
