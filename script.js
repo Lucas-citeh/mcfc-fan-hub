@@ -147,9 +147,9 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Tijjani Reijnders': {
-        description: "Summer 2025 signing from AC Milan. A box-to-box presence who hit the ground running in his debut campaign. The Hard Tackle (20 July 2026) reports City have rebuffed interest and Newcastle have been priced out — Reijnders is expected to remain at the Etihad as part of Maresca's 2026/27 squad.",
+        description: "Summer 2025 signing from AC Milan. A box-to-box presence who made 47 appearances in his debut 2025/26 campaign, scoring seven goals. UPDATE (13–14 Aug 2026): Fabrizio Romano confirmed 'here we go' — Reijnders is set to leave Manchester City for Al Qadsiah in the Saudi Pro League for €61m (≈£52m). Clubs exchanging documents; Reijnders did not report for training as he was waiting to fly to Saudi Arabia (Romano, 13 Aug). ESPN reported 'Reijnders exits Manchester City for £52M Saudi move.' No official mancity.com announcement as of 15 August 2026. Per Fabrizio Romano (13 Aug 2026); ESPN (14 Aug 2026).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Reijnders_arriva_in_albergo_%28cropped%29.jpg/330px-Reijnders_arriva_in_albergo_%28cropped%29.jpg',
-        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
+        stats: { '2025/26 Appearances': 47, '2025/26 Goals': 7, '2025/26 Assists': 2, 'Expected Status': 'Joining Al Qadsiah' }
     },
     'Mateo Kovacic': {
         description: "Experienced Croatian midfielder. Reliable in possession and a calming influence in tight games.",
@@ -499,7 +499,7 @@ const matchProfiles = {
         title: 'Manchester City vs Arsenal',
         meta: 'Principality Stadium, Cardiff · Sun 16 Aug 2026 · 15:00 BST',
         lineup: [],
-        notes: 'Six World Cup returnees — Haaland, Doku, Guehi, Anderson, O\'Reilly and Cherki — rejoined the squad on 12 August (mancity.com gallery). Rodri absent and expected to join Barcelona; Grealish also unavailable. Arsenal missing Saliba and Timber. Confirmed lineup to be added 16 August.'
+        notes: 'Six World Cup returnees — Haaland, Doku, Guehi, Anderson, O\'Reilly and Cherki — rejoined the squad on 12 August (mancity.com gallery). Rodri in post-surgery rehabilitation at the CFA — Maresca confirmed on 14 August he gave Rodri "a big hug" but the midfielder is unavailable for selection and his transfer to Barcelona remains unconfirmed pending official announcements. Reijnders absent — set for Al Qadsiah exit per Romano "here we go." Grealish also unavailable. Arsenal missing Saliba and Timber. Confirmed lineup to be added 16 August.'
     },
     'bournemouth-h-2627': {
         competition: 'Premier League',
