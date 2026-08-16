@@ -499,7 +499,7 @@ const matchProfiles = {
         title: 'Manchester City vs Arsenal',
         meta: 'Principality Stadium, Cardiff · Sun 16 Aug 2026 · 15:00 BST',
         lineup: [],
-        notes: 'Six World Cup returnees — Haaland, Doku, Guehi, Anderson, O\'Reilly and Cherki — rejoined the squad on 12 August (mancity.com gallery). Rodri in post-surgery rehabilitation at the CFA — Maresca confirmed on 14 August he gave Rodri "a big hug" but the midfielder is unavailable for selection and his transfer to Barcelona remains unconfirmed pending official announcements. Reijnders absent — set for Al Qadsiah exit per Romano "here we go." Grealish also unavailable. Arsenal missing Saliba and Timber. Confirmed lineup to be added 16 August.'
+        notes: 'Six World Cup returnees — Haaland, Doku, Guehi, Anderson, O\'Reilly and Cherki — rejoined the squad on 12 August (mancity.com gallery). Rodri absent — asked City permission to skip training on 16 August as Barcelona push to finalise his transfer before Monday (per Yahoo Sports, Goal.com, Barca Universal); remains in rehabilitation post-surgery and his transfer has not yet been officially announced by mancity.com or FC Barcelona. Reijnders absent — set for Al Qadsiah exit per Romano "here we go" (13 Aug), clubs exchanging documents; no official mancity.com announcement yet. Grealish also unavailable. Arsenal missing Saliba and Timber. Kick-off 15:00 BST at Principality Stadium, Cardiff.'
     },
     'bournemouth-h-2627': {
         competition: 'Premier League',
