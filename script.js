@@ -496,10 +496,35 @@ const matchProfiles = {
     },
     'community-shield-2026': {
         competition: 'FA Community Shield',
-        title: 'Manchester City vs Arsenal',
-        meta: 'Principality Stadium, Cardiff · Sun 16 Aug 2026 · 15:00 BST',
-        lineup: [],
-        notes: 'Six World Cup returnees — Haaland, Doku, Guehi, Anderson, O\'Reilly and Cherki — rejoined the squad on 12 August (mancity.com gallery). Rodri absent — asked City permission to skip training on 16 August as Barcelona push to finalise his transfer before Monday (per Yahoo Sports, Goal.com, Barca Universal); remains in rehabilitation post-surgery and his transfer has not yet been officially announced by mancity.com or FC Barcelona. Reijnders absent — set for Al Qadsiah exit per Romano "here we go" (13 Aug), clubs exchanging documents; no official mancity.com announcement yet. Grealish also unavailable. Arsenal missing Saliba and Timber. Kick-off 15:00 BST at Principality Stadium, Cardiff.'
+        title: 'Manchester City 0-3 Arsenal',
+        meta: 'Principality Stadium, Cardiff · Sun 16 Aug 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 0, away: 3,
+            scorers: "Calafiori 1' (ARS — 24 sec, fastest-ever Community Shield goal); Havertz 28' (ARS); Odegaard 48' (ARS)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'DEF', name: "O'Reilly" },
+            { pos: 'MID', name: 'Kovacic' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        subs: [
+            { minute: 46, name: 'Grealish', on: 'Doku' },
+            { minute: 53, name: 'Marmoush', on: 'Haaland' },
+            { minute: 54, name: 'Guehi', on: "O'Reilly" },
+            { minute: 55, name: 'Cherki', on: 'Foden' },
+            { minute: 55, name: 'Lewis', on: 'Anderson' },
+            { minute: 60, name: 'Nico Gonzalez', on: 'Kovacic' }
+        ],
+        notes: "Arsenal 3-0 Manchester City. Riccardo Calafiori scored the fastest goal in Community Shield history after just 24 seconds — meeting Myles Lewis-Skelly's pass on the edge of the area to slot into the bottom left corner. Kai Havertz headed home a second at 28' and player-of-the-match Martin Ødegaard rolled into an empty net 3 minutes after the restart (48') to complete a dominant Arsenal display. Maresca made six second-half substitutions managing the minutes of World Cup returnees; exact minutes for Cherki (on for Foden), Lewis (on for Anderson) and Nico Gonzalez (on for Kovacic) are approximate. Rodri (post-surgery rehab, transfer pending) and Reijnders (Al Qadsiah deal agreed) both absent. Sources: ESPN; VAVEL USA; 101greatgoals; Sportskeeda; Football Today; ManCity on X (confirmed XI)."
     },
     'bournemouth-h-2627': {
         competition: 'Premier League',
