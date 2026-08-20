@@ -137,9 +137,9 @@ const playerProfiles = {
         stats: { 'Club': 'Fenerbahce (permanent)', 'Fee': '£7m', 'Departed': '4 July 2026', 'City Appearances': 177 }
     },
     'Rodri': {
-        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. Played the full 120 minutes as Spain beat Argentina 1-0 AET in the 2026 World Cup Final; won the tournament Golden Ball. UPDATE (16 Aug): Fabrizio Romano issued his 'here we go' — 'RODRI TO BARCELONA, HERE WE GO!' Deal agreed at €76.5m (€60m guaranteed + add-ons). Rodri signs a four-year deal to June 2030 at FC Barcelona. Expected to travel to Barcelona imminently, possibly presented before Wednesday's Joan Gamper Trophy vs Al Ahly. No official departure announcement from mancity.com as of 17 August 2026. Per Fabrizio Romano (16 Aug 2026); ESPN; AP/Washington Post.",
+        description: "Ballon d'Or winner, World Cup winner, Premier League champion, Champions League winner. DEPARTED (18 Aug 2026): FC Barcelona confirmed the signing on 18 August. Rodri arrived in Barcelona hailing the club's football values and called it 'a tough decision' to leave City. Fee: €76.5m (€60m guaranteed + add-ons). Four-year deal to June 2030 at Camp Nou. He played the full 120 minutes as Spain beat Argentina 1-0 AET in the 2026 World Cup Final, winning the tournament Golden Ball. Seven years at the Etihad; 10+ trophies. Per Fabrizio Romano (HWG 16 Aug 2026); Sky Sports ('Barcelona complete £65.4m signing' — 18 Aug 2026); ClickOnDetroit/AP ('Barcelona confirms signing of Rodri' — 18 Aug 2026).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg',
-        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
+        stats: { 'Club': 'FC Barcelona (permanent)', 'Fee': '€76.5m (£65.4m)', 'Departed': '18 August 2026', 'City Appearances': '~296' }
     },
     'Phil Foden': {
         description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026, cementing his future at the Etihad through the Maresca era. A creative spark capable of changing games.",
@@ -147,9 +147,9 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Tijjani Reijnders': {
-        description: "Summer 2025 signing from AC Milan. A box-to-box presence who made 47 appearances in his debut 2025/26 campaign, scoring seven goals. UPDATE (13–14 Aug 2026): Fabrizio Romano confirmed 'here we go' — Reijnders is set to leave Manchester City for Al Qadsiah in the Saudi Pro League for €61m (≈£52m). Clubs exchanging documents; Reijnders did not report for training as he was waiting to fly to Saudi Arabia (Romano, 13 Aug). ESPN reported 'Reijnders exits Manchester City for £52M Saudi move.' No official mancity.com announcement as of 15 August 2026. Per Fabrizio Romano (13 Aug 2026); ESPN (14 Aug 2026).",
+        description: "Summer 2025 signing from AC Milan. DEPARTED (19 Aug 2026): Manchester City officially sold Reijnders to Al Qadsiah in the Saudi Pro League for €61m (≈£52m). He signed a five-year deal with Brendan Rodgers' side. Made 47 appearances and scored 7 goals in his sole City season; helped win the FA Cup and EFL Cup double. Per Fabrizio Romano (HWG 13 Aug 2026); Yahoo Sports/Washington Post ('Man City sells Reijnders to Saudi club' — 19 Aug 2026); Dailysports ('Official! Man City star makes shock move to Saudi Arabia' — 19 Aug 2026).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Reijnders_arriva_in_albergo_%28cropped%29.jpg/330px-Reijnders_arriva_in_albergo_%28cropped%29.jpg',
-        stats: { '2025/26 Appearances': 47, '2025/26 Goals': 7, '2025/26 Assists': 2, 'Expected Status': 'Joining Al Qadsiah' }
+        stats: { 'Club': 'Al Qadsiah (permanent)', 'Fee': '€61m (≈£52m)', 'Departed': '19 August 2026', 'City Appearances': 47 }
     },
     'Mateo Kovacic': {
         description: "Experienced Croatian midfielder. Reliable in possession and a calming influence in tight games.",
