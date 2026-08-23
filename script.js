@@ -528,10 +528,32 @@ const matchProfiles = {
     },
     'bournemouth-h-2627': {
         competition: 'Premier League',
-        title: 'Manchester City vs Bournemouth',
-        meta: 'Etihad Stadium · Sun 23 Aug 2026 · 14:00 BST',
-        lineup: [],
-        notes: '2026/27 Premier League opener. First competitive game of the Enzo Maresca era at the Etihad.'
+        title: 'Manchester City 2-1 Bournemouth',
+        meta: 'Etihad Stadium · Sun 23 Aug 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 2, away: 1,
+            scorers: "Guehi 84', Gvardiol 90+2' (MCI); Tavernier 26' (BOU)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Lewis' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'MID', name: "O'Reilly" },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Haaland' },
+            { pos: 'FWD', name: 'Foden' }
+        ],
+        subs: [
+            { minute: 63, name: 'Kovacic', on: 'Anderson' },
+            { minute: 63, name: 'Cherki', on: "O'Reilly" },
+            { minute: 82, name: 'Grealish', on: 'Foden' }
+        ],
+        notes: "Maresca's first Premier League win as City boss. Tavernier put Bournemouth ahead in the 26th minute and City trailed at half-time. A double substitution at 63' — Kovacic for Anderson, Cherki for O'Reilly — changed the game. Cherki provided the corner from which Guehi headed home in the 84th minute, then threaded the pass for Gvardiol to poke in the winner in the 90+2nd minute. Gvardiol's finish was initially ruled offside before VAR confirmed it was onside. Doku absent through injury. Sources: NBC Sports; Sky Sports; ESPN; TSN; Washington Post; mancity.com."
     },
     'palace-a-2627': {
         competition: 'Premier League',
