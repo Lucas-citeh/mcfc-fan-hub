@@ -234,6 +234,10 @@ const playerProfiles = {
     'Jeremy Monga': {
         description: "17-year-old English winger signed from Leicester City on 11 July 2026 for £10m (rising to £12.5m with add-ons) on a five-year deal to 2031. City beat Arsenal to his signature. Broke into Leicester's Championship first team in 2025/26, making 27 appearances. Stays in the first-team environment at the Etihad rather than going out on loan.",
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
+    },
+    'Ayyoub Bouaddi': {
+        description: "Signed from Lille on 25 August 2026 for €100m (≈£86m), becoming the most expensive teenage signing in Premier League history. The 18-year-old Moroccan central midfielder impressed on the world stage during Morocco's 2026 World Cup campaign and arrives at the Etihad as the long-term successor to Ballon d'Or winner Rodri. Six-year contract to June 2031. Fabrizio Romano issued 'Here We Go' on 23 August; confirmed via mancity.com Inside City 524: 'New signing and new deals.' Sources: Fabrizio Romano (HWG — 23 Aug 2026); Sky Sports; Goal.com; Morocco World News.",
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
     }
 };
 
@@ -558,7 +562,7 @@ const matchProfiles = {
     'palace-a-2627': {
         competition: 'Premier League',
         title: 'Crystal Palace vs Manchester City',
-        meta: 'Selhurst Park · Sat 29 Aug 2026',
+        meta: 'Selhurst Park · Fri 28 Aug 2026 · 20:00 BST',
         lineup: [],
         notes: "Matchday 2 — City's first away trip of the 2026/27 season."
     },
