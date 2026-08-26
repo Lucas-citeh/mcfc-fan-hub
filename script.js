@@ -185,7 +185,7 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Omar Marmoush': {
-        description: "January 2025 signing from Eintracht Frankfurt. Egyptian forward whose movement and finishing made him a key second striker behind Haaland — 16 goals and 6 assists in 61 City appearances. Future under Maresca is uncertain: Fabrizio Romano reports Tottenham are preparing an official bid (£51m), with Barcelona, Juventus, Aston Villa and Galatasaray also interested (July 2026). UPDATE 17 July: CityXtra report City are now 'planning to keep faith' with Marmoush for 2026/27 and have dropped plans to find a replacement — the situation has changed significantly.",
+        description: "January 2025 signing from Eintracht Frankfurt. Egyptian forward whose movement and finishing made him a key second striker behind Haaland — 16 goals and 6 assists in 61 City appearances. UPDATE 17 July: CityXtra reported City were 'planning to keep faith' with Marmoush for 2026/27. UPDATE 22–25 Aug: Tottenham Hotspur have re-emerged strongly. The Hard Tackle reports a loan deal with a mandatory purchase option has been agreed between the clubs (24 Aug); Sky Sports reported Spurs were 'closing in' on Marmoush alongside the confirmed Savinho sale (25 Aug). No official confirmation from mancity.com as of 26 August 2026. Situation developing rapidly.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/OmarMarmoush.png/330px-OmarMarmoush.png',
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
@@ -195,8 +195,8 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Savinho': {
-        description: "Brazilian winger with the ability to beat his man and produce moments of magic. The summer-long Tottenham transfer saga ended on 29 July 2026 when Manchester City officially confirmed Savinho has signed a new six-year contract at the Etihad, keeping him until summer 2031 with an option to extend by a further year. He declared 'City is the best club in the world' in his first interview following the announcement. Sources: mancity.com (official announcement — 29 July 2026); ESPN; Goal.com (Spurs dealt massive blow as transfer collapses).",
-        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
+        description: "DEPARTED (25 Aug 2026): Tottenham Hotspur confirmed the signing of Savinho in a club-record £85m deal (£75m + £10m add-ons) on 25 August 2026 — just 27 days after the Brazilian winger had signed a new six-year contract at the Etihad on 29 July. City accepted an irresistible offer as Spurs pushed summer spending past £400m. Sources: Washington Post/AP; Sky Sports; Al Jazeera ('Tottenham sign Brazilian winger Savinho from Manchester City' — 25 Aug 2026); ESPN.",
+        stats: { 'Club': 'Tottenham Hotspur (permanent)', 'Fee': '£85m (£75m + £10m add-ons)', 'Departed': '25 August 2026', 'Previous Contract': 'New 6yr deal signed 29 Jul, sold 27 days later' }
     },
     'Antoine Semenyo': {
         description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final and shortlisted for PL Player of the Season after a stunning split campaign.",
