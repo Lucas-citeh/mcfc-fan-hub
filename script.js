@@ -171,8 +171,8 @@ const playerProfiles = {
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
     'Nico Gonzalez': {
-        description: "Spanish midfielder signed from Porto in January 2025. A composed deep-lying playmaker who stepped up during Rodri's absences.",
-        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
+        description: "DEPARTED (27 Aug 2026): Joined Newcastle United for £52m (£48m + £4m add-ons). Signed from Porto in January 2025 for £50m, the Spanish midfielder made 59 appearances and scored 4 goals in 18 months at the Etihad. A composed deep-lying playmaker who stepped up admirably during Rodri's long injury absence. His departure — City's fourth senior midfielder to leave this summer after Rodri, Bernardo Silva and Reijnders — paves the way for the Bouaddi and Anderson era in the middle of the park. Sources: mancity.com ('Nico Gonzalez joins Newcastle' — 27 Aug 2026); newcastleunited.com.",
+        stats: { 'Club': 'Newcastle United (permanent)', 'Fee': '£52m (£48m + £4m add-ons)', 'Departed': '27 August 2026', 'City Appearances': 59, 'City Goals': 4 }
     },
     'Elliot Anderson': {
         description: "Club-record £116m signing from Nottingham Forest, confirmed July 2026. A box-to-box central midfielder ranked among the Premier League's elite for progressive carries, pressing intensity and late runs into the box. Five-year contract. Returned from England's World Cup semi-final campaign on 16 July — expected to begin integrating at Carrington ahead of the Community Shield on 16 August.",
