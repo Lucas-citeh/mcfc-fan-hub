@@ -566,22 +566,27 @@ const matchProfiles = {
         lineupConfirmed: true,
         result: {
             home: 1, away: 4,
-            scorers: "Haaland 17', 84' (MCI); Cherki 54', 59' (MCI); OG (Donnarumma off Yeremy Pino FK) (CPL)"
+            scorers: "Haaland 17', 84' (MCI); Cherki 54', 59' (MCI); OG 56' (Donnarumma off Yeremy Pino FK) (CPL)"
         },
         lineup: [
             { pos: 'GK',  name: 'Donnarumma' },
             { pos: 'DEF', name: 'Khusanov' },
             { pos: 'DEF', name: 'Dias (C)' },
-            { pos: 'DEF', name: 'Guehi' },
             { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'DEF', name: "O'Reilly" },
             { pos: 'MID', name: 'Anderson' },
-            { pos: 'MID', name: "O'Reilly" },
+            { pos: 'MID', name: 'Guehi' },
             { pos: 'FWD', name: 'Foden' },
             { pos: 'FWD', name: 'Cherki' },
             { pos: 'FWD', name: 'Semenyo' },
             { pos: 'FWD', name: 'Haaland' }
         ],
-        notes: "Rayan Cherki scored his first City brace — 54' dazzling footwork finish and a clinical 59' strike with his weaker right foot from outside the box. Haaland headed in Foden's delivery in the 17th minute and thumped a left-footed strike at the near post in the 84th. Yeremy Pino's free kick struck the crossbar, bounced off Donnarumma and crossed the line for Crystal Palace's consolation. Phil Foden contributed two assists. Maresca's side are perfect after two PL games — six points, six goals scored, two conceded. Sources: ESPN; Al Jazeera; NBC Sports; Sky Sports; VAVEL."
+        subs: [
+            { minute: 75, name: 'Kovacic', on: 'Gvardiol' },
+            { minute: 82, name: 'McAidoo', on: 'Cherki' },
+            { minute: 82, name: 'Bouaddi', on: 'Anderson' }
+        ],
+        notes: "City deployed a 4-2-3-1: Donnarumma; Khusanov, Dias (C), Gvardiol, O'Reilly; Anderson, Guehi; Foden, Cherki, Semenyo; Haaland. Rayan Cherki scored his first City brace — a 54' dazzling footwork finish and a clinical 59' strike with his weaker right foot from outside the box. Haaland headed in Foden's delivery in the 17th minute and thumped a left-footed strike at the near post in the 84th. Yeremy Pino's 56th-minute free kick struck the crossbar, bounced off Donnarumma and crossed the line for Crystal Palace's consolation — City were 2-0 up when it went in. Phil Foden contributed two assists. Maresca's side are perfect after two PL games — six points, six goals scored, two conceded. Sources: ESPN; Al Jazeera; NBC Sports; Sky Sports; FOX Sports; VAVEL."
     },
     'coventry-h-2627': {
         competition: 'Premier League',
