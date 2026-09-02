@@ -591,9 +591,9 @@ const matchProfiles = {
     'coventry-h-2627': {
         competition: 'Premier League',
         title: 'Manchester City vs Coventry City',
-        meta: 'Etihad Stadium · Sat 5 Sep 2026',
+        meta: 'Etihad Stadium · Sat 5 Sep 2026 · 15:00 BST',
         lineup: [],
-        notes: "Matchday 3 — newly promoted Coventry visit the Etihad."
+        notes: "Matchday 3 — newly promoted Coventry visit the Etihad for their first Premier League fixture in east Manchester in 25 years. Coventry have taken 0 points from their opening two games. Jeremy Doku (calf) is a doubt, having been absent since the Community Shield on 16 Aug."
     },
     'united-a-2627': {
         competition: 'Premier League',
