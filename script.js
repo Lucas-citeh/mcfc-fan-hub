@@ -213,9 +213,9 @@ const playerProfiles = {
         stats: { 'Role': 'Head Coach', 'Contract': 'Until 2029', 'Nationality': 'Italian', 'Previous Club': 'Chelsea' }
     },
     'Jack Grealish': {
-        description: "Returned from his season-long loan at Everton after the 2025/26 season, during which he scored 2 goals and added 6 assists before suffering a stress fracture in January. Maresca has publicly stated he has a 'big heart' and plans to personally evaluate him during pre-season. City reportedly prefer a permanent exit over another loan; Everton retain interest in a second season loan but no arrangement has been confirmed for 2026/27 as of July 2026.",
+        description: "Rejoined Everton on a season-long loan from Manchester City on 1 September 2026. The England forward impressed during a first spell at Goodison Park — scoring 2 goals and adding 6 assists across 20 Premier League appearances before a January stress fracture curtailed his season. The loan move gives him an opportunity to rediscover full match fitness ahead of a permanent decision in January 2027. Sources: ESPN; Yahoo Sports; OneFootball.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/ManCity20240722-017_%28cropped%29.jpg/330px-ManCity20240722-017_%28cropped%29.jpg',
-        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'Returned from loan' }
+        stats: { 'Status': 'On loan — Everton', 'Departed': '1 September 2026', 'Loan expires': 'June 2027' }
     },
     'Manuel Akanji': {
         description: "Left Manchester City on a permanent basis in summer 2026 when Inter Milan triggered their mandatory €15m purchase option after winning Serie A.",
@@ -237,7 +237,19 @@ const playerProfiles = {
     },
     'Ayyoub Bouaddi': {
         description: "Signed from Lille on 25 August 2026 for €100m (≈£86m), becoming the most expensive teenage signing in Premier League history. The 18-year-old Moroccan central midfielder impressed on the world stage during Morocco's 2026 World Cup campaign and arrives at the Etihad as the long-term successor to Ballon d'Or winner Rodri. Six-year contract to June 2031. Fabrizio Romano issued 'Here We Go' on 23 August; confirmed via mancity.com Inside City 524: 'New signing and new deals.' Sources: Fabrizio Romano (HWG — 23 Aug 2026); Sky Sports; Goal.com; Morocco World News.",
-        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
+        stats: { 'Appearances': 1, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
+    },
+    'Allan Elias': {
+        description: "22-year-old Brazilian right winger signed from Palmeiras on 31 August 2026 for €40m (≈£32m) on a five-year contract to June 2031. Wears No. 37. Made 96 first-team appearances for Palmeiras before his move, earning a reputation as one of South America's most exciting young wingers. Director of Football Hugo Viana: \"Allan is a really exciting player, and we think he will be a big addition to the squad.\" Sources: mancity.com ('City seal signing of winger Allan Elias' — 31 Aug 2026); ESPN; Al Jazeera.",
+        stats: { 'Appearances': 0, 'PL Goals': 0, 'All Comps Goals': 0, 'Assists': 0 }
+    },
+    'Enzo Fernández': {
+        description: "Argentine World Cup winner signed from Chelsea in a joint British-record £125m deal on 1 September 2026, equalling Liverpool's fee for Alexander Isak. Wears No. 17 — the shirt made famous by Kevin De Bruyne during his decade at the Etihad. A dynamic central midfielder who excels at progressing the ball, pressing, and arriving late into the box. Five-year contract to June 2031. Sources: mancity.com ('City complete Enzo Fernández signing from Chelsea' — 1 Sep 2026); ESPN; Sky Sports; Al Jazeera.",
+        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
+    },
+    'Iliman Ndiaye': {
+        description: "Senegal international winger signed from Everton for £65m on 1 September 2026. Wears No. 7. The 26-year-old is equally effective on either flank and was one of the Premier League's standout performers across two seasons at Goodison Park. City moved quickly after Tottenham's pursuit collapsed. \"My heart was set on joining City,\" Ndiaye told mancity.com. Five-year contract. Sources: mancity.com ('Ndiaye signs for City'; 'Ndiaye: My heart was set on joining City' — 1 Sep 2026); ESPN; Sky Sports; Washington Times.",
+        stats: { 'Appearances': 0, 'PL Goals': 0, 'All Comps Goals': 0, 'Assists': 0 }
     }
 };
 
