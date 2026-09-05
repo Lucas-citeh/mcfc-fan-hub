@@ -602,10 +602,31 @@ const matchProfiles = {
     },
     'coventry-h-2627': {
         competition: 'Premier League',
-        title: 'Manchester City vs Coventry City',
-        meta: 'Etihad Stadium · Sat 5 Sep 2026 · 15:00 BST',
-        lineup: [],
-        notes: "Matchday 3 — newly promoted Coventry visit the Etihad for their first Premier League fixture in east Manchester in 25 years. Coventry have taken 0 points from their opening two games. Jeremy Doku (calf) is confirmed absent — he has missed every game since the Community Shield defeat to Arsenal on 16 Aug and will not recover in time. Sources: Yahoo Sports; Sports Mole (Maresca pre-match, 3 Sep 2026)."
+        title: 'Manchester City 1-0 Coventry City',
+        meta: 'Etihad Stadium · Sat 5 Sep 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 1, away: 0,
+            scorers: "Haaland 26' (MCI)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'MID', name: 'Semenyo' },
+            { pos: 'MID', name: 'Fernández' },
+            { pos: 'MID', name: 'Ndiaye' },
+            { pos: 'MID', name: 'Cherki' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        subs: [
+            { minute: 65, name: 'Foden', on: 'Cherki' },
+            { minute: 75, name: 'Bouaddi', on: 'Fernández' }
+        ],
+        notes: "4-1-4-1: Donnarumma; Khusanov, Dias (C), Guéhi, Gvardiol; Anderson; Semenyo, Fernández, Ndiaye, Cherki; Haaland. Erling Haaland's 26th-minute header from Antoine Semenyo's right-wing cross was the only goal as City made it nine points from nine. Enzo Fernández and Iliman Ndiaye both impressed on their competitive City debuts — Fernández was directly involved in the build-up to Haaland's goal. Gianluigi Donnarumma made two outstanding second-half saves to preserve the clean sheet. Foden replaced Cherki (65') and Bouaddi replaced Fernández (75'). Jeremy Doku (calf) remained absent. Sources: mancity.com ('Ndiaye and Fernández make debuts as City continue winning start' — 5 Sep 2026); Sky Sports ('Man City 1-0 Coventry' — 5 Sep 2026); ESPN; Yahoo Sports."
     },
     'united-a-2627': {
         competition: 'Premier League',
