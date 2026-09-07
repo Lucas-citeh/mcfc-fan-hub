@@ -631,9 +631,9 @@ const matchProfiles = {
     'united-a-2627': {
         competition: 'Premier League',
         title: 'Manchester United vs Manchester City',
-        meta: 'Old Trafford · Sat 12 Sep 2026',
+        meta: 'Old Trafford · Sun 13 Sep 2026 · 16:30 BST',
         lineup: [],
-        notes: 'Matchday 4 — first Manchester derby of the 2026/27 season.'
+        notes: 'Matchday 4 — first Manchester derby of the 2026/27 season. Derby confirmed for Sunday 13 September at 16:30 BST (per Sky Sports / Goal.com).'
     }
 };
 
