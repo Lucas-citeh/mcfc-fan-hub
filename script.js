@@ -628,6 +628,25 @@ const matchProfiles = {
         ],
         notes: "4-1-4-1: Donnarumma; Khusanov, Dias (C), Guéhi, Gvardiol; Anderson; Semenyo, Fernández, Ndiaye, Cherki; Haaland. Erling Haaland's 26th-minute header from Antoine Semenyo's right-wing cross was the only goal as City made it nine points from nine. Enzo Fernández and Iliman Ndiaye both impressed on their competitive City debuts — Fernández was directly involved in the build-up to Haaland's goal. Gianluigi Donnarumma made two outstanding second-half saves to preserve the clean sheet. Foden replaced Cherki (65') and Bouaddi replaced Fernández (75'). Jeremy Doku (calf) remained absent. Sources: mancity.com ('Ndiaye and Fernández make debuts as City continue winning start' — 5 Sep 2026); Sky Sports ('Man City 1-0 Coventry' — 5 Sep 2026); ESPN; Yahoo Sports."
     },
+    'porto-a-ucl-2627': {
+        competition: 'UEFA Champions League',
+        title: 'FC Porto vs Manchester City',
+        meta: 'Estádio do Dragão, Porto · Tue 8 Sep 2026 · 20:00 BST',
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Nunes' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'MID', name: 'Bouaddi' },
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Cherki' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        notes: "City's Champions League 2026/27 debut at Estádio do Dragão. Nico O'Reilly (back) did not travel after his warm-up scare against Coventry. Jeremy Doku (calf) also absent. Maresca expects both to be available for Sunday's derby at Old Trafford. Sources: Sports Mole; Yahoo Sports; mancity.com (kick-off and TV info — 8 Sep 2026)."
+    },
     'united-a-2627': {
         competition: 'Premier League',
         title: 'Manchester United vs Manchester City',
