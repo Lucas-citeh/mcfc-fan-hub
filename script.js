@@ -182,7 +182,7 @@ const playerProfiles = {
     'Erling Haaland': {
         description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
-        stats: { 'PL Goals': 3, 'All Comps Goals': 3, 'Appearances': 3, 'Assists': 0 }
+        stats: { 'PL Goals': 3, 'All Comps Goals': 5, 'Appearances': 4, 'Assists': 0 }
     },
     'Omar Marmoush': {
         description: "DEPARTED (28 Aug 2026): Joined Tottenham Hotspur on a season-long loan with a £60m obligation to buy (£50m guaranteed + £10m add-ons). The Egyptian forward made 61 appearances for City after signing from Eintracht Frankfurt in January 2025, contributing 16 goals and 6 assists across all competitions. He wears No. 22 at Spurs, where he joins former City teammate Savinho. Sources: Sky Sports; Yahoo Sports; Egypt Independent; mancity.com.",
@@ -630,22 +630,32 @@ const matchProfiles = {
     },
     'porto-a-ucl-2627': {
         competition: 'UEFA Champions League',
-        title: 'FC Porto vs Manchester City',
-        meta: 'Estádio do Dragão, Porto · Tue 8 Sep 2026 · 20:00 BST',
+        title: 'FC Porto 0-2 Manchester City',
+        meta: 'Estádio do Dragão, Porto · Tue 8 Sep 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 0, away: 2,
+            scorers: "Haaland 47' (MCI); Haaland 90+2' (MCI — Ait-Nouri cutback)"
+        },
         lineup: [
             { pos: 'GK',  name: 'Donnarumma' },
             { pos: 'DEF', name: 'Nunes' },
-            { pos: 'DEF', name: 'Khusanov' },
             { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
             { pos: 'DEF', name: 'Gvardiol' },
-            { pos: 'MID', name: 'Anderson' },
+            { pos: 'MID', name: 'Fernández' },
             { pos: 'MID', name: 'Bouaddi' },
-            { pos: 'FWD', name: 'Foden' },
-            { pos: 'FWD', name: 'Cherki' },
             { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Cherki' },
+            { pos: 'FWD', name: 'Foden' },
             { pos: 'FWD', name: 'Haaland' }
         ],
-        notes: "City's Champions League 2026/27 debut at Estádio do Dragão. Nico O'Reilly (back) did not travel after his warm-up scare against Coventry. Jeremy Doku (calf) also absent. Maresca expects both to be available for Sunday's derby at Old Trafford. Sources: Sports Mole; Yahoo Sports; mancity.com (kick-off and TV info — 8 Sep 2026)."
+        subs: [
+            { minute: 62, name: 'Ndiaye' },
+            { minute: 76, name: 'Ait-Nouri' },
+            { minute: 76, name: 'Kovacic' }
+        ],
+        notes: "Enzo Maresca's first Champions League win as City head coach. Haaland opened the scoring in the 47th minute, heading in from Enzo Fernández's cross. He sealed the win in stoppage time (90+2') with a right-footed finish from Rait-Nouri's cutback — City were the first side to win at the Estádio do Dragão in 2026. Ayyoub Bouaddi impressed in his first UCL start at 18 years old. Guehi started, Fernández started (neither O'Reilly — back — nor Anderson). Sources: Sky Sports ('FC Porto 0-2 Man City' — 8 Sep 2026); mancity.com ('Bouaddi: Patience was key to beating Porto' — 8 Sep 2026; team news — 8 Sep 2026); VAVEL USA; Yahoo Sports confirmed lineups."
     },
     'united-a-2627': {
         competition: 'Premier League',
