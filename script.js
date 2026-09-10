@@ -662,7 +662,7 @@ const matchProfiles = {
         title: 'Manchester United vs Manchester City',
         meta: 'Old Trafford · Sun 13 Sep 2026 · 16:30 BST',
         lineup: [],
-        notes: 'Matchday 4 — first Manchester derby of the 2026/27 season. Derby confirmed for Sunday 13 September at 16:30 BST (per Sky Sports / Goal.com).'
+        notes: 'Matchday 4 — first Manchester derby of the 2026/27 season. Derby confirmed for Sunday 13 September at 16:30 BST (per Sky Sports / Goal.com). Injury update (10 Sep): Enzo Maresca gave optimistic updates on Nico O\'Reilly (back) and Jeremy Doku (calf) — both are in contention to return. O\'Reilly missed the Porto UCL trip; Doku has been absent since the Community Shield. Per mancitynews.com; 101greatgoals.com; Sports Mole (10 Sep 2026).'
     }
 };
 
