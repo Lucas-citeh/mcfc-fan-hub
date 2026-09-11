@@ -652,7 +652,7 @@ const matchProfiles = {
         title: 'Manchester United vs Manchester City',
         meta: 'Old Trafford · Sun 13 Sep 2026 · 16:30 BST',
         lineup: [],
-        notes: 'Matchday 4 — first Manchester derby of the 2026/27 season. Derby confirmed for Sunday 13 September at 16:30 BST (per Sky Sports / Goal.com).'
+        notes: 'Matchday 4 — 199th Manchester derby. 16:30 BST, live on Sky Sports. City: 9 pts, 1st (3W 0D 0L). United: 4 pts (1W 1D 1L). Injury update (11 Sep): Maresca on O\'Reilly (back/warmup issue, missed Coventry warmup and Porto): "Nico probably yes — we need to wait." On Doku (calf, absent since Community Shield): "Jeremy, I\'m not sure yet. We need to wait." Per Cityxtra / Yahoo Sports (10–11 Sep 2026).'
     }
 };
 
