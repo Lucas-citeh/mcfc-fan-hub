@@ -661,8 +661,20 @@ const matchProfiles = {
         competition: 'Premier League',
         title: 'Manchester United vs Manchester City',
         meta: 'Old Trafford · Sun 13 Sep 2026 · 16:30 BST',
-        lineup: [],
-        notes: 'Matchday 4 — 199th Manchester derby. 16:30 BST, live on Sky Sports. City: 9 pts, 1st (3W 0D 0L). United: 4 pts (1W 1D 1L). Injury update (11 Sep): Maresca on O\'Reilly (back/warmup issue, missed Coventry warmup and Porto): "Nico probably yes — we need to wait." On Doku (calf, absent since Community Shield): "Jeremy, I\'m not sure yet. We need to wait." Per Cityxtra / Yahoo Sports (10–11 Sep 2026).'
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'MID', name: 'Fernández' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Cherki' },
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        notes: 'Matchday 4 — 199th Manchester derby. 16:30 BST, live on Sky Sports. City: 9 pts, 1st (3W 0D 0L). United: 4 pts (1W 1D 1L). Team news (12 Sep): O\'Reilly AVAILABLE — passed fit after missing Coventry and Porto with a back complaint. Doku CONFIRMED OUT (calf, absent since Community Shield). Predicted City 4-2-3-1: Donnarumma; Khusanov, Dias (C), Guehi, Gvardiol; Anderson, Fernández; Semenyo, Cherki, Foden; Haaland. United without de Ligt, Amad, Baleba, Ugarte; Shaw expected to return from cramp. Per Yahoo Sports / NBC Sports / ESPN (12 Sep 2026).'
     }
 };
 
