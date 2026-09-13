@@ -657,6 +657,20 @@ const matchProfiles = {
         ],
         notes: "Enzo Maresca's first Champions League win as City head coach. Haaland opened the scoring in the 47th minute, heading in from Enzo Fernández's cross. He sealed the win in stoppage time (90+2') with a right-footed finish from Rait-Nouri's cutback — City were the first side to win at the Estádio do Dragão in 2026. Ayyoub Bouaddi impressed in his first UCL start at 18 years old. Guehi started, Fernández started (neither O'Reilly — back — nor Anderson). Sources: Sky Sports ('FC Porto 0-2 Man City' — 8 Sep 2026); mancity.com ('Bouaddi: Patience was key to beating Porto' — 8 Sep 2026; team news — 8 Sep 2026); VAVEL USA; Yahoo Sports confirmed lineups."
     },
+    'norwich-h-efl-2627': {
+        competition: 'Carabao Cup — Round 3',
+        title: 'Manchester City vs Norwich City',
+        meta: 'Etihad Stadium · Thu 17 Sep 2026 · 19:30 BST',
+        lineup: [],
+        notes: 'Carabao Cup third-round home tie. Kick-off 19:30 BST, live on Sky Sports+. City drawn at home to the newly promoted Championship winners. Sources: mancity.com (\'City to host Norwich City in Carabao Cup third round\'); mancity.com (date/kick-off confirmed).'
+    },
+    'sunderland-h-2627': {
+        competition: 'Premier League',
+        title: 'Manchester City vs Sunderland',
+        meta: 'Etihad Stadium · Sun 20 Sep 2026 · 14:00 BST',
+        lineup: [],
+        notes: 'Premier League Matchday 5. Originally scheduled for Saturday 19 September; moved to Sunday 20 September (14:00 BST) due to the Carabao Cup third-round tie on Thursday 17 September. Live on Sky Sports. Sources: mancity.com; premierleague.com (\'Manchester City v Sunderland match moved to a new date\').'
+    },
     'united-a-2627': {
         competition: 'Premier League',
         title: 'Manchester United vs Manchester City',
