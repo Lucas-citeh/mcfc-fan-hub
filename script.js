@@ -142,7 +142,7 @@ const playerProfiles = {
         stats: { 'Club': 'FC Barcelona (permanent)', 'Fee': '€76.5m (£65.4m)', 'Departed': '18 August 2026', 'City Appearances': '~296' }
     },
     'Phil Foden': {
-        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026, cementing his future at the Etihad through the Maresca era. A creative spark capable of changing games.",
+        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026. Sent off in the 23rd minute of the 199th Manchester derby (13 Sep 2026) for violent conduct — a kick on Bruno Fernandes — and received a 3-match domestic ban. Misses Norwich (EFL Cup, 17 Sep), Sunderland (PL, 20 Sep), and Liverpool at Anfield (PL, 11 Oct). A creative spark capable of changing games.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg',
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
@@ -164,7 +164,7 @@ const playerProfiles = {
     'Rayan Cherki': {
         description: "Summer 2025 signing from Lyon. A magical playmaker with moments of brilliance already — scored his first City brace at Selhurst Park on 28 August 2026 with two stunning finishes.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cherki_asse_ol_2425.png/330px-Cherki_asse_ol_2425.png',
-        stats: { 'Appearances': 3, 'PL Goals': 2, 'All Comps Goals': 2, 'Assists': 0 }
+        stats: { 'Appearances': 4, 'PL Goals': 2, 'All Comps Goals': 2, 'Assists': 0 }
     },
     "Nico O'Reilly": {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com ('O'Reilly signs fresh City contract!'). The exact length and financial terms have not been disclosed.",
@@ -182,7 +182,7 @@ const playerProfiles = {
     'Erling Haaland': {
         description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
-        stats: { 'PL Goals': 3, 'All Comps Goals': 5, 'Appearances': 4, 'Assists': 0 }
+        stats: { 'PL Goals': 4, 'All Comps Goals': 6, 'Appearances': 5, 'Assists': 0 }
     },
     'Omar Marmoush': {
         description: "DEPARTED (28 Aug 2026): Joined Tottenham Hotspur on a season-long loan with a £60m obligation to buy (£50m guaranteed + £10m add-ons). The Egyptian forward made 61 appearances for City after signing from Eintracht Frankfurt in January 2025, contributing 16 goals and 6 assists across all competitions. He wears No. 22 at Spurs, where he joins former City teammate Savinho. Sources: Sky Sports; Yahoo Sports; Egypt Independent; mancity.com.",
@@ -673,22 +673,27 @@ const matchProfiles = {
     },
     'united-a-2627': {
         competition: 'Premier League',
-        title: 'Manchester United vs Manchester City',
-        meta: 'Old Trafford · Sun 13 Sep 2026 · 16:30 BST',
+        title: 'Manchester United 0-1 Manchester City',
+        meta: 'Old Trafford · Sun 13 Sep 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 0, away: 1,
+            scorers: "Haaland 60' (MCI) — VAR confirmed onside; Foden RED 23' (MCI)"
+        },
         lineup: [
             { pos: 'GK',  name: 'Donnarumma' },
-            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Nunes' },
             { pos: 'DEF', name: 'Dias (C)' },
             { pos: 'DEF', name: 'Guehi' },
             { pos: 'DEF', name: 'Gvardiol' },
             { pos: 'MID', name: 'Anderson' },
             { pos: 'MID', name: 'Fernández' },
-            { pos: 'FWD', name: 'Semenyo' },
-            { pos: 'FWD', name: 'Cherki' },
             { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Cherki' },
+            { pos: 'FWD', name: 'Semenyo' },
             { pos: 'FWD', name: 'Haaland' }
         ],
-        notes: 'Matchday 4 — 199th Manchester derby. 16:30 BST, live on Sky Sports. City: 9 pts, 1st (3W 0D 0L). United: 4 pts (1W 1D 1L). Team news (12 Sep): O\'Reilly AVAILABLE — passed fit after missing Coventry and Porto with a back complaint. Doku CONFIRMED OUT (calf, absent since Community Shield). Predicted City 4-2-3-1: Donnarumma; Khusanov, Dias (C), Guehi, Gvardiol; Anderson, Fernández; Semenyo, Cherki, Foden; Haaland. United without de Ligt, Amad, Baleba, Ugarte; Shaw expected to return from cramp. Per Yahoo Sports / NBC Sports / ESPN (12 Sep 2026).'
+        notes: "Matchday 4 — 199th Manchester derby. Phil Foden was sent off in the 23rd minute for a kick on United captain Bruno Fernandes (studs up to the stomach); referee Michael Oliver issued a straight red card confirmed by VAR. City reorganised into a 4-4-1 with 10 men for 67 minutes. Elliot Anderson was the standout performer — Premier League Player of the Match with 76 touches, the most of any player on the pitch. Haaland scored in the 60th minute; Enzo Fernández was initially flagged offside but VAR confirmed he was not actively interfering with play and the goal stood, triggering huge controversy from United's end. Donnarumma produced a match-winning late save to deny Bryan Mbeumo. United hit the woodwork through Rashford (first half) and Mainoo (second half) but could not find an equaliser. City top the Premier League on 12 points — 4W 0D 0L. Foden's 3-match suspension: misses Norwich (EFL Cup, 17 Sep), Sunderland (PL, 20 Sep), Liverpool at Anfield (PL, 11 Oct). Sources: Yahoo Sports; Sports Mole; NBC Sports; ESPN; VAVEL USA; Al Jazeera (13 Sep 2026)."
     }
 };
 
