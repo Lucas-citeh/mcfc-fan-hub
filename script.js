@@ -659,10 +659,30 @@ const matchProfiles = {
     },
     'norwich-h-efl-2627': {
         competition: 'Carabao Cup — Round 3',
-        title: 'Manchester City vs Norwich City',
-        meta: 'Etihad Stadium · Thu 17 Sep 2026 · 19:30 BST',
-        lineup: [],
-        notes: 'Carabao Cup third-round home tie. Kick-off 19:30 BST, live on Sky Sports+. City drawn at home to the newly promoted Championship winners. Sources: mancity.com (\'City to host Norwich City in Carabao Cup third round\'); mancity.com (date/kick-off confirmed).'
+        title: 'Manchester City 5-0 Norwich City',
+        meta: 'Etihad Stadium · Thu 17 Sep 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 5, away: 0,
+            scorers: "Samba 29', Cherki 32', Elias 48', Samba 54', McAidoo 90'"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Rulli' },
+            { pos: 'DEF', name: 'Lewis' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Vitor Reis' },
+            { pos: 'DEF', name: 'Ait-Nouri' },
+            { pos: 'MID', name: "O'Reilly" },
+            { pos: 'MID', name: 'Kovacic' },
+            { pos: 'MID', name: 'Bouaddi' },
+            { pos: 'MID', name: 'Cherki' },
+            { pos: 'FWD', name: 'Samba' },
+            { pos: 'FWD', name: 'Elias' }
+        ],
+        subs: [
+            { name: 'McAidoo' }
+        ],
+        notes: "Holders City eased into the Carabao Cup fourth round with a commanding 5-0 victory. Seventeen-year-old academy graduate Floyd Samba — son of former Blackburn centre-back Christopher Samba — scored twice on his senior debut: a 29th-minute header from Elias's cross and a curled second in the 54th minute (\"mind-blowing,\" he told mancity.com). Cherki made it 2-0 in the 32nd minute, assisted by Bouaddi; Elias marked his first City start with a 48th-minute goal, driving a low shot into the bottom corner; McAidoo sealed it in the 90th minute, assisted by O'Reilly. Haaland rested; Foden suspended (red card vs Man Utd, 13 Sep). Sources: ESPN ('Man City 5-0 Norwich' — 17 Sep 2026); Sky Sports match report; mancity.com ('Debut delight for Samba and Allan as City power past Norwich' — 17 Sep 2026); VAVEL USA; Yardbarker ('A night for the substitutes'); AP/Daily Gazette."
     },
     'sunderland-h-2627': {
         competition: 'Premier League',
