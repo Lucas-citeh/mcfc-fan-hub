@@ -164,7 +164,7 @@ const playerProfiles = {
     'Rayan Cherki': {
         description: "Summer 2025 signing from Lyon. A magical playmaker with moments of brilliance already — scored his first City brace at Selhurst Park on 28 August 2026 with two stunning finishes.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cherki_asse_ol_2425.png/330px-Cherki_asse_ol_2425.png',
-        stats: { 'Appearances': 4, 'PL Goals': 2, 'All Comps Goals': 2, 'Assists': 0 }
+        stats: { 'Appearances': 6, 'PL Goals': 2, 'All Comps Goals': 3, 'Assists': 0 }
     },
     "Nico O'Reilly": {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com ('O'Reilly signs fresh City contract!'). The exact length and financial terms have not been disclosed.",
@@ -182,7 +182,7 @@ const playerProfiles = {
     'Erling Haaland': {
         description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
-        stats: { 'PL Goals': 4, 'All Comps Goals': 6, 'Appearances': 5, 'Assists': 0 }
+        stats: { 'PL Goals': 4, 'All Comps Goals': 6, 'Appearances': 6, 'Assists': 0 }
     },
     'Omar Marmoush': {
         description: "DEPARTED (28 Aug 2026): Joined Tottenham Hotspur on a season-long loan with a £60m obligation to buy (£50m guaranteed + £10m add-ons). The Egyptian forward made 61 appearances for City after signing from Eintracht Frankfurt in January 2025, contributing 16 goals and 6 assists across all competitions. He wears No. 22 at Spurs, where he joins former City teammate Savinho. Sources: Sky Sports; Yahoo Sports; Egypt Independent; mancity.com.",
@@ -237,7 +237,7 @@ const playerProfiles = {
     },
     'Ayyoub Bouaddi': {
         description: "Signed from Lille on 25 August 2026 for €100m (≈£86m), becoming the most expensive teenage signing in Premier League history. The 18-year-old Moroccan central midfielder impressed on the world stage during Morocco's 2026 World Cup campaign and arrives at the Etihad as the long-term successor to Ballon d'Or winner Rodri. Six-year contract to June 2031. Fabrizio Romano issued 'Here We Go' on 23 August; confirmed via mancity.com Inside City 524: 'New signing and new deals.' Sources: Fabrizio Romano (HWG — 23 Aug 2026); Sky Sports; Goal.com; Morocco World News.",
-        stats: { 'Appearances': 1, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
+        stats: { 'Appearances': 4, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
     },
     'Allan Elias': {
         description: "22-year-old Brazilian right winger signed from Palmeiras on 31 August 2026 for €40m (≈£32m) on a five-year contract to June 2031. Wears No. 37. Made 96 first-team appearances for Palmeiras before his move, earning a reputation as one of South America's most exciting young wingers. Director of Football Hugo Viana: \"Allan is a really exciting player, and we think he will be a big addition to the squad.\" Sources: mancity.com ('City seal signing of winger Allan Elias' — 31 Aug 2026); ESPN; Al Jazeera.",
