@@ -691,6 +691,13 @@ const matchProfiles = {
         lineup: [],
         notes: 'Premier League Matchday 5. Originally scheduled for Saturday 19 September; moved to Sunday 20 September (14:00 BST) due to the Carabao Cup third-round tie on Thursday 17 September. Live on Sky Sports. Sources: mancity.com; premierleague.com (\'Manchester City v Sunderland match moved to a new date\').'
     },
+    'liverpool-a-2627': {
+        competition: 'Premier League',
+        title: 'Liverpool vs Manchester City',
+        meta: 'Anfield · Sun 11 Oct 2026 · 16:30 BST',
+        lineup: [],
+        notes: 'Premier League Matchday 7. Phil Foden returns from his three-match domestic ban (red card vs Manchester United, 13 Sep). Live on Sky Sports. Sources: mancity.com; premierleague.com; Sky Sports (fixture confirmation).'
+    },
     'united-a-2627': {
         competition: 'Premier League',
         title: 'Manchester United 0-1 Manchester City',
