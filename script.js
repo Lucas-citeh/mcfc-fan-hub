@@ -237,7 +237,7 @@ const playerProfiles = {
     },
     'Ayyoub Bouaddi': {
         description: "Signed from Lille on 25 August 2026 for €100m (≈£86m), becoming the most expensive teenage signing in Premier League history. The 18-year-old Moroccan central midfielder impressed on the world stage during Morocco's 2026 World Cup campaign and arrives at the Etihad as the long-term successor to Ballon d'Or winner Rodri. Six-year contract to June 2031. Fabrizio Romano issued 'Here We Go' on 23 August; confirmed via mancity.com Inside City 524: 'New signing and new deals.' Sources: Fabrizio Romano (HWG — 23 Aug 2026); Sky Sports; Goal.com; Morocco World News.",
-        stats: { 'Appearances': 1, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
+        stats: { 'Appearances': 4, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
     },
     'Allan Elias': {
         description: "22-year-old Brazilian right winger signed from Palmeiras on 31 August 2026 for €40m (≈£32m) on a five-year contract to June 2031. Wears No. 37. Made 96 first-team appearances for Palmeiras before his move, earning a reputation as one of South America's most exciting young wingers. Director of Football Hugo Viana: \"Allan is a really exciting player, and we think he will be a big addition to the squad.\" Sources: mancity.com ('City seal signing of winger Allan Elias' — 31 Aug 2026); ESPN; Al Jazeera.",
@@ -659,10 +659,30 @@ const matchProfiles = {
     },
     'norwich-h-efl-2627': {
         competition: 'Carabao Cup — Round 3',
-        title: 'Manchester City vs Norwich City',
-        meta: 'Etihad Stadium · Thu 17 Sep 2026 · 19:30 BST',
-        lineup: [],
-        notes: 'Carabao Cup third-round home tie. Kick-off 19:30 BST, live on Sky Sports+. City drawn at home to the newly promoted Championship winners. Sources: mancity.com (\'City to host Norwich City in Carabao Cup third round\'); mancity.com (date/kick-off confirmed).'
+        title: 'Manchester City 5-0 Norwich City',
+        meta: 'Etihad Stadium · Thu 17 Sep 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 5, away: 0,
+            scorers: "Samba 29', Cherki 32', Elias 48', Samba 54', McAidoo 90'"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Rulli' },
+            { pos: 'DEF', name: 'Lewis' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Vitor Reis' },
+            { pos: 'DEF', name: 'Ait-Nouri' },
+            { pos: 'MID', name: "O'Reilly" },
+            { pos: 'MID', name: 'Kovacic' },
+            { pos: 'MID', name: 'Bouaddi' },
+            { pos: 'MID', name: 'Cherki' },
+            { pos: 'FWD', name: 'Samba' },
+            { pos: 'FWD', name: 'Elias' }
+        ],
+        subs: [
+            { name: 'McAidoo' }
+        ],
+        notes: "Holders City eased into the Carabao Cup fourth round with a commanding 5-0 victory. Seventeen-year-old academy graduate Floyd Samba — son of former Blackburn centre-back Christopher Samba — scored twice on his senior debut: a 29th-minute header from Elias's cross and a curled second in the 54th minute (\"mind-blowing,\" he told mancity.com). Cherki made it 2-0 in the 32nd minute, assisted by Bouaddi; Elias marked his first City start with a 48th-minute goal, driving a low shot into the bottom corner; McAidoo sealed it in the 90th minute, assisted by O'Reilly. Haaland rested; Foden suspended (red card vs Man Utd, 13 Sep). Sources: ESPN ('Man City 5-0 Norwich' — 17 Sep 2026); Sky Sports match report; mancity.com ('Debut delight for Samba and Allan as City power past Norwich' — 17 Sep 2026); VAVEL USA; Yardbarker ('A night for the substitutes'); AP/Daily Gazette."
     },
     'sunderland-h-2627': {
         competition: 'Premier League',
@@ -687,6 +707,13 @@ const matchProfiles = {
             { pos: 'FWD', name: 'Haaland' }
         ],
         notes: "Premier League Matchday 5. Phil Foden (suspended — 2nd of 3-match ban) absent; Jeremy Doku also missed through injury. Brian Brobbey scored a hat-trick for Sunderland (12', 33', 59') in a losing cause. Enzo Fernández opened the scoring in the 9th minute with his first City PL goal; Cherki restored the lead with a precise curler in the 29th minute; Antoine Semenyo scored twice (43', 57') as City moved 4-2 ahead; Haaland sealed it with a late 81st-minute strike to become the first player to score against all 25 Premier League teams he has faced. City head into the international break 3 points clear at the top with 15 points from five games (GD +8). Foden's suspension extends to Liverpool at Anfield (PL, 11 Oct — third and final match of his ban). Sources: ESPN; Sky Sports ('Man City 5-3 Sunderland — Maresca's side stay top after chaotic eight-goal thriller'); 101greatgoals.com; mancity.com ('City 5-3 Sunderland: Two-minute highlights' — 20 Sep 2026)."
+    },
+    'liverpool-a-2627': {
+        competition: 'Premier League',
+        title: 'Liverpool vs Manchester City',
+        meta: 'Anfield · Sun 11 Oct 2026 · 16:30 BST',
+        lineup: [],
+        notes: 'Premier League Matchday 7. Phil Foden returns from his three-match domestic ban (red card vs Manchester United, 13 Sep). Live on Sky Sports. Sources: mancity.com; premierleague.com; Sky Sports (fixture confirmation).'
     },
     'united-a-2627': {
         competition: 'Premier League',
