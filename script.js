@@ -162,9 +162,9 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Rayan Cherki': {
-        description: "Summer 2025 signing from Lyon. A magical playmaker with moments of brilliance already — scored his first City brace at Selhurst Park on 28 August 2026 with two stunning finishes.",
+        description: "Summer 2025 signing from Lyon. A magical playmaker already essential to Maresca's system — scored his first City brace at Selhurst Park on 28 August 2026, and added a precise curler against Sunderland on 20 September.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cherki_asse_ol_2425.png/330px-Cherki_asse_ol_2425.png',
-        stats: { 'Appearances': 4, 'PL Goals': 2, 'All Comps Goals': 2, 'Assists': 0 }
+        stats: { 'Appearances': 7, 'PL Goals': 3, 'All Comps Goals': 4, 'Assists': 0 }
     },
     "Nico O'Reilly": {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com ('O'Reilly signs fresh City contract!'). The exact length and financial terms have not been disclosed.",
@@ -180,9 +180,9 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Erling Haaland': {
-        description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches).",
+        description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches). First player in history to score against all 25 Premier League teams he has faced.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
-        stats: { 'PL Goals': 4, 'All Comps Goals': 6, 'Appearances': 5, 'Assists': 0 }
+        stats: { 'PL Goals': 5, 'All Comps Goals': 7, 'Appearances': 7, 'Assists': 0 }
     },
     'Omar Marmoush': {
         description: "DEPARTED (28 Aug 2026): Joined Tottenham Hotspur on a season-long loan with a £60m obligation to buy (£50m guaranteed + £10m add-ons). The Egyptian forward made 61 appearances for City after signing from Eintracht Frankfurt in January 2025, contributing 16 goals and 6 assists across all competitions. He wears No. 22 at Spurs, where he joins former City teammate Savinho. Sources: Sky Sports; Yahoo Sports; Egypt Independent; mancity.com.",
@@ -199,9 +199,9 @@ const playerProfiles = {
         stats: { 'Club': 'Tottenham Hotspur (permanent)', 'Fee': '£85m (£75m + £10m add-ons)', 'Departed': '25 August 2026', 'Previous Contract': 'New 6yr deal signed 29 Jul, sold 27 days later' }
     },
     'Antoine Semenyo': {
-        description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final and shortlisted for PL Player of the Season after a stunning split campaign.",
+        description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final. Doubled up against Sunderland on 20 September 2026 to open his 2026/27 account.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Antoine_Semenyo_2026.png/330px-Antoine_Semenyo_2026.png',
-        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
+        stats: { 'PL Goals': 2, 'All Comps Goals': 2, 'Appearances': 6, 'Assists': 0 }
     },
     'Pep Guardiola': {
         description: "Manager of Manchester City 2016–2026. Tactical innovator, six-time Premier League winner, Champions League winner (2023), and one of the most decorated managers in football history. Departed after 593 games following the 2025/26 season.",
@@ -244,8 +244,8 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'PL Goals': 0, 'All Comps Goals': 0, 'Assists': 0 }
     },
     'Enzo Fernández': {
-        description: "Argentine World Cup winner signed from Chelsea in a joint British-record £125m deal on 1 September 2026, equalling Liverpool's fee for Alexander Isak. Wears No. 17 — the shirt made famous by Kevin De Bruyne during his decade at the Etihad. A dynamic central midfielder who excels at progressing the ball, pressing, and arriving late into the box. Five-year contract to June 2031. Sources: mancity.com ('City complete Enzo Fernández signing from Chelsea' — 1 Sep 2026); ESPN; Sky Sports; Al Jazeera.",
-        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
+        description: "Argentine World Cup winner signed from Chelsea in a joint British-record £125m deal on 1 September 2026, equalling Liverpool's fee for Alexander Isak. Wears No. 17 — the shirt made famous by Kevin De Bruyne during his decade at the Etihad. A dynamic central midfielder who excels at progressing the ball, pressing, and arriving late into the box. Scored his first City PL goal against Sunderland on 20 September 2026. Five-year contract to June 2031. Sources: mancity.com ('City complete Enzo Fernández signing from Chelsea' — 1 Sep 2026); ESPN; Sky Sports; Al Jazeera.",
+        stats: { 'Appearances': 4, 'PL Goals': 1, 'All Comps Goals': 1, 'Assists': 0 }
     },
     'Iliman Ndiaye': {
         description: "Senegal international winger signed from Everton for £65m on 1 September 2026. Wears No. 7. The 26-year-old is equally effective on either flank and was one of the Premier League's standout performers across two seasons at Goodison Park. City moved quickly after Tottenham's pursuit collapsed. \"My heart was set on joining City,\" Ndiaye told mancity.com. Five-year contract. Sources: mancity.com ('Ndiaye signs for City'; 'Ndiaye: My heart was set on joining City' — 1 Sep 2026); ESPN; Sky Sports; Washington Times.",
@@ -666,10 +666,27 @@ const matchProfiles = {
     },
     'sunderland-h-2627': {
         competition: 'Premier League',
-        title: 'Manchester City vs Sunderland',
-        meta: 'Etihad Stadium · Sun 20 Sep 2026 · 14:00 BST',
-        lineup: [],
-        notes: 'Premier League Matchday 5. Originally scheduled for Saturday 19 September; moved to Sunday 20 September (14:00 BST) due to the Carabao Cup third-round tie on Thursday 17 September. Live on Sky Sports. Sources: mancity.com; premierleague.com (\'Manchester City v Sunderland match moved to a new date\').'
+        title: 'Manchester City 5-3 Sunderland',
+        meta: 'Etihad Stadium · Sun 20 Sep 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 5, away: 3,
+            scorers: "Fernández 9', Cherki 29', Semenyo 43', 57', Haaland 81' (MCI); Brobbey 12', 33', 59' (SUN)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Nunes' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'MID', name: 'Fernández' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Cherki' },
+            { pos: 'FWD', name: 'Ndiaye' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        notes: "Premier League Matchday 5. Phil Foden (suspended — 2nd of 3-match ban) absent; Jeremy Doku also missed through injury. Brian Brobbey scored a hat-trick for Sunderland (12', 33', 59') in a losing cause. Enzo Fernández opened the scoring in the 9th minute with his first City PL goal; Cherki restored the lead with a precise curler in the 29th minute; Antoine Semenyo scored twice (43', 57') as City moved 4-2 ahead; Haaland sealed it with a late 81st-minute strike to become the first player to score against all 25 Premier League teams he has faced. City head into the international break 3 points clear at the top with 15 points from five games (GD +8). Foden's suspension extends to Liverpool at Anfield (PL, 11 Oct — third and final match of his ban). Sources: ESPN; Sky Sports ('Man City 5-3 Sunderland — Maresca's side stay top after chaotic eight-goal thriller'); 101greatgoals.com; mancity.com ('City 5-3 Sunderland: Two-minute highlights' — 20 Sep 2026)."
     },
     'united-a-2627': {
         competition: 'Premier League',
