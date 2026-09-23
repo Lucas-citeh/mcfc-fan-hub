@@ -167,8 +167,8 @@ const playerProfiles = {
         stats: { 'Appearances': 7, 'PL Goals': 3, 'All Comps Goals': 4, 'Assists': 0 }
     },
     "Nico O'Reilly": {
-        description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com ('O'Reilly signs fresh City contract!'). The exact length and financial terms have not been disclosed.",
-        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
+        description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com. INJURY: Suffered a back injury during the warm-up ahead of the Coventry City Premier League fixture on 5 September 2026; Maresca confirmed the knock is not expected to be serious. Has missed the UCL opener at Porto, the Manchester derby, the Carabao Cup win over Norwich and the Sunderland fixture while recovering. Targeting a return during the international break ahead of Liverpool (11 Oct). Sources: RotoWire; sportsdunia.com (5 Sep 2026).",
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 3, 'Status': 'Injury — back (not serious)' }
     },
     'Nico Gonzalez': {
         description: "DEPARTED (27 Aug 2026): Joined Newcastle United for £52m (£48m + £4m add-ons). Signed from Porto in January 2025 for £50m, the Spanish midfielder made 59 appearances and scored 4 goals in 18 months at the Etihad. A composed deep-lying playmaker who stepped up admirably during Rodri's long injury absence. His departure — City's fourth senior midfielder to leave this summer after Rodri, Bernardo Silva and Reijnders — paves the way for the Bouaddi and Anderson era in the middle of the park. Sources: mancity.com ('Nico Gonzalez joins Newcastle' — 27 Aug 2026); newcastleunited.com.",
