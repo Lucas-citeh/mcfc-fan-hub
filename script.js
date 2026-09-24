@@ -190,9 +190,9 @@ const playerProfiles = {
         stats: { 'Club': 'Tottenham Hotspur (loan)', 'Obligation to buy': '£60m', 'Departed': '28 August 2026', 'City Appearances': 61, 'City Goals': 16 }
     },
     'Jeremy Doku': {
-        description: "Direct, electric Belgian winger. One-on-one nightmare for defenders and a key creative outlet on the left flank. Fabrizio Romano confirmed on 19 June 2026 that City and Doku reached a verbal agreement on a new deal until 2031 — the 24-year-old declined interest from numerous clubs to prioritise the Etihad. Official announcement pending finalisation of admin and legal details.",
+        description: "Direct, electric Belgian winger. One-on-one nightmare for defenders and a key creative outlet on the left flank. Fabrizio Romano confirmed on 19 June 2026 that City and Doku reached a verbal agreement on a new deal until 2031 — the 24-year-old declined interest from numerous clubs to prioritise the Etihad. Official announcement pending finalisation of admin and legal details. Returned from a calf injury (sustained in the Community Shield, 16 Aug) as a second-half substitute in the 75th minute of the 5-3 win over Sunderland on 20 September — his return contributed to the build-up for Haaland's 81st-minute clincher. Sources: mancity.com (team news — 20 Sep 2026); esteemedkompany.com (23 Sep 2026).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg/330px-J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg',
-        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 1, 'Assists': 0 }
     },
     'Savinho': {
         description: "DEPARTED (25 Aug 2026): Tottenham Hotspur confirmed the signing of Savinho in a club-record £85m deal (£75m + £10m add-ons) on 25 August 2026 — just 27 days after the Brazilian winger had signed a new six-year contract at the Etihad on 29 July. City accepted an irresistible offer as Spurs pushed summer spending past £400m. Sources: Washington Post/AP; Sky Sports; Al Jazeera ('Tottenham sign Brazilian winger Savinho from Manchester City' — 25 Aug 2026); ESPN.",
@@ -706,7 +706,10 @@ const matchProfiles = {
             { pos: 'FWD', name: 'Ndiaye' },
             { pos: 'FWD', name: 'Haaland' }
         ],
-        notes: "Premier League Matchday 5. Phil Foden (suspended — 2nd of 3-match ban) absent; Jeremy Doku also missed through injury. Brian Brobbey scored a hat-trick for Sunderland (12', 33', 59') in a losing cause. Enzo Fernández opened the scoring in the 9th minute with his first City PL goal; Cherki restored the lead with a precise curler in the 29th minute; Antoine Semenyo scored twice (43', 57') as City moved 4-2 ahead; Haaland sealed it with a late 81st-minute strike to become the first player to score against all 25 Premier League teams he has faced. City head into the international break 3 points clear at the top with 15 points from five games (GD +8). Foden's suspension extends to Liverpool at Anfield (PL, 11 Oct — third and final match of his ban). Sources: ESPN; Sky Sports ('Man City 5-3 Sunderland — Maresca's side stay top after chaotic eight-goal thriller'); 101greatgoals.com; mancity.com ('City 5-3 Sunderland: Two-minute highlights' — 20 Sep 2026)."
+        subs: [
+            { minute: 75, name: 'Doku' }
+        ],
+        notes: "Premier League Matchday 5. Phil Foden (suspended — 2nd of 3-match ban) absent. Brian Brobbey scored a hat-trick for Sunderland (12', 33', 59') in a losing cause. Enzo Fernández opened the scoring in the 9th minute with his first City PL goal; Cherki restored the lead with a precise curler in the 29th minute; Antoine Semenyo scored twice (43', 57') as City moved 4-2 ahead; Haaland sealed it with a late 81st-minute strike to become the first player to score against all 25 Premier League teams he has faced — the goal set up by Doku's direct run and pass (Doku came on at 75' for his first appearance since the Community Shield after recovering from a calf injury). City head into the international break 3 points clear at the top with 15 points from five games (GD +8). Foden's suspension extends to Liverpool at Anfield (PL, 11 Oct — third and final match of his ban). Sources: ESPN; Sky Sports ('Man City 5-3 Sunderland — Maresca's side stay top after chaotic eight-goal thriller'); 101greatgoals.com; mancity.com ('City 5-3 Sunderland: Two-minute highlights' — 20 Sep 2026; team news — 20 Sep 2026)."
     },
     'liverpool-a-2627': {
         competition: 'Premier League',
