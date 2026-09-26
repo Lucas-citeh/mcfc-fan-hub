@@ -713,7 +713,14 @@ const matchProfiles = {
         title: 'Liverpool vs Manchester City',
         meta: 'Anfield · Sun 11 Oct 2026 · 16:30 BST',
         lineup: [],
-        notes: 'Premier League Matchday 7. Phil Foden returns from his three-match domestic ban (red card vs Manchester United, 13 Sep). Live on Sky Sports. Sources: mancity.com; premierleague.com; Sky Sports (fixture confirmation).'
+        notes: 'Premier League Matchday 7. Phil Foden is ABSENT — this is the third and final match of his three-game domestic ban (straight red card for violent conduct vs Manchester United, 13 Sep). Foden returns for UCL vs PSG on 14 Oct. Live on Sky Sports. Sources: mancity.com; premierleague.com; Sky Sports (fixture confirmation); readmancity.com (suspension tracker, 14 Sep 2026).'
+    },
+    'psg-h-ucl-2627': {
+        competition: 'UEFA Champions League — MD2',
+        title: 'Manchester City vs Paris Saint-Germain',
+        meta: 'Etihad Stadium · Wed 14 Oct 2026 · 20:00 BST',
+        lineup: [],
+        notes: 'UCL League Phase Matchday 2. PSG are the defending UEFA Champions League holders. City\'s eight league-phase opponents are PSG, Barcelona, Sporting CP, Porto (already played — won 2-0 away, 8 Sep), Napoli, RB Leipzig, AEK Athens and Lens. Phil Foden returns from his domestic ban for this fixture. Sources: mancity.com/tickets/mens/man-city-v-psg-14-oct-2026; UEFA.com; psg.fr (European schedule confirmed).'
     },
     'united-a-2627': {
         competition: 'Premier League',
