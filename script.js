@@ -716,7 +716,7 @@ const matchProfiles = {
         title: 'Liverpool vs Manchester City',
         meta: 'Anfield · Sun 11 Oct 2026 · 16:30 BST',
         lineup: [],
-        notes: 'Premier League Matchday 7. Phil Foden is ABSENT — this is the third and final match of his three-game domestic ban (straight red card for violent conduct vs Manchester United, 13 Sep). Foden returns for UCL vs PSG on 14 Oct. Live on Sky Sports. Sources: mancity.com; premierleague.com; Sky Sports (fixture confirmation); readmancity.com (suspension tracker, 14 Sep 2026).'
+        notes: 'Premier League Matchday 6. Phil Foden is ABSENT — this is the third and final match of his three-game domestic ban (straight red card for violent conduct vs Manchester United, 13 Sep). Foden returns for UCL vs PSG on 14 Oct. Liverpool go into the match 7th on 9 points from 5 games (W3 D0 L2). City are 1st on 15 points from 5 games. Live on Sky Sports. Sources: mancity.com; premierleague.com; Sky Sports (fixture confirmation); readmancity.com (suspension tracker, 14 Sep 2026); footballdream.in (GW6 preview, Sep 2026).'
     },
     'psg-h-ucl-2627': {
         competition: 'UEFA Champions League — MD2',
