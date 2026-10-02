@@ -142,7 +142,7 @@ const playerProfiles = {
         stats: { 'Club': 'FC Barcelona (permanent)', 'Fee': '€76.5m (£65.4m)', 'Departed': '18 August 2026', 'City Appearances': '~296' }
     },
     'Phil Foden': {
-        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026. Sent off in the 23rd minute of the 199th Manchester derby (13 Sep 2026) for violent conduct — a kick on Bruno Fernandes — and received a 3-match domestic ban. Misses Norwich (EFL Cup, 17 Sep), Sunderland (PL, 20 Sep), and Liverpool at Anfield (PL, 11 Oct). A creative spark capable of changing games.",
+        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026. Sent off in the 23rd minute of the 199th Manchester derby (13 Sep 2026) for violent conduct — a kick on Bruno Fernandes — and received a 3-match domestic ban. During the international break, City confirmed he underwent surgery for acute appendicitis in London. He will miss Liverpool at Anfield (11 Oct — both suspended and injured). His availability for the PSG UCL clash (14 Oct) is unclear; the NHS recommends a minimum two-week recovery after an appendectomy. Sources: premierleague.com; beinsports.com; breakingnews.ie.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg',
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
@@ -716,14 +716,14 @@ const matchProfiles = {
         title: 'Liverpool vs Manchester City',
         meta: 'Anfield · Sun 11 Oct 2026 · 16:30 BST',
         lineup: [],
-        notes: 'Premier League Matchday 6. Phil Foden is ABSENT — this is the third and final match of his three-game domestic ban (straight red card for violent conduct vs Manchester United, 13 Sep). Foden returns for UCL vs PSG on 14 Oct. Liverpool go into the match 7th on 9 points from 5 games (W3 D0 L2). City are 1st on 15 points from 5 games. Live on Sky Sports. Sources: mancity.com; premierleague.com; Sky Sports (fixture confirmation); readmancity.com (suspension tracker, 14 Sep 2026); footballdream.in (GW6 preview, Sep 2026).'
+        notes: 'Premier League Matchday 6. Phil Foden is ABSENT — suspended (3rd match of his ban, red card vs Man Utd, 13 Sep) AND recovering from appendicitis surgery (confirmed during the international break). Liverpool go into the match 7th on 9 points from 5 games (W3 D0 L2). City are 1st on 15 points from 5 games. Nico O\'Reilly (back) targeting a return. Live on Sky Sports. Sources: mancity.com; premierleague.com; Sky Sports; readmancity.com; footballdream.in; premierleague.com/news/3122001 (appendicitis).'
     },
     'psg-h-ucl-2627': {
         competition: 'UEFA Champions League — MD2',
         title: 'Manchester City vs Paris Saint-Germain',
         meta: 'Etihad Stadium · Wed 14 Oct 2026 · 20:00 BST',
         lineup: [],
-        notes: 'UCL League Phase Matchday 2. PSG are the defending UEFA Champions League holders. City\'s eight league-phase opponents are PSG, Barcelona, Sporting CP, Porto (already played — won 2-0 away, 8 Sep), Napoli, RB Leipzig, AEK Athens and Lens. Phil Foden returns from his domestic ban for this fixture. Sources: mancity.com/tickets/mens/man-city-v-psg-14-oct-2026; UEFA.com; psg.fr (European schedule confirmed).'
+        notes: 'UCL League Phase Matchday 2. PSG are the defending UEFA Champions League holders. City\'s eight league-phase opponents are PSG, Barcelona, Sporting CP, Porto (already played — won 2-0 away, 8 Sep), Napoli, RB Leipzig, AEK Athens and Lens. Phil Foden\'s availability is UNCERTAIN — his domestic ban does not apply to UCL, but he is recovering from appendicitis surgery confirmed during the international break; the NHS recommends at least two weeks\' recovery. No firm return date given. Sources: mancity.com/tickets/mens/man-city-v-psg-14-oct-2026; UEFA.com; psg.fr; premierleague.com/news/3122001 (appendicitis).'
     },
     'united-a-2627': {
         competition: 'Premier League',
