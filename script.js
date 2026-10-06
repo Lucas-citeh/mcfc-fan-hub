@@ -715,6 +715,7 @@ const matchProfiles = {
         competition: 'Premier League',
         title: 'Liverpool vs Manchester City',
         meta: 'Anfield · Sun 11 Oct 2026 · 16:30 BST',
+        prediction: { city: 30.3, draw: 26.7, opp: 43.0, source: 'Opta supercomputer' },
         lineup: [],
         notes: 'Premier League Matchday 6. Phil Foden is ABSENT — suspended (3rd match of his ban, red card vs Man Utd, 13 Sep) AND recovering from appendicitis surgery (confirmed during the international break). Liverpool (managed by Andoni Iraola, who joined from Bournemouth this summer) go into the match 7th on 9 points from 5 games (W3 D0 L2), their last result a 1-0 win over Bournemouth. City are 1st on 15 points from 5 games. Nico O\'Reilly (back) targeting a return. Live on Sky Sports. NOTE: Independent commission found City guilty of all Premier League financial charges on 29 September; City lodged appeal 1 October. No immediate on-field impact — case proceeds to sanctions hearing after appeal. Sources: mancity.com; premierleague.com; Sky Sports; readmancity.com; footballdream.in; Al Jazeera (guilty verdict — 29 Sep 2026).'
     },
