@@ -726,6 +726,13 @@ const matchProfiles = {
         lineup: [],
         notes: 'UCL League Phase Matchday 2. PSG are the defending UEFA Champions League holders. City\'s eight league-phase opponents are PSG, Barcelona, Sporting CP, Porto (already played — won 2-0 away, 8 Sep), Napoli, RB Leipzig, AEK Athens and Lens. Phil Foden\'s availability is UNCERTAIN — his domestic ban does not apply to UCL, but he is recovering from appendicitis surgery confirmed during the international break; the NHS recommends at least two weeks\' recovery. No firm return date given. Sources: mancity.com/tickets/mens/man-city-v-psg-14-oct-2026; UEFA.com; psg.fr; premierleague.com/news/3122001 (appendicitis).'
     },
+    'ipswich-h-2627': {
+        competition: 'Premier League',
+        title: 'Manchester City vs Ipswich Town',
+        meta: 'Etihad Stadium · Sat 17 Oct 2026 · 15:00 BST',
+        lineup: [],
+        notes: 'Premier League Matchday 7. Ipswich Town make their Etihad visit in the 2026/27 season. Kick-off 15:00 BST. Sources: Premier League 2026/27 fixture list (published June 2026); thescore.com; mykhel.com.'
+    },
     'united-a-2627': {
         competition: 'Premier League',
         title: 'Manchester United 0-1 Manchester City',
