@@ -164,7 +164,7 @@ const playerProfiles = {
     'Rayan Cherki': {
         description: "Summer 2025 signing from Lyon. A magical playmaker already essential to Maresca's system — scored his first City brace at Selhurst Park on 28 August 2026, and added a precise curler against Sunderland on 20 September.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cherki_asse_ol_2425.png/330px-Cherki_asse_ol_2425.png',
-        stats: { 'Appearances': 7, 'PL Goals': 3, 'All Comps Goals': 4, 'Assists': 0 }
+        stats: { 'Appearances': 8, 'PL Goals': 4, 'All Comps Goals': 5, 'Assists': 0 }
     },
     "Nico O'Reilly": {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com. INJURY: Suffered a back injury during the warm-up ahead of the Coventry City Premier League fixture on 5 September 2026. Missed four matches while recovering: Porto (UCL), Manchester derby, Carabao Cup vs Norwich and Sunderland (PL). FIT: Named in the England squad for October international fixtures during the break, confirming his return to full fitness and availability for Liverpool at Anfield on 11 October. Sources: RotoWire; sportsdunia.com (5 Sep 2026); fourfourtwo.com (Oct 2026).",
@@ -182,7 +182,7 @@ const playerProfiles = {
     'Erling Haaland': {
         description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches). First player in history to score against all 25 Premier League teams he has faced.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
-        stats: { 'PL Goals': 5, 'All Comps Goals': 7, 'Appearances': 7, 'Assists': 0 }
+        stats: { 'PL Goals': 6, 'All Comps Goals': 8, 'Appearances': 8, 'Assists': 0 }
     },
     'Omar Marmoush': {
         description: "DEPARTED (28 Aug 2026): Joined Tottenham Hotspur on a season-long loan with a £60m obligation to buy (£50m guaranteed + £10m add-ons). The Egyptian forward made 61 appearances for City after signing from Eintracht Frankfurt in January 2025, contributing 16 goals and 6 assists across all competitions. He wears No. 22 at Spurs, where he joins former City teammate Savinho. Sources: Sky Sports; Yahoo Sports; Egypt Independent; mancity.com.",
@@ -192,7 +192,7 @@ const playerProfiles = {
     'Jeremy Doku': {
         description: "Direct, electric Belgian winger. One-on-one nightmare for defenders and a key creative outlet on the left flank. Fabrizio Romano confirmed on 19 June 2026 that City and Doku reached a verbal agreement on a new deal until 2031 — the 24-year-old declined interest from numerous clubs to prioritise the Etihad. Official announcement pending finalisation of admin and legal details. Returned from a calf injury (sustained in the Community Shield, 16 Aug) as a second-half substitute in the 75th minute of the 5-3 win over Sunderland on 20 September — his return contributed to the build-up for Haaland's 81st-minute clincher. Sources: mancity.com (team news — 20 Sep 2026); esteemedkompany.com (23 Sep 2026).",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg/330px-J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-27_%28cropped%29.jpg',
-        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 1, 'Assists': 0 }
+        stats: { 'PL Goals': 1, 'All Comps Goals': 1, 'Appearances': 2, 'Assists': 0 }
     },
     'Savinho': {
         description: "DEPARTED (25 Aug 2026): Tottenham Hotspur confirmed the signing of Savinho in a club-record £85m deal (£75m + £10m add-ons) on 25 August 2026 — just 27 days after the Brazilian winger had signed a new six-year contract at the Etihad on 29 July. City accepted an irresistible offer as Spurs pushed summer spending past £400m. Sources: Washington Post/AP; Sky Sports; Al Jazeera ('Tottenham sign Brazilian winger Savinho from Manchester City' — 25 Aug 2026); ESPN.",
@@ -713,11 +713,30 @@ const matchProfiles = {
     },
     'liverpool-a-2627': {
         competition: 'Premier League',
-        title: 'Liverpool vs Manchester City',
-        meta: 'Anfield · Sun 11 Oct 2026 · 16:30 BST',
-        prediction: { city: 30.3, draw: 26.7, opp: 43.0, source: 'Opta supercomputer' },
-        lineup: [],
-        notes: 'Premier League Matchday 6. Phil Foden is ABSENT — suspended (3rd match of his ban, red card vs Man Utd, 13 Sep) AND recovering from appendicitis surgery (confirmed during the international break). Nico O\'Reilly AVAILABLE — named in England squad for October internationals, confirming full recovery from back injury; fit for Anfield. LIVERPOOL INJURIES (8 Oct update): Alexander Isak withdrew from Sweden\'s squad with a minor thigh problem; Cody Gakpo substituted off for the Netherlands vs Serbia with an ankle injury and confirmed absent for the rest of the international break — both are doubts for Sunday. Liverpool\'s confirmed absentees also include Conor Bradley, Giovanni Leoni, Federico Chiesa and Vitezslav Jaros. Liverpool (managed by Andoni Iraola, who joined from Bournemouth this summer) go into the match 7th on 9 points from 5 games (W3 D0 L2). City are 1st on 15 points from 5 games. Opta: Liverpool 43%, Draw 26.7%, City 30.3%. Live on Sky Sports. NOTE: Independent commission found City guilty of all Premier League financial charges on 29 September; City lodged appeal 1 October. No immediate on-field impact — case proceeds to sanctions hearing after appeal. Sources: mancity.com; premierleague.com; Sky Sports; Sports Mole; FourFourTwo; 101GreatGoals (Liverpool injury updates — Oct 2026); fourfourtwo.com (O\'Reilly England call-up — Oct 2026); Al Jazeera (guilty verdict — 29 Sep 2026).'
+        title: 'Liverpool 0-3 Manchester City',
+        meta: 'Anfield · Sun 11 Oct 2026 · FT',
+        lineupConfirmed: false,
+        result: {
+            home: 0, away: 3,
+            scorers: "Haaland 65', Doku 68' (Anderson), Cherki 78' (Gvardiol) (MCI); Gravenberch RED 62' (LIV)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Nunes' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Fernández' },
+            { pos: 'FWD', name: 'Ndiaye' },
+            { pos: 'FWD', name: 'Cherki' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        subs: [
+            { name: 'Doku', on: 'Semenyo' }
+        ],
+        notes: "Premier League Matchday 6 — City's first match since the guilty verdict (29 Sep). Ryan Gravenberch was sent off just after the hour mark for a second bookable offence, opening the game. Haaland struck first (65'), then Doku, introduced as a substitute and assisted by Elliot Anderson, made it 2-0 two minutes later (68'). Cherki sealed it in the 78th minute, finishing from Gvardiol's pass. Phil Foden was absent (suspended — 3rd match of ban + appendicitis recovery). Liverpool's first defeat of the 2026/27 season. City move to 18 points from 6 games (W6 D0 L0), six points clear at the top. Pre-match Opta: Liverpool 43%, Draw 26.7%, City 30.3%. Sources: ESPN; NBC Sports; Sky Sports; liverpoolfc.com; FotMob (11 Oct 2026)."
     },
     'psg-h-ucl-2627': {
         competition: 'UEFA Champions League — MD2',
