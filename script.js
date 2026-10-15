@@ -142,7 +142,7 @@ const playerProfiles = {
         stats: { 'Club': 'FC Barcelona (permanent)', 'Fee': '€76.5m (£65.4m)', 'Departed': '18 August 2026', 'City Appearances': '~296' }
     },
     'Phil Foden': {
-        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026. Sent off in the 23rd minute of the 199th Manchester derby (13 Sep 2026) for violent conduct — a kick on Bruno Fernandes — and received a 3-match domestic ban. During the international break, City confirmed he underwent surgery for acute appendicitis in London. He will miss Liverpool at Anfield (11 Oct — both suspended and injured). His availability for the PSG UCL clash (14 Oct) is unclear; the NHS recommends a minimum two-week recovery after an appendectomy. Sources: premierleague.com; beinsports.com; breakingnews.ie.",
+        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026. Sent off in the 23rd minute of the 199th Manchester derby (13 Sep 2026) for violent conduct and received a 3-match domestic ban (served: Norwich EFL, Sunderland PL, Liverpool PL). During the international break, City confirmed he underwent surgery for acute appendicitis. His availability going forward depends on his appendicitis recovery timeline; the NHS recommends a minimum two-week recovery after an appendectomy. Sources: premierleague.com; beinsports.com; breakingnews.ie.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg',
         stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 0, 'Assists': 0 }
     },
@@ -180,9 +180,9 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Erling Haaland': {
-        description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches). First player in history to score against all 25 Premier League teams he has faced.",
+        description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches). First player in history to score against all 25 Premier League teams he has faced. Scored twice vs PSG in the UCL (53', 75') to reach 10 goals in all competitions this season.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
-        stats: { 'PL Goals': 6, 'All Comps Goals': 8, 'Appearances': 8, 'Assists': 0 }
+        stats: { 'PL Goals': 6, 'All Comps Goals': 10, 'Appearances': 9, 'Assists': 0 }
     },
     'Omar Marmoush': {
         description: "DEPARTED (28 Aug 2026): Joined Tottenham Hotspur on a season-long loan with a £60m obligation to buy (£50m guaranteed + £10m add-ons). The Egyptian forward made 61 appearances for City after signing from Eintracht Frankfurt in January 2025, contributing 16 goals and 6 assists across all competitions. He wears No. 22 at Spurs, where he joins former City teammate Savinho. Sources: Sky Sports; Yahoo Sports; Egypt Independent; mancity.com.",
@@ -740,10 +740,15 @@ const matchProfiles = {
     },
     'psg-h-ucl-2627': {
         competition: 'UEFA Champions League — MD2',
-        title: 'Manchester City vs Paris Saint-Germain',
-        meta: 'Etihad Stadium · Wed 14 Oct 2026 · 20:00 BST',
+        title: 'Manchester City 2-4 Paris Saint-Germain',
+        meta: 'Etihad Stadium · Wed 14 Oct 2026 · FT',
+        lineupConfirmed: false,
+        result: {
+            home: 2, away: 4,
+            scorers: "Haaland 53', 75' (MCI); Doué 13', Dembélé 15', Vitinha 32', Akliouche 62' (PSG)"
+        },
         lineup: [],
-        notes: 'UCL League Phase Matchday 2. PSG are the defending UEFA Champions League holders. City\'s eight league-phase opponents are PSG, Barcelona, Sporting CP, Porto (already played — won 2-0 away, 8 Sep), Napoli, RB Leipzig, AEK Athens and Lens. Phil Foden\'s availability is UNCERTAIN — his domestic ban does not apply to UCL, but he is recovering from appendicitis surgery confirmed during the international break; the NHS recommends at least two weeks\' recovery. No firm return date given. Sources: mancity.com/tickets/mens/man-city-v-psg-14-oct-2026; UEFA.com; psg.fr; premierleague.com/news/3122001 (appendicitis).'
+        notes: "UCL League Phase Matchday 2. PSG, the defending champions, led 3-0 at half-time through Désiré Doué (13'), Ousmane Dembélé (15') and Vitinha (32'). Erling Haaland pulled two back in the second half (53', 75') but Maghnes Akliouche settled the tie at 62'. City's first Champions League defeat of the season. UCL record now: P2 W1 D0 L1. The match was also Pep Guardiola's return to the Etihad Stadium as PSG manager. Sources: ESPN ('Man City 2-4 PSG' — 14 Oct 2026); Al Jazeera ('PSG beat Man City 4-2 in Champions League thriller' — 14 Oct 2026); Sofascore (confirmed final score 2-4); theanalyst.com stats."
     },
     'ipswich-h-2627': {
         competition: 'Premier League',
