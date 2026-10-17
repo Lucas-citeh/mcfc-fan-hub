@@ -752,10 +752,30 @@ const matchProfiles = {
     },
     'ipswich-h-2627': {
         competition: 'Premier League',
-        title: 'Manchester City vs Ipswich Town',
-        meta: 'Etihad Stadium · Sat 17 Oct 2026 · 15:00 BST',
-        lineup: [],
-        notes: 'Premier League Matchday 7. Ipswich Town make their Etihad visit in the 2026/27 season. Kick-off 15:00 BST. Sources: Premier League 2026/27 fixture list (published June 2026); thescore.com; mykhel.com.'
+        title: 'Manchester City 3-2 Ipswich Town',
+        meta: 'Etihad Stadium · Sat 17 Oct 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 3, away: 2,
+            scorers: "Foden 19', Haaland 34', 69' (MCI); Maeda 21', Flemming 90' pen (IPS)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Nunes' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: "O'Reilly" },
+            { pos: 'MID', name: 'Bouaddi' },
+            { pos: 'MID', name: 'Kovacic' },
+            { pos: 'FWD', name: 'Ndiaye' },
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        subs: [
+            { name: 'Semenyo' }
+        ],
+        notes: "Matchday 7. Maresca became the first manager to win his first seven Premier League games. Haaland had a third goal ruled out by VAR in the 85th minute. Foden returned after suspension. Haaland and Semenyo left with injury concerns post-match. Sources: Sky Sports; mancity.com (17 Oct 2026)."
     },
     'united-a-2627': {
         competition: 'Premier League',
