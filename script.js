@@ -780,6 +780,41 @@ const matchProfiles = {
             { pos: 'FWD', name: 'Haaland' }
         ],
         notes: "Matchday 4 — 199th Manchester derby. Phil Foden was sent off in the 23rd minute for a kick on United captain Bruno Fernandes (studs up to the stomach); referee Michael Oliver issued a straight red card confirmed by VAR. City reorganised into a 4-4-1 with 10 men for 67 minutes. Elliot Anderson was the standout performer — Premier League Player of the Match with 76 touches, the most of any player on the pitch. Haaland scored in the 60th minute; Enzo Fernández was initially flagged offside but VAR confirmed he was not actively interfering with play and the goal stood, triggering huge controversy from United's end. Donnarumma produced a match-winning late save to deny Bryan Mbeumo. United hit the woodwork through Rashford (first half) and Mainoo (second half) but could not find an equaliser. City top the Premier League on 12 points — 4W 0D 0L. Foden's 3-match suspension: misses Norwich (EFL Cup, 17 Sep), Sunderland (PL, 20 Sep), Liverpool at Anfield (PL, 11 Oct). Sources: Yahoo Sports; Sports Mole; NBC Sports; ESPN; VAVEL USA; Al Jazeera (13 Sep 2026)."
+    },
+    'leipzig-a-ucl-2627': {
+        competition: 'UEFA Champions League — MD3',
+        title: 'RB Leipzig vs Manchester City',
+        meta: 'Red Bull Arena, Leipzig · Wed 4 Nov 2026 · 20:00 GMT',
+        lineup: [],
+        notes: 'UCL League Phase Matchday 3. City travel to Leipzig looking to bounce back from their 4-2 home defeat to PSG and strengthen their position in the league phase. Sources: mancity.com (UCL 2026/27 league phase fixtures confirmed); sportbusy.com.'
+    },
+    'forest-a-2627': {
+        competition: 'Premier League',
+        title: 'Nottingham Forest vs Manchester City',
+        meta: 'City Ground, Nottingham · Sat 7 Nov 2026 · 15:00 GMT',
+        lineup: [],
+        notes: "Premier League Matchday 8. Elliot Anderson returns to his former club — he signed for City from Forest in a club-record £116m deal in July 2026. Sources: mancity.com; skysports.com (PL 2026/27 fixtures)."
+    },
+    'fulham-h-2627': {
+        competition: 'Premier League',
+        title: 'Manchester City vs Fulham',
+        meta: 'Etihad Stadium · Sat 21 Nov 2026 · 15:00 GMT',
+        lineup: [],
+        notes: 'Premier League Matchday 9. Fulham visit the Etihad. Sources: mancity.com; skysports.com (PL 2026/27 fixtures).'
+    },
+    'napoli-h-ucl-2627': {
+        competition: 'UEFA Champions League — MD4',
+        title: 'Manchester City vs Napoli',
+        meta: 'Etihad Stadium · Tue 24 Nov 2026 · 20:00 GMT',
+        lineup: [],
+        notes: 'UCL League Phase Matchday 4. Napoli visit the Etihad. Sources: mancity.com (UCL 2026/27 league phase fixtures confirmed); sportbusy.com.'
+    },
+    'arsenal-a-2627': {
+        competition: 'Premier League',
+        title: 'Arsenal vs Manchester City',
+        meta: 'Emirates Stadium · Sat 28 Nov 2026 · 15:00 GMT',
+        lineup: [],
+        notes: "Premier League Matchday 10. City travel to the Emirates for a top-of-the-table clash against Arsenal — the Community Shield winners who beat City 3-0 in August. Sources: mancity.com; skysports.com (PL 2026/27 fixtures)."
     }
 };
 
