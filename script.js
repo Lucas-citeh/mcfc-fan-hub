@@ -801,12 +801,33 @@ const matchProfiles = {
         ],
         notes: "Matchday 4 — 199th Manchester derby. Phil Foden was sent off in the 23rd minute for a kick on United captain Bruno Fernandes (studs up to the stomach); referee Michael Oliver issued a straight red card confirmed by VAR. City reorganised into a 4-4-1 with 10 men for 67 minutes. Elliot Anderson was the standout performer — Premier League Player of the Match with 76 touches, the most of any player on the pitch. Haaland scored in the 60th minute; Enzo Fernández was initially flagged offside but VAR confirmed he was not actively interfering with play and the goal stood, triggering huge controversy from United's end. Donnarumma produced a match-winning late save to deny Bryan Mbeumo. United hit the woodwork through Rashford (first half) and Mainoo (second half) but could not find an equaliser. City top the Premier League on 12 points — 4W 0D 0L. Foden's 3-match suspension: misses Norwich (EFL Cup, 17 Sep), Sunderland (PL, 20 Sep), Liverpool at Anfield (PL, 11 Oct). Sources: Yahoo Sports; Sports Mole; NBC Sports; ESPN; VAVEL USA; Al Jazeera (13 Sep 2026)."
     },
-    'leipzig-a-ucl-2627': {
+    'aek-h-ucl-2627': {
         competition: 'UEFA Champions League — MD3',
-        title: 'RB Leipzig vs Manchester City',
-        meta: 'Red Bull Arena, Leipzig · Wed 4 Nov 2026 · 20:00 GMT',
+        title: 'Manchester City vs AEK Athens',
+        meta: 'Etihad Stadium · Tue 20 Oct 2026 · 20:00 BST (19:00 UTC)',
         lineup: [],
-        notes: 'UCL League Phase Matchday 3. City travel to Leipzig looking to bounce back from their 4-2 home defeat to PSG and strengthen their position in the league phase. Sources: mancity.com (UCL 2026/27 league phase fixtures confirmed); sportbusy.com.'
+        notes: 'UCL League Phase Matchday 3. City host AEK Athens looking to bounce back from their 4-2 home defeat to PSG (MD2) and move to W2 D0 L1 in the league phase. Sources: mancity.com/fixtures/mens; fotmob.com; matchcountdown.com (City next match — 19 Oct 2026).'
+    },
+    'villa-a-2627': {
+        competition: 'Premier League',
+        title: 'Aston Villa vs Manchester City',
+        meta: 'Villa Park, Birmingham · Sat 24 Oct 2026 · 11:30 BST',
+        lineup: [],
+        notes: 'Premier League Matchweek 8. City travel to Villa Park looking to extend their perfect Premier League start to eight wins from eight. Sources: skysports.com (PL 2026/27 fixtures and schedule); mancity.com/fixtures/mens; supersport.com (Manchester City upcoming fixtures — 19 Oct 2026).'
+    },
+    'carabao-brighton-h-2627': {
+        competition: 'Carabao Cup — Round 4',
+        title: 'Manchester City vs Brighton & Hove Albion',
+        meta: 'Etihad Stadium · Wed 28 Oct 2026 · 19:30 BST',
+        lineup: [],
+        notes: 'Carabao Cup Round 4. Holders City host Brighton at the Etihad. Sources: mancity.com/fixtures/mens; supersport.com (Manchester City upcoming fixtures — 19 Oct 2026).'
+    },
+    'brighton-h-2627': {
+        competition: 'Premier League',
+        title: 'Manchester City vs Brighton & Hove Albion',
+        meta: 'Etihad Stadium · Sat 31 Oct 2026 · 15:00 GMT',
+        lineup: [],
+        notes: "Premier League Matchweek 9. Brighton visit the Etihad — City's second meeting with Brighton in four days following the Carabao Cup tie. Sources: premierleague.com (all 380 fixtures for 2026/27 PL season); fotmob.com (match 3901056 — Man City vs Brighton, 31 Oct 2026); countdown.football/brighton-vs-manchester-city (15:00 GMT kickoff confirmed)."
     },
     'forest-a-2627': {
         competition: 'Premier League',
