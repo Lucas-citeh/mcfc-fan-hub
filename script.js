@@ -142,9 +142,9 @@ const playerProfiles = {
         stats: { 'Club': 'FC Barcelona (permanent)', 'Fee': '€76.5m (£65.4m)', 'Departed': '18 August 2026', 'City Appearances': '~296' }
     },
     'Phil Foden': {
-        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026. Sent off vs Man United (13 Sep) and served a 3-match domestic ban, then underwent appendicitis surgery during the international break. Missed PSG (UCL, 14 Oct) but returned in style vs Ipswich on 17 October — opening the scoring in the 19th minute on his first start in over a month. Sources: premierleague.com; beinsports.com; Sky Sports.",
+        description: "Stockport's finest. Signed a new four-year contract until 2030 in May 2026. Sent off vs Man United (13 Sep) and served a 3-match domestic ban, then underwent appendicitis surgery during the international break. Returned vs Ipswich (17 Oct, 1 goal) and then claimed a stunning hat-trick (34', 65', 76') vs AEK Athens on 20 October — his first goals in all competitions since December 2025, ending a ~10-month drought. Sources: premierleague.com; Sky Sports; Goal.com.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg',
-        stats: { 'PL Goals': 1, 'All Comps Goals': 1, 'Appearances': 1, 'Assists': 0 }
+        stats: { 'PL Goals': 1, 'All Comps Goals': 4, 'Appearances': 2, 'Assists': 0 }
     },
     'Tijjani Reijnders': {
         description: "Summer 2025 signing from AC Milan. DEPARTED (19 Aug 2026): Manchester City officially sold Reijnders to Al Qadsiah in the Saudi Pro League for €61m (≈£52m). He signed a five-year deal with Brendan Rodgers' side. Made 47 appearances and scored 7 goals in his sole City season; helped win the FA Cup and EFL Cup double. Per Fabrizio Romano (HWG 13 Aug 2026); Yahoo Sports/Washington Post ('Man City sells Reijnders to Saudi club' — 19 Aug 2026); Dailysports ('Official! Man City star makes shock move to Saudi Arabia' — 19 Aug 2026).",
@@ -162,9 +162,9 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Rayan Cherki': {
-        description: "Summer 2025 signing from Lyon. A magical playmaker already essential to Maresca's system — scored his first City brace at Selhurst Park on 28 August 2026, and added a precise curler against Sunderland on 20 September.",
+        description: "Summer 2025 signing from Lyon. A magical playmaker already essential to Maresca's system — scored his first City brace at Selhurst Park on 28 August 2026, added a precise curler against Sunderland on 20 September, and netted the fifth in the 5-1 UCL rout of AEK Athens on 20 October.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cherki_asse_ol_2425.png/330px-Cherki_asse_ol_2425.png',
-        stats: { 'Appearances': 8, 'PL Goals': 4, 'All Comps Goals': 5, 'Assists': 0 }
+        stats: { 'Appearances': 9, 'PL Goals': 4, 'All Comps Goals': 6, 'Assists': 0 }
     },
     "Nico O'Reilly": {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com. INJURY: Suffered a back injury during the warm-up ahead of the Coventry City Premier League fixture on 5 September 2026. Missed four matches while recovering: Porto (UCL), Manchester derby, Carabao Cup vs Norwich and Sunderland (PL). FIT: Named in the England squad for October international fixtures during the break, confirming his return to full fitness and availability for Liverpool at Anfield on 11 October. Sources: RotoWire; sportsdunia.com (5 Sep 2026); fourfourtwo.com (Oct 2026).",
@@ -803,10 +803,27 @@ const matchProfiles = {
     },
     'aek-h-ucl-2627': {
         competition: 'UEFA Champions League — MD3',
-        title: 'Manchester City vs AEK Athens',
-        meta: 'Etihad Stadium · Tue 20 Oct 2026 · 20:00 BST (19:00 UTC)',
-        lineup: [],
-        notes: 'UCL League Phase Matchday 3. City host AEK Athens looking to bounce back from their 4-2 home defeat to PSG (MD2) and move to W2 D0 L1 in the league phase. Sources: mancity.com/fixtures/mens; fotmob.com; matchcountdown.com (City next match — 19 Oct 2026).'
+        title: 'Manchester City 5-1 AEK Athens',
+        meta: 'Etihad Stadium · Tue 20 Oct 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 5, away: 1,
+            scorers: "Anderson 12', Foden 34', 65', 76' (MCI); Pilios 52' (AEK); Cherki 57' (MCI)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Nunes' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'MID', name: 'Bouaddi' },
+            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'FWD', name: 'Cherki' },
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        notes: "UCL League Phase Matchday 3 — City's emphatic bounce-back after the PSG defeat. Elliot Anderson opened the scoring in the 12th minute. Phil Foden completed a hat-trick (34', 65', 76') — his first goals in all competitions since December 2025, ending a ~10-month drought. Rayan Cherki added a fifth in the 57th minute. AEK's Stavros Pilios pulled one back in the 52nd minute. Haaland started but was substituted in the second half. City's UCL record: P3 W2 D0 L1. Sources: ESPN; Sky Sports ('Foden hat-trick seals 5-1 win' — 20 Oct 2026); mancity.com; VAVEL; Goal.com ('Phil Foden hat-trick ends 10-month goal drought' — 20 Oct 2026)."
     },
     'villa-a-2627': {
         competition: 'Premier League',
