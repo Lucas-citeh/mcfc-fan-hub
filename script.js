@@ -175,9 +175,9 @@ const playerProfiles = {
         stats: { 'Club': 'Newcastle United (permanent)', 'Fee': '£52m (£48m + £4m add-ons)', 'Departed': '27 August 2026', 'City Appearances': 59, 'City Goals': 4 }
     },
     'Elliot Anderson': {
-        description: "Club-record £116m signing from Nottingham Forest, confirmed July 2026. A box-to-box central midfielder ranked among the Premier League's elite for progressive carries, pressing intensity and late runs into the box. Five-year contract. Returned from England's World Cup semi-final campaign on 16 July — expected to begin integrating at Carrington ahead of the Community Shield on 16 August.",
+        description: "Club-record £116m signing from Nottingham Forest, confirmed July 2026. A box-to-box central midfielder ranked among the Premier League's elite for progressive carries, pressing intensity and late runs into the box. Five-year contract. Returned from England's World Cup semi-final campaign on 16 July. Opened the scoring in City's 5-1 UCL rout of AEK Athens on 20 October — his first goal for the club.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Elliot_Anderson_%28cropped%29.jpg/330px-Elliot_Anderson_%28cropped%29.jpg',
-        stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
+        stats: { 'Appearances': 8, 'PL Goals': 0, 'All Comps Goals': 1, 'Assists': 0 }
     },
     'Erling Haaland': {
         description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches). First player in history to score against all 25 Premier League teams he has faced. Scored twice vs Ipswich (34', 69') on 17 October to move to 12 goals in all competitions this season.",
