@@ -199,9 +199,9 @@ const playerProfiles = {
         stats: { 'Club': 'Tottenham Hotspur (permanent)', 'Fee': '£85m (£75m + £10m add-ons)', 'Departed': '25 August 2026', 'Previous Contract': 'New 6yr deal signed 29 Jul, sold 27 days later' }
     },
     'Antoine Semenyo': {
-        description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final. Doubled up against Sunderland on 20 September 2026 to open his 2026/27 account.",
+        description: "Ghanaian flyer who joined from Bournemouth in January 2026 and hit the ground running. Scored the winner in the FA Cup Final. Doubled up against Sunderland on 20 September 2026 to open his 2026/27 account. INJURY: Suffered a knee injury (collateral damage around the knee, no major ligament rupture) in the 3-2 win over Ipswich Town on 17 October 2026. Manager Enzo Maresca confirmed on 19 October that Semenyo faces up to eight weeks out — expected return December 2026. Sources: PA Media/DPA (Qatar Tribune — 19 Oct 2026); Reuters via ARY News; Sports Mole.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Antoine_Semenyo_2026.png/330px-Antoine_Semenyo_2026.png',
-        stats: { 'PL Goals': 2, 'All Comps Goals': 2, 'Appearances': 6, 'Assists': 0 }
+        stats: { 'PL Goals': 2, 'All Comps Goals': 2, 'Appearances': 6, 'Status': 'Injured — est. return December 2026' }
     },
     'Pep Guardiola': {
         description: "Manager of Manchester City 2016–2026. Tactical innovator, six-time Premier League winner, Champions League winner (2023), and one of the most decorated managers in football history. Departed after 593 games following the 2025/26 season.",
@@ -812,18 +812,21 @@ const matchProfiles = {
         },
         lineup: [
             { pos: 'GK',  name: 'Donnarumma' },
-            { pos: 'DEF', name: 'Nunes' },
+            { pos: 'DEF', name: 'Lewis' },
+            { pos: 'DEF', name: 'Khusanov' },
             { pos: 'DEF', name: 'Dias (C)' },
-            { pos: 'DEF', name: 'Guehi' },
             { pos: 'DEF', name: 'Gvardiol' },
             { pos: 'MID', name: 'Anderson' },
-            { pos: 'MID', name: 'Bouaddi' },
-            { pos: 'FWD', name: 'Semenyo' },
+            { pos: 'MID', name: 'Fernández' },
+            { pos: 'FWD', name: 'Elias' },
             { pos: 'FWD', name: 'Cherki' },
             { pos: 'FWD', name: 'Foden' },
-            { pos: 'FWD', name: 'Haaland' }
+            { pos: 'FWD', name: 'Samba' }
         ],
-        notes: "UCL League Phase Matchday 3 — City's emphatic bounce-back after the PSG defeat. Elliot Anderson opened the scoring in the 12th minute. Phil Foden completed a hat-trick (34', 65', 76') — his first goals in all competitions since December 2025, ending a ~10-month drought. Rayan Cherki added a fifth in the 57th minute. AEK's Stavros Pilios pulled one back in the 52nd minute. Haaland started but was substituted in the second half. City's UCL record: P3 W2 D0 L1. Sources: ESPN; Sky Sports ('Foden hat-trick seals 5-1 win' — 20 Oct 2026); mancity.com; VAVEL; Goal.com ('Phil Foden hat-trick ends 10-month goal drought' — 20 Oct 2026)."
+        subs: [
+            { name: 'Haaland' }
+        ],
+        notes: "UCL League Phase Matchday 3 — City's emphatic bounce-back after the PSG defeat. Semenyo (knee injury, confirmed out 8 weeks) and a cautious Haaland (ankle) both started on the bench; Allan Elias and Floyd Samba made their first UCL starts. Elliot Anderson opened the scoring in the 12th minute. Phil Foden completed a hat-trick (34', 65', 76') — his first goals in all competitions since December 2025, ending a ~10-month drought. Rayan Cherki added a fifth in the 57th minute. AEK's Stavros Pilios pulled one back in the 52nd minute. City's UCL record: P3 W2 D0 L1. Sources: mancity.com (confirmed XI — 20 Oct 2026); ESPN; Sky Sports ('Foden hat-trick seals 5-1 win' — 20 Oct 2026); Goal.com ('Phil Foden hat-trick ends 10-month goal drought' — 20 Oct 2026); Oddschecker (confirmed lineups — 20 Oct 2026)."
     },
     'villa-a-2627': {
         competition: 'Premier League',
