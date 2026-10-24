@@ -830,10 +830,31 @@ const matchProfiles = {
     },
     'villa-a-2627': {
         competition: 'Premier League',
-        title: 'Aston Villa vs Manchester City',
-        meta: 'Villa Park, Birmingham · Sat 24 Oct 2026 · 11:30 BST',
-        lineup: [],
-        notes: 'Premier League Matchweek 8. City travel to Villa Park looking to extend their perfect Premier League start to eight wins from eight. Sources: skysports.com (PL 2026/27 fixtures and schedule); mancity.com/fixtures/mens; supersport.com (Manchester City upcoming fixtures — 19 Oct 2026).'
+        title: 'Aston Villa 2-1 Manchester City',
+        meta: 'Villa Park, Birmingham · Sat 24 Oct 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 2, away: 1,
+            scorers: "Jackson 6', 60' (AVL); Haaland 52' (MCI)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'MID', name: 'Fernández' },
+            { pos: 'FWD', name: 'Ndiaye' },
+            { pos: 'FWD', name: 'Cherki' },
+            { pos: 'FWD', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        subs: [
+            { name: 'Foden' },
+            { name: 'Lewis' }
+        ],
+        notes: "Matchday 8. City's first Premier League defeat of the season. Nicolas Jackson scored twice for Villa (6', 60'); Haaland replied with a header (52') assisted by Ndiaye's cross. Villa goalkeeper Zion Suzuki was outstanding, tipping Gvardiol's effort on to the bar. City started without the injured Semenyo. Sources: mancity.com ('City slip to first Premier League loss of the season at Villa' — 24 Oct 2026); Sky Sports ('Aston Villa 2-1 Man City: Nicolas Jackson scores both Villa goals as Enzo Maresca's 100 per cent record ends in defeat' — 24 Oct 2026)."
     },
     'carabao-brighton-h-2627': {
         competition: 'Carabao Cup — Round 4',
