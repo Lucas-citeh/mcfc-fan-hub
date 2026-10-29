@@ -858,10 +858,15 @@ const matchProfiles = {
     },
     'carabao-brighton-h-2627': {
         competition: 'Carabao Cup — Round 4',
-        title: 'Manchester City vs Brighton & Hove Albion',
-        meta: 'Etihad Stadium · Wed 28 Oct 2026 · 19:30 BST',
+        title: 'Manchester City 2-2 Brighton & Hove Albion (City win 4-3 pens)',
+        meta: 'Etihad Stadium · Wed 28 Oct 2026 · FT',
+        lineupConfirmed: false,
+        result: {
+            home: 2, away: 2,
+            scorers: "Kovacic (MCI); Vitor Reis (MCI); Yalcouyé ~30' (BRI); Rutter (BRI) — City win 4-3 pens (Cherki wins it; Rulli saves Ayari & Dunk)"
+        },
         lineup: [],
-        notes: 'Carabao Cup Round 4. Holders City host Brighton at the Etihad. Sources: mancity.com/fixtures/mens; supersport.com (Manchester City upcoming fixtures — 19 Oct 2026).'
+        notes: "Carabao Cup Round 4. Malick Yalcouyé gave Brighton the lead around the 30th minute. Mateo Kovacic equalised before half-time, and Georginio Rutter restored Brighton's lead early in the second half. Vitor Reis — flicking in Rayan Cherki's low free-kick — made it 2-2 with around 20 minutes remaining; it was his first goal for Manchester City. The shootout went City's way 4-3: Gerónimo Rulli saved both Yasin Ayari's and Lewis Dunk's spot-kicks; Rayan Cherki struck the winning penalty to seal progression. City advance to the Carabao Cup quarter-final where they face Bradford City in December. Sources: mancity.com ('City march on with dramatic penalty shootout win over Brighton' — 28 Oct 2026); Sky Sports ('Man City 2-2 Brighton 4-3 pens: Carabao Cup holders progress in shootout' — 28 Oct 2026); Yahoo Sports; VAVEL USA."
     },
     'brighton-h-2627': {
         competition: 'Premier League',
