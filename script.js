@@ -870,10 +870,31 @@ const matchProfiles = {
     },
     'brighton-h-2627': {
         competition: 'Premier League',
-        title: 'Manchester City vs Brighton & Hove Albion',
-        meta: 'Etihad Stadium · Sat 31 Oct 2026 · 15:00 GMT',
-        lineup: [],
-        notes: "Premier League Matchweek 9. Brighton visit the Etihad — City's second meeting with Brighton in four days following the Carabao Cup tie. Sources: premierleague.com (all 380 fixtures for 2026/27 PL season); fotmob.com (match 3901056 — Man City vs Brighton, 31 Oct 2026); countdown.football/brighton-vs-manchester-city (15:00 GMT kickoff confirmed)."
+        title: 'Manchester City 0-1 Brighton & Hove Albion',
+        meta: 'Etihad Stadium · Sat 31 Oct 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 0, away: 1,
+            scorers: "Ayari 11' (BRI) — low cross missed by Nunes, deflected off De Cuyper's shin, tap-in from 6 yards"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Nunes' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Bouaddi' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'FWD', name: 'Fernández' },
+            { pos: 'FWD', name: 'Ndiaye' },
+            { pos: 'FWD', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        subs: [
+            { minute: 55, name: 'Cherki', on: 'Bouaddi' },
+            { minute: 79, name: 'Foden', on: 'Ndiaye' }
+        ],
+        notes: "Premier League Matchday 9. City's second consecutive Premier League defeat — and Brighton's historic first win at the Etihad. Yasin Ayari tapped in from six yards in the 11th minute after a low cross was missed by Matheus Nunes, the ball deflecting off Maxim De Cuyper's shin into his path. Bart Verbruggen was outstanding for Brighton, making seven saves to keep City out throughout. Rayan Cherki replaced Bouaddi around the 55th minute and Phil Foden came on for Ndiaye around the 79th minute but City could not find an equaliser. Only Antoine Semenyo (knee, est. return December 2026) was absent. City remain top of the Premier League on 21 points (W7 D0 L2, GD +10) pending Arsenal's result at Liverpool on Sunday. Maresca: 'It feels similar to the Villa loss.' Sources: mancity.com ('City suffer narrow loss to Brighton' — 31 Oct 2026; 'City make 10 changes — Haaland, Bouaddi and Nunes all start' — 31 Oct 2026); skysports.com ('Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad' — 31 Oct 2026)."
     },
     'forest-a-2627': {
         competition: 'Premier League',
