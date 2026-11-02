@@ -168,7 +168,7 @@ const playerProfiles = {
     },
     "Nico O'Reilly": {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com. INJURY: Suffered a back injury during the warm-up ahead of the Coventry City Premier League fixture on 5 September 2026. Missed four matches while recovering: Porto (UCL), Manchester derby, Carabao Cup vs Norwich and Sunderland (PL). FIT: Named in the England squad for October international fixtures during the break, confirming his return to full fitness and availability for Liverpool at Anfield on 11 October. Sources: RotoWire; sportsdunia.com (5 Sep 2026); fourfourtwo.com (Oct 2026).",
-        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 3, 'Status': 'Fit — England international call-up confirmed' }
+        stats: { 'PL Goals': 0, 'All Comps Goals': 0, 'Appearances': 3, 'Status': 'Doubtful — back (Nottingham Forest, 7 Nov)' }
     },
     'Nico Gonzalez': {
         description: "DEPARTED (27 Aug 2026): Joined Newcastle United for £52m (£48m + £4m add-ons). Signed from Porto in January 2025 for £50m, the Spanish midfielder made 59 appearances and scored 4 goals in 18 months at the Etihad. A composed deep-lying playmaker who stepped up admirably during Rodri's long injury absence. His departure — City's fourth senior midfielder to leave this summer after Rodri, Bernardo Silva and Reijnders — paves the way for the Bouaddi and Anderson era in the middle of the park. Sources: mancity.com ('Nico Gonzalez joins Newcastle' — 27 Aug 2026); newcastleunited.com.",
@@ -901,7 +901,7 @@ const matchProfiles = {
         title: 'Nottingham Forest vs Manchester City',
         meta: 'City Ground, Nottingham · Sat 7 Nov 2026 · 15:00 GMT',
         lineup: [],
-        notes: "Premier League Matchday 8. Elliot Anderson returns to his former club — he signed for City from Forest in a club-record £116m deal in July 2026. Sources: mancity.com; skysports.com (PL 2026/27 fixtures)."
+        notes: "Premier League Matchday 10. Elliot Anderson returns to his former club — he signed for City from Forest in a club-record £116m deal in July 2026. Injury doubts: Matheus Nunes (physical discomfort, doubtful), Nico O'Reilly (back, doubtful), Mateo Kovacic (knock, doubtful). Confirmed out: Antoine Semenyo (knee, est. return December 2026). Sources: mancity.com; FotMob (team news — Nov 2026)."
     },
     'fulham-h-2627': {
         competition: 'Premier League',
