@@ -899,7 +899,7 @@ const matchProfiles = {
     'forest-a-2627': {
         competition: 'Premier League',
         title: 'Nottingham Forest vs Manchester City',
-        meta: 'City Ground, Nottingham · Sat 7 Nov 2026 · 15:00 GMT',
+        meta: 'City Ground, Nottingham · Sat 7 Nov 2026 · 17:30 GMT',
         lineup: [],
         notes: "Premier League Matchday 10. Elliot Anderson returns to his former club — he signed for City from Forest in a club-record £116m deal in July 2026. Injury doubts: Matheus Nunes (physical discomfort, doubtful), Nico O'Reilly (back, doubtful), Mateo Kovacic (knock, doubtful). Confirmed out: Antoine Semenyo (knee, est. return December 2026). Sources: mancity.com; FotMob (team news — Nov 2026)."
     },
