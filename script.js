@@ -908,7 +908,7 @@ const matchProfiles = {
         title: 'Manchester City vs Fulham',
         meta: 'Etihad Stadium · Sat 21 Nov 2026 · 15:00 GMT',
         lineup: [],
-        notes: 'Premier League Matchday 9. Fulham visit the Etihad. Sources: mancity.com; skysports.com (PL 2026/27 fixtures).'
+        notes: 'Premier League Matchday 11. Fulham visit the Etihad. Sources: mancity.com; skysports.com (PL 2026/27 fixtures).'
     },
     'napoli-h-ucl-2627': {
         competition: 'UEFA Champions League — MD4',
@@ -922,7 +922,7 @@ const matchProfiles = {
         title: 'Arsenal vs Manchester City',
         meta: 'Emirates Stadium · Sat 28 Nov 2026 · 15:00 GMT',
         lineup: [],
-        notes: "Premier League Matchday 10. City travel to the Emirates for a top-of-the-table clash against Arsenal — the Community Shield winners who beat City 3-0 in August. Sources: mancity.com; skysports.com (PL 2026/27 fixtures)."
+        notes: "Premier League Matchday 12. City travel to the Emirates for a top-of-the-table clash against Arsenal — the Community Shield winners who beat City 3-0 in August. Sources: mancity.com; skysports.com (PL 2026/27 fixtures)."
     }
 };
 
