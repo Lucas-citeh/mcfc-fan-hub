@@ -162,9 +162,9 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Pass Accuracy': '–' }
     },
     'Rayan Cherki': {
-        description: "Summer 2025 signing from Lyon. A magical playmaker already essential to Maresca's system — scored his first City brace at Selhurst Park on 28 August 2026, added a precise curler against Sunderland on 20 September, and netted the fifth in the 5-1 UCL rout of AEK Athens on 20 October.",
+        description: "Summer 2025 signing from Lyon. A magical playmaker already essential to Maresca's system — scored his first City brace at Selhurst Park on 28 August 2026, added a precise curler against Sunderland on 20 September, netted the fifth in the 5-1 UCL rout of AEK Athens on 20 October, and pulled one back at Nottingham Forest on 7 November.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cherki_asse_ol_2425.png/330px-Cherki_asse_ol_2425.png',
-        stats: { 'Appearances': 9, 'PL Goals': 4, 'All Comps Goals': 6, 'Assists': 0 }
+        stats: { 'Appearances': 10, 'PL Goals': 5, 'All Comps Goals': 7, 'Assists': 0 }
     },
     "Nico O'Reilly": {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com. INJURY: Suffered a back injury during the warm-up ahead of the Coventry City Premier League fixture on 5 September 2026. Missed four matches while recovering: Porto (UCL), Manchester derby, Carabao Cup vs Norwich and Sunderland (PL). FIT: Named in the England squad for October international fixtures during the break, confirming his return to full fitness and availability for Liverpool at Anfield on 11 October. Sources: RotoWire; sportsdunia.com (5 Sep 2026); fourfourtwo.com (Oct 2026).",
@@ -898,10 +898,27 @@ const matchProfiles = {
     },
     'forest-a-2627': {
         competition: 'Premier League',
-        title: 'Nottingham Forest vs Manchester City',
-        meta: 'City Ground, Nottingham · Sat 7 Nov 2026 · 17:30 GMT',
-        lineup: [],
-        notes: "Premier League Matchday 10. Elliot Anderson returns to his former club — he signed for City from Forest in a club-record £116m deal in July 2026. Injury doubts: Matheus Nunes (physical discomfort, doubtful), Nico O'Reilly (back, doubtful), Mateo Kovacic (knock, doubtful). Confirmed out: Antoine Semenyo (knee, est. return December 2026). Sources: mancity.com; FotMob (team news — Nov 2026)."
+        title: 'Nottingham Forest 3-1 Manchester City',
+        meta: 'City Ground, Nottingham · Sat 7 Nov 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 3, away: 1,
+            scorers: "Cunha 6', Delap 18', 73' (NF); Cherki 52' (MCI)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: 'Gvardiol' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'MID', name: 'Fernández' },
+            { pos: 'FWD', name: 'Ndiaye' },
+            { pos: 'FWD', name: 'Cherki' },
+            { pos: 'FWD', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        notes: "Premier League Matchday 10. Elliot Anderson returned to the City Ground — he signed for City from Forest in a club-record £116m deal in July 2026. Jair Cunha opened the scoring in the 6th minute; Liam Delap doubled the lead on 18'. Rayan Cherki pulled one back for City in the 52nd minute but Delap sealed the win with his second in the 73rd. City's third successive Premier League defeat drops them six points behind Arsenal at the top. Nunes, O'Reilly and Kovacic were all absent (injury doubts); Semenyo also out (knee, est. return December 2026). Sources: ESPN; Sky Sports; VAVEL USA; Sports Mole (confirmed XIs — 7 Nov 2026)."
     },
     'fulham-h-2627': {
         competition: 'Premier League',
