@@ -180,9 +180,9 @@ const playerProfiles = {
         stats: { 'Appearances': 8, 'PL Goals': 0, 'All Comps Goals': 1, 'Assists': 0 }
     },
     'Erling Haaland': {
-        description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches). First player in history to score against all 25 Premier League teams he has faced. Scored twice vs Ipswich (34', 69') then headed home vs Aston Villa (52') on 24 October to reach 13 goals in all competitions this season.",
+        description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches). First player in history to score against all 25 Premier League teams he has faced. Scored his 13th-ever goal against Leipzig with a 78th-minute winner at the Red Bull Arena on 4 November — his 14th of the 2026/27 season in all competitions.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/330px-Erling_Haaland_June_2025.jpg',
-        stats: { 'PL Goals': 9, 'All Comps Goals': 13, 'Appearances': 11, 'Assists': 0 }
+        stats: { 'PL Goals': 9, 'All Comps Goals': 14, 'Appearances': 12, 'Assists': 0 }
     },
     'Omar Marmoush': {
         description: "DEPARTED (28 Aug 2026): Joined Tottenham Hotspur on a season-long loan with a £60m obligation to buy (£50m guaranteed + £10m add-ons). The Egyptian forward made 61 appearances for City after signing from Eintracht Frankfurt in January 2025, contributing 16 goals and 6 assists across all competitions. He wears No. 22 at Spurs, where he joins former City teammate Savinho. Sources: Sky Sports; Yahoo Sports; Egypt Independent; mancity.com.",
@@ -244,8 +244,8 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'PL Goals': 0, 'All Comps Goals': 0, 'Assists': 0 }
     },
     'Enzo Fernández': {
-        description: "Argentine World Cup winner signed from Chelsea in a joint British-record £125m deal on 1 September 2026, equalling Liverpool's fee for Alexander Isak. Wears No. 17 — the shirt made famous by Kevin De Bruyne during his decade at the Etihad. A dynamic central midfielder who excels at progressing the ball, pressing, and arriving late into the box. Scored his first City PL goal against Sunderland on 20 September 2026. Five-year contract to June 2031. Sources: mancity.com ('City complete Enzo Fernández signing from Chelsea' — 1 Sep 2026); ESPN; Sky Sports; Al Jazeera.",
-        stats: { 'Appearances': 4, 'PL Goals': 1, 'All Comps Goals': 1, 'Assists': 0 }
+        description: "Argentine World Cup winner signed from Chelsea in a joint British-record £125m deal on 1 September 2026, equalling Liverpool's fee for Alexander Isak. Wears No. 17 — the shirt made famous by Kevin De Bruyne during his decade at the Etihad. A dynamic central midfielder who excels at progressing the ball, pressing, and arriving late into the box. Scored his first City PL goal against Sunderland on 20 September 2026 and his first UCL goal at RB Leipzig on 4 November — restoring City's lead in the 58th minute before Haaland sealed the win. Five-year contract to June 2031. Sources: mancity.com; ESPN; Sky Sports; Bundesliga.com.",
+        stats: { 'Appearances': 5, 'PL Goals': 1, 'All Comps Goals': 2, 'Assists': 0 }
     },
     'Iliman Ndiaye': {
         description: "Senegal international winger signed from Everton for £65m on 1 September 2026. Wears No. 7. The 26-year-old is equally effective on either flank and was one of the Premier League's standout performers across two seasons at Goodison Park. City moved quickly after Tottenham's pursuit collapsed. \"My heart was set on joining City,\" Ndiaye told mancity.com. Five-year contract. Sources: mancity.com ('Ndiaye signs for City'; 'Ndiaye: My heart was set on joining City' — 1 Sep 2026); ESPN; Sky Sports; Washington Times.",
@@ -896,6 +896,18 @@ const matchProfiles = {
         ],
         notes: "Premier League Matchday 9. City's second consecutive Premier League defeat — and Brighton's historic first win at the Etihad. Yasin Ayari tapped in from six yards in the 11th minute after a low cross was missed by Matheus Nunes, the ball deflecting off Maxim De Cuyper's shin into his path. Bart Verbruggen was outstanding for Brighton, making seven saves to keep City out throughout. Rayan Cherki replaced Bouaddi around the 55th minute and Phil Foden came on for Ndiaye around the 79th minute but City could not find an equaliser. Only Antoine Semenyo (knee, est. return December 2026) was absent. City remain top of the Premier League on 21 points (W7 D0 L2, GD +10) pending Arsenal's result at Liverpool on Sunday. Maresca: 'It feels similar to the Villa loss.' Sources: mancity.com ('City suffer narrow loss to Brighton' — 31 Oct 2026; 'City make 10 changes — Haaland, Bouaddi and Nunes all start' — 31 Oct 2026); skysports.com ('Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad' — 31 Oct 2026)."
     },
+    'leipzig-a-ucl-2627': {
+        competition: 'UEFA Champions League — MD4',
+        title: 'RB Leipzig 2-3 Manchester City',
+        meta: 'Red Bull Arena, Leipzig · Wed 4 Nov 2026 · FT',
+        lineupConfirmed: false,
+        result: {
+            home: 2, away: 3,
+            scorers: "Lukeba OG 37', Fernández 58', Haaland 78' (MCI); Baku 49', Nusa 61' (RBL)"
+        },
+        lineup: [],
+        notes: "UCL League Phase Matchday 4. City came from behind to win 3-2 at the Red Bull Arena. Castello Lukeba put the ball into his own net in the 37th minute to give City the lead, but Ridle Baku equalised for Leipzig in the 49th minute. Enzo Fernández restored City's advantage on 58' with his first European goal for the club. Antonio Nusa levelled for Leipzig in the 61st minute before Erling Haaland settled the tie with a header in the 78th minute — his 13th career goal against RB Leipzig. Enzo Maresca said he was 'happy with the three points' but noted City needed to be more careful in transition. City moved to third in the UCL league phase standings with P4 W3 D0 L1. Sources: ESPN ('RB Leipzig 2-3 Man City — Nov 4, 2026'); Sky Sports ('RB Leipzig 2-3 Man City: Haaland haunts Leipzig again' — 4 Nov 2026); Bundesliga.com (match report — 4 Nov 2026); mancity.com ('City seal come-from-behind win at Leipzig — 4 Nov 2026')."
+    },
     'forest-a-2627': {
         competition: 'Premier League',
         title: 'Nottingham Forest 3-1 Manchester City',
@@ -928,7 +940,7 @@ const matchProfiles = {
         notes: 'Premier League Matchday 11. Fulham visit the Etihad. Sources: mancity.com; skysports.com (PL 2026/27 fixtures).'
     },
     'napoli-h-ucl-2627': {
-        competition: 'UEFA Champions League — MD4',
+        competition: 'UEFA Champions League — MD5',
         title: 'Manchester City vs Napoli',
         meta: 'Etihad Stadium · Tue 24 Nov 2026 · 20:00 GMT',
         lineup: [],
