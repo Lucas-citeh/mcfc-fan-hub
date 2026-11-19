@@ -937,7 +937,7 @@ const matchProfiles = {
         title: 'Manchester City vs Fulham',
         meta: 'Etihad Stadium · Sat 21 Nov 2026 · 15:00 GMT',
         lineup: [],
-        notes: 'Premier League Matchday 11. Fulham visit the Etihad. Sources: mancity.com; skysports.com (PL 2026/27 fixtures).'
+        notes: "Premier League Matchday 11. Fulham visit the Etihad. City injury news (19 Nov): Antoine Semenyo out (knee, est. return December); Marc Guehi major doubt (hip, substituted HT at Forest — chances slim per Sports Mole). No suspensions. Nico O'Reilly expected available after back rest. Sources: mancity.com; skysports.com (PL 2026/27 fixtures); Sports Mole (19 Nov 2026)."
     },
     'napoli-h-ucl-2627': {
         competition: 'UEFA Champions League — MD5',
