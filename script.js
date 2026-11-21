@@ -175,9 +175,9 @@ const playerProfiles = {
         stats: { 'Club': 'Newcastle United (permanent)', 'Fee': '£52m (£48m + £4m add-ons)', 'Departed': '27 August 2026', 'City Appearances': 59, 'City Goals': 4 }
     },
     'Elliot Anderson': {
-        description: "Club-record £116m signing from Nottingham Forest, confirmed July 2026. A box-to-box central midfielder ranked among the Premier League's elite for progressive carries, pressing intensity and late runs into the box. Five-year contract. Returned from England's World Cup semi-final campaign on 16 July. Opened the scoring in City's 5-1 UCL rout of AEK Athens on 20 October — his first goal for the club.",
+        description: "Club-record £116m signing from Nottingham Forest, confirmed July 2026. A box-to-box central midfielder ranked among the Premier League's elite for progressive carries, pressing intensity and late runs into the box. Five-year contract. Returned from England's World Cup semi-final campaign on 16 July. Opened the scoring in City's 5-1 UCL rout of AEK Athens on 20 October — his first goal for the club. Scored his first Premier League goal for City vs Fulham on 21 November — a 57th-minute volley that rescued a 1-1 draw at the Etihad.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Elliot_Anderson_%28cropped%29.jpg/330px-Elliot_Anderson_%28cropped%29.jpg',
-        stats: { 'Appearances': 8, 'PL Goals': 0, 'All Comps Goals': 1, 'Assists': 0 }
+        stats: { 'Appearances': 9, 'PL Goals': 1, 'All Comps Goals': 2, 'Assists': 0 }
     },
     'Erling Haaland': {
         description: "Norwegian goal machine and Premier League record-breaker. The fastest player ever to reach 100 PL goals (in just 111 matches). First player in history to score against all 25 Premier League teams he has faced. Scored his 13th-ever goal against Leipzig with a 78th-minute winner at the Red Bull Arena on 4 November — his 14th of the 2026/27 season in all competitions.",
@@ -934,10 +934,28 @@ const matchProfiles = {
     },
     'fulham-h-2627': {
         competition: 'Premier League',
-        title: 'Manchester City vs Fulham',
-        meta: 'Etihad Stadium · Sat 21 Nov 2026 · 15:00 GMT',
-        lineup: [],
-        notes: "Premier League Matchday 11. Fulham visit the Etihad. City injury news (19 Nov): Antoine Semenyo out (knee, est. return December); Marc Guehi major doubt (hip, substituted HT at Forest — chances slim per Sports Mole). No suspensions. Nico O'Reilly expected available after back rest. Sources: mancity.com; skysports.com (PL 2026/27 fixtures); Sports Mole (19 Nov 2026)."
+        title: 'Manchester City 1-1 Fulham',
+        meta: 'Etihad Stadium · Sat 21 Nov 2026 · FT',
+        lineupConfirmed: true,
+        result: {
+            home: 1, away: 1,
+            scorers: "Muniz 16' (FUL); Anderson 57' (MCI — volley, Foden corner headed out by Berge)"
+        },
+        lineup: [
+            { pos: 'GK',  name: 'Donnarumma' },
+            { pos: 'DEF', name: 'Khusanov' },
+            { pos: 'DEF', name: 'Dias (C)' },
+            { pos: 'DEF', name: 'Guehi' },
+            { pos: 'DEF', name: "O'Reilly" },
+            { pos: 'MID', name: 'Bouaddi' },
+            { pos: 'MID', name: 'Anderson' },
+            { pos: 'FWD', name: 'Ndiaye' },
+            { pos: 'FWD', name: 'Foden' },
+            { pos: 'FWD', name: 'Doku' },
+            { pos: 'FWD', name: 'Haaland' }
+        ],
+        subs: [],
+        notes: "Premier League Matchday 11. Rodrigo Muniz gave Fulham the lead in the 16th minute. Erling Haaland had a goal ruled out shortly after — referee adjudged him to have fouled Bernd Leno, with VAR not overruling. Elliot Anderson equalised in the 57th minute with a volley from Phil Foden's corner, which Sander Berge had headed out. City could not find a winner; boos rang out at full-time. City's 20-match winning streak against Fulham ended. City are now winless in four Premier League games (Villa L, Brighton L, Forest L, Fulham D). Cherki started on the bench. Antoine Semenyo absent (knee, est. return December 2026). Sources: mancity.com ('City held to frustrating draw by Fulham' — 21 Nov 2026); skysports.com ('Man City 1-1 Fulham: Elliot Anderson equaliser ends losing streak but City held amid Erling Haaland goal debate' — 21 Nov 2026); ESPN; TNT Sports live commentary."
     },
     'napoli-h-ucl-2627': {
         competition: 'UEFA Champions League — MD5',
