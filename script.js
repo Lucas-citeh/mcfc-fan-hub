@@ -164,7 +164,7 @@ const playerProfiles = {
     'Rayan Cherki': {
         description: "Summer 2025 signing from Lyon. A magical playmaker already essential to Maresca's system — scored his first City brace at Selhurst Park on 28 August 2026, added a precise curler against Sunderland on 20 September, netted the fifth in the 5-1 UCL rout of AEK Athens on 20 October, and pulled one back at Nottingham Forest on 7 November.",
         photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cherki_asse_ol_2425.png/330px-Cherki_asse_ol_2425.png',
-        stats: { 'Appearances': 10, 'PL Goals': 5, 'All Comps Goals': 7, 'Assists': 0 }
+        stats: { 'Appearances': 11, 'PL Goals': 5, 'All Comps Goals': 8, 'Assists': 0 }
     },
     "Nico O'Reilly": {
         description: "Breakthrough academy product whose semi-final brace in the FA Cup run made him a fan favourite. Comfortable in midfield or at left-back. Officially signed a new contract with Manchester City in July 2026 — confirmed by mancity.com. INJURY: Suffered a back injury during the warm-up ahead of the Coventry City Premier League fixture on 5 September 2026. Missed four matches while recovering: Porto (UCL), Manchester derby, Carabao Cup vs Norwich and Sunderland (PL). FIT: Named in the England squad for October international fixtures during the break, confirming his return to full fitness and availability for Liverpool at Anfield on 11 October. Sources: RotoWire; sportsdunia.com (5 Sep 2026); fourfourtwo.com (Oct 2026).",
@@ -236,8 +236,8 @@ const playerProfiles = {
         stats: { 'Appearances': 0, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
     },
     'Ayyoub Bouaddi': {
-        description: "Signed from Lille on 25 August 2026 for €100m (≈£86m), becoming the most expensive teenage signing in Premier League history. The 18-year-old Moroccan central midfielder impressed on the world stage during Morocco's 2026 World Cup campaign and arrives at the Etihad as the long-term successor to Ballon d'Or winner Rodri. Six-year contract to June 2031. Fabrizio Romano issued 'Here We Go' on 23 August; confirmed via mancity.com Inside City 524: 'New signing and new deals.' Sources: Fabrizio Romano (HWG — 23 Aug 2026); Sky Sports; Goal.com; Morocco World News.",
-        stats: { 'Appearances': 5, 'Goals': 0, 'Assists': 0, 'Status': 'New signing — 2026/27' }
+        description: "Signed from Lille on 25 August 2026 for €100m (≈£86m), becoming the most expensive teenage signing in Premier League history. The 18-year-old Moroccan central midfielder impressed on the world stage during Morocco's 2026 World Cup campaign and arrives at the Etihad as the long-term successor to Ballon d'Or winner Rodri. Six-year contract to June 2031. Scored his first City goal — a 67th-minute equaliser in the 2-2 UCL draw against Napoli on 24 November 2026. Fabrizio Romano issued 'Here We Go' on 23 August; confirmed via mancity.com Inside City 524: 'New signing and new deals.' Sources: Fabrizio Romano (HWG — 23 Aug 2026); Sky Sports; Goal.com; Morocco World News.",
+        stats: { 'Appearances': 6, 'Goals': 1, 'Assists': 0, 'Status': 'New signing — 2026/27' }
     },
     'Allan Elias': {
         description: "22-year-old Brazilian right winger signed from Palmeiras on 31 August 2026 for €40m (≈£32m) on a five-year contract to June 2031. Wears No. 37. Made 96 first-team appearances for Palmeiras before his move, earning a reputation as one of South America's most exciting young wingers. Director of Football Hugo Viana: \"Allan is a really exciting player, and we think he will be a big addition to the squad.\" Sources: mancity.com ('City seal signing of winger Allan Elias' — 31 Aug 2026); ESPN; Al Jazeera.",
@@ -959,10 +959,15 @@ const matchProfiles = {
     },
     'napoli-h-ucl-2627': {
         competition: 'UEFA Champions League — MD5',
-        title: 'Manchester City vs Napoli',
-        meta: 'Etihad Stadium · Tue 24 Nov 2026 · 20:00 GMT',
+        title: 'Manchester City 2-2 Napoli',
+        meta: 'Etihad Stadium · Tue 24 Nov 2026 · FT',
+        lineupConfirmed: false,
+        result: {
+            home: 2, away: 2,
+            scorers: "Bouaddi 67', Cherki 86' (MCI); Napoli 55', 76'"
+        },
         lineup: [],
-        notes: 'UCL League Phase Matchday 4. Napoli visit the Etihad. Sources: mancity.com (UCL 2026/27 league phase fixtures confirmed); sportbusy.com.'
+        notes: "UCL League Phase Matchday 5. Napoli led twice at the Etihad before City hit back twice to earn a share of the spoils. Ayyoub Bouaddi notched his first City goal in the 67th minute to equalise, before Napoli restored their lead shortly after. Rayan Cherki rescued a point with a late 86th-minute strike — his 8th goal of the 2026/27 season in all competitions. City's UCL record: P5 W3 D1 L1 (10 points, 6th in league phase). Sources: Sky Sports ('Man City 2-2 Napoli: Rayan Cherki equalises late but Enzo Maresca's team frustrate in Champions League draw' — 24 Nov 2026); mancity.com ('City hit back twice to share the spoils with Napoli' — 24 Nov 2026); ESPN ('Man City 2-2 Napoli (Nov 24, 2026) Game Analysis'); tempo.co ('Napoli Deny Manchester City Victory in 2-2 Champions League Stalemate'); nationpress.com ('Man City vs Napoli: Cherki seals 2-2 draw in 86th minute'); VAVEL USA (Nov 24, 2026)."
     },
     'arsenal-a-2627': {
         competition: 'Premier League',
